@@ -5,7 +5,7 @@
             {
                 "className": "org.joget.apps.userview.lib.HtmlPage",
                 "properties": {
-                    "content": "<p><img src=\"#appResource.4494892.jpg#\" alt=\"\" />This is Home-Dashboard<img src=\"#appResource.dash.jpg#\" alt=\"\" /><\/p>",
+                    "content": "<p>a<\/p>",
                     "customId": "home",
                     "enableOffline": "",
                     "id": "DA458BD0630A49AABBB0A5664993EC02",
