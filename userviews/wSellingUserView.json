@@ -9,7 +9,7 @@
                     "customId": "home",
                     "enableOffline": "",
                     "id": "DA458BD0630A49AABBB0A5664993EC02",
-                    "label": "<i class=\"fa fa-home\" aria-hidden=\"true\"><\/i> Home",
+                    "label": "<i class=\"fa fa-home\"><\/i> Home",
                     "userviewCacheDuration": "20",
                     "userviewCacheScope": ""
                 }
@@ -44,11 +44,42 @@
                     "userviewCacheDuration": "20",
                     "userviewCacheScope": ""
                 }
+            },
+            {
+                "className": "org.joget.apps.userview.lib.FormMenu",
+                "properties": {
+                    "actionAfterSaved": "",
+                    "actionOnCancel": "",
+                    "cancelButtonLabel": "",
+                    "customFooter": "",
+                    "customHeader": "",
+                    "customId": "",
+                    "enableOffline": "",
+                    "fieldPassover": "",
+                    "fieldPassoverMethod": "append",
+                    "formId": "entrerisesForm",
+                    "id": "4457A8F2A2C1496388F714F9143D7D6D",
+                    "keyName": "",
+                    "label": "<i class=\"fa fa-briefcase\"><\/i> Form",
+                    "loadDataWithKey": "",
+                    "messageShowAfterComplete": "",
+                    "paramName": "",
+                    "readonly": "",
+                    "readonlyLabel": "",
+                    "redirectTargetOnCancel": "top",
+                    "redirectTargetOnComplete": "",
+                    "redirectUrlAfterComplete": "",
+                    "redirectUrlOnCancel": "",
+                    "showInPopupDialog": "",
+                    "submitButtonLabel": "",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
             }
         ],
         "properties": {
             "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
-            "label": "<i class='fa fa-home'><\/i> Home"
+            "label": "<i class=\"fa fa-home\"><\/i> Home"
         }
     }],
     "className": "org.joget.apps.userview.model.Userview",
