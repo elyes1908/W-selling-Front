@@ -214,7 +214,7 @@
                 "fontControl": "",
                 "homeAttractBanner": "",
                 "homeUrl": "",
-                "horizontal_menu": "horizontal_inline",
+                "horizontal_menu": "true",
                 "inbox": "",
                 "js": "",
                 "loginPageBottom": "<link rel=\"preload\" href=\"/jw/js/fontawesome5/fonts/fontawesome-webfont.woff2?v=4.6.1\" as=\"font\" crossorigin />\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-brands-400.woff2\" as=\"font\" crossorigin />\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-solid-900.woff2\" as=\"font\" crossorigin />",
