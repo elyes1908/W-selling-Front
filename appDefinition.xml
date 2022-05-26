@@ -1,0 +1,14 @@
+<appDefinition>
+   <id>wSelling</id>
+   <version></version>
+   <name>Wevioo Selling</name>
+   <packageDefinitionList/>
+   <formDefinitionList/>
+   <userviewDefinitionList/>
+   <datalistDefinitionList/>
+   <builderDefinitionList/>
+   <pluginDefaultPropertiesList/>
+   <environmentVariableList/>
+   <messageList/>
+   <resourceList/>
+</appDefinition>
