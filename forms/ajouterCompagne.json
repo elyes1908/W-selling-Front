@@ -4,7 +4,157 @@
         "className": "org.joget.apps.form.model.Section",
         "elements": [{
             "className": "org.joget.apps.form.model.Column",
-            "elements": [],
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "id",
+                        "label": "ID de la compagne",
+                        "maxlength": "",
+                        "permissionHidden": "",
+                        "placeholder": "AUTO",
+                        "readonly": "true",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "nom",
+                        "label": "Nom de la compagne",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.DatePicker",
+                    "properties": {
+                        "allowManual": "",
+                        "currentDateAs": "",
+                        "dataFormat": "dd-MM-yyyy",
+                        "datePickerType": "",
+                        "endDateFieldId": "",
+                        "format": "",
+                        "id": "dateDebut",
+                        "label": "Date début",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "startDateFieldId": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": "",
+                        "yearRange": "c-10:c+10"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.DatePicker",
+                    "properties": {
+                        "allowManual": "",
+                        "currentDateAs": "",
+                        "dataFormat": "dd-MM-yyyy",
+                        "datePickerType": "",
+                        "endDateFieldId": "",
+                        "format": "",
+                        "id": "dateFin",
+                        "label": "Date de fin prévue",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "startDateFieldId": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": "",
+                        "yearRange": "c-10:c+10"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.Grid",
+                    "properties": {
+                        "errorMessage": "Invalid number of rows",
+                        "id": "motCles",
+                        "label": "Mot clé",
+                        "loadBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [{
+                            "label": "Mot clé",
+                            "value": "motcle"
+                        }],
+                        "readonly": "",
+                        "storeBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.Grid",
+                    "properties": {
+                        "errorMessage": "Invalid number of rows",
+                        "id": "paysRegion",
+                        "label": "Pays et régions",
+                        "loadBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [
+                            {
+                                "label": "Pays",
+                                "value": "pays"
+                            },
+                            {
+                                "label": "Region",
+                                "value": "region"
+                            }
+                        ],
+                        "readonly": "",
+                        "storeBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
+                }
+            ],
             "properties": {"width": "100%"}
         }],
         "properties": {
