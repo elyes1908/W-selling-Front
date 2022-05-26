@@ -171,8 +171,17 @@
             }
         ],
         "properties": {
+            "comment": "",
+            "hide": "",
             "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
-            "label": "<i class=\"fa fa-home\"><\/i> Home"
+            "label": "<i class=\"fa fa-home\"><\/i> Home",
+            "permission": {
+                "className": "org.joget.apps.userview.lib.UserPermission",
+                "properties": {
+                    "allowedUsernames": "",
+                    "orgId": ""
+                }
+            }
         }
     }],
     "className": "org.joget.apps.userview.model.Userview",
