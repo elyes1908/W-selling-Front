@@ -18,7 +18,7 @@
                         "formId": "ajouterCompagne",
                         "id": "205FA052FD3444EDA05B0F40DAE1A27C",
                         "keyName": "",
-                        "label": "+ Ajouter une compagne",
+                        "label": "<i class=\"fa fa-plus\"><\/i> Ajouter une compagne",
                         "loadDataWithKey": "",
                         "messageShowAfterComplete": "",
                         "paramName": "",
