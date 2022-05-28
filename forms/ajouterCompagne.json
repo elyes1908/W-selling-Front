@@ -115,8 +115,8 @@
                     "className": "org.joget.apps.form.lib.Grid",
                     "properties": {
                         "errorMessage": "Invalid number of rows",
-                        "id": "paysRegion",
-                        "label": "Pays et régions",
+                        "id": "pays",
+                        "label": "Pays",
                         "loadBinder": {
                             "className": "",
                             "properties": {}
@@ -142,7 +142,7 @@
                     "className": "org.joget.apps.form.lib.Grid",
                     "properties": {
                         "errorMessage": "Invalid number of rows",
-                        "id": "field7",
+                        "id": "region",
                         "label": "Regions",
                         "loadBinder": {
                             "className": "",
