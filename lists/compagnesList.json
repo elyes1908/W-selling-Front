@@ -27,26 +27,20 @@
             "sortable": "false"
         },
         {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
             "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
             "hidden": "false",
             "id": "column_2",
-            "label": "paysRegion",
-            "name": "paysRegion",
-            "sortable": "false",
-            "style": "",
-            "width": ""
+            "label": "pays",
+            "name": "pays",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "region",
+            "name": "region",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
