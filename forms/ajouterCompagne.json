@@ -121,16 +121,37 @@
                             "className": "",
                             "properties": {}
                         },
-                        "options": [
-                            {
-                                "label": "Pays",
-                                "value": "pays"
-                            },
-                            {
-                                "label": "Region",
-                                "value": "region"
-                            }
-                        ],
+                        "options": [{
+                            "label": "Pays",
+                            "value": "pays"
+                        }],
+                        "readonly": "",
+                        "storeBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.Grid",
+                    "properties": {
+                        "errorMessage": "Invalid number of rows",
+                        "id": "field7",
+                        "label": "Regions",
+                        "loadBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [{
+                            "label": "Region",
+                            "value": "region"
+                        }],
                         "readonly": "",
                         "storeBinder": {
                             "className": "",
