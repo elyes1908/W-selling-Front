@@ -46,17 +46,7 @@
     "considerFilterWhenGetTotal": "",
     "description": "",
     "disableResponsive": "",
-    "filters": [{
-        "datalist_type": "filter",
-        "filterParamName": "d-6383-fn_dateFin",
-        "id": "filter_0",
-        "label": "dateFin",
-        "name": "dateFin",
-        "type": {
-            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {}
-        }
-    }],
+    "filters": [],
     "hidePageSize": "",
     "id": "compagneClotures",
     "name": "Compagne Clotures",
