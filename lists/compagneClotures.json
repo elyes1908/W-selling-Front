@@ -4,7 +4,7 @@
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
             "extraCondition": "e.customProperties.dateFin <= current_date",
-            "formDefId": "compagneClotures"
+            "formDefId": "ajouterCompagne"
         }
     },
     "buttonPosition": "bottomLeft",
@@ -19,32 +19,18 @@
             "sortable": "false"
         },
         {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
             "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
             "hidden": "false",
             "id": "column_0",
-            "label": "Nom",
+            "label": "Nom de la compagne",
             "name": "nom",
-            "sortable": "false",
-            "style": "",
-            "width": ""
+            "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
             "id": "column_2",
-            "label": "dateDebut",
+            "label": "Date début",
             "name": "dateDebut",
             "sortable": "false"
         },
@@ -52,7 +38,7 @@
             "filterable": true,
             "hidden": "false",
             "id": "column_3",
-            "label": "dateFin",
+            "label": "Date de fin prévue",
             "name": "dateFin",
             "sortable": "false"
         },
@@ -60,6 +46,14 @@
             "filterable": true,
             "hidden": "false",
             "id": "column_4",
+            "label": "motCles",
+            "name": "motCles",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
             "label": "pays",
             "name": "pays",
             "sortable": "false"
@@ -67,7 +61,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_5",
+            "id": "column_6",
             "label": "region",
             "name": "region",
             "sortable": "false"
