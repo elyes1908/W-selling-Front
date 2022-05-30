@@ -37,7 +37,15 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [],
+    "filters": [{
+        "id": "filter_0",
+        "label": "dateFin",
+        "name": "dateFin",
+        "type": {
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {}
+        }
+    }],
     "id": "compagneClotures",
     "name": "Compagne Clotures",
     "order": "",
