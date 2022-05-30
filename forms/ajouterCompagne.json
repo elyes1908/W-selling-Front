@@ -175,6 +175,15 @@
                         "storeNumeric": "False",
                         "style": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.PasswordField",
+                    "properties": {
+                        "id": "field9",
+                        "label": "Password Field",
+                        "readonly": "False",
+                        "readonlyLabel": "False"
+                    }
                 }
             ],
             "properties": {"width": "100%"}
