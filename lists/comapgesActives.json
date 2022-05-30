@@ -49,14 +49,14 @@
     "description": "",
     "filters": [{
         "datalist_type": "filter",
-        "filterParamName": "d-994838-fn_nom",
+        "filterParamName": "d-994838-fn_dateFin",
         "hidden": "",
         "id": "filter_0",
-        "label": "Nom de la compagne",
-        "name": "nom",
+        "label": "Date de fin prévue",
+        "name": "dateFin",
         "type": {
             "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {"defaultValue": "ibm"}
+            "properties": {"defaultValue": "#dateFin.dd-MM-yyyy#"}
         }
     }],
     "id": "comapgesActives",
