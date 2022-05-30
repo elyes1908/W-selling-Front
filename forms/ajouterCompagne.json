@@ -55,7 +55,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "value": "",
+                        "value": "yyyy-mm-dd",
                         "workflowVariable": "",
                         "yearRange": "c-10:c+10"
                     }
@@ -65,16 +65,16 @@
                     "properties": {
                         "allowManual": "",
                         "currentDateAs": "",
-                        "dataFormat": "",
+                        "dataFormat": "yyyy-MM-dd",
                         "datePickerType": "",
-                        "endDateFieldId": "",
+                        "endDateFieldId": "dateFin",
                         "format": "",
                         "id": "dateFin",
                         "label": "Date de fin prévue",
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
-                        "startDateFieldId": "",
+                        "startDateFieldId": "dateDebut",
                         "validator": {
                             "className": "",
                             "properties": {}
