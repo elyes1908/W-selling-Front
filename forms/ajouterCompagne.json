@@ -166,10 +166,11 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.PasswordField",
+                    "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
-                        "id": "field9",
-                        "label": "Password Field",
+                        "id": "field8",
+                        "label": "Select Box",
+                        "multiple": "False",
                         "readonly": "False",
                         "readonlyLabel": "False"
                     }
