@@ -3,34 +3,76 @@
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "extraCondition": "e.customProperties.nom like 'ibm'",
+            "extraCondition": "e.customProperties.dateFin like '2022-06-11'",
             "formDefId": "compagneClotures"
         }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [{
-        "action": {
-            "className": "",
-            "properties": {}
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "ID",
+            "name": "id",
+            "sortable": "false"
         },
-        "alignment": "",
-        "datalist_type": "column",
-        "exclude_export": "",
-        "filterable": true,
-        "format": {
-            "className": "",
-            "properties": {}
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_0",
+            "label": "Nom",
+            "name": "nom",
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
-        "headerAlignment": "",
-        "hidden": "false",
-        "id": "column_0",
-        "label": "Nom",
-        "name": "nom",
-        "sortable": "false",
-        "style": "",
-        "width": ""
-    }],
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "dateDebut",
+            "name": "dateDebut",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "dateFin",
+            "name": "dateFin",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "pays",
+            "name": "pays",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "region",
+            "name": "region",
+            "sortable": "false"
+        }
+    ],
     "considerFilterWhenGetTotal": "",
     "description": "",
     "disableResponsive": "",
@@ -54,29 +96,7 @@
             "view": "Tablet"
         }
     ],
-    "rowActions": [{
-        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-        "icon": "<i class=\"fas fa-link\"><\/i>",
-        "id": "rowAction_0",
-        "label": "Hyperlink",
-        "name": "Data List Hyperlink Action",
-        "properties": {
-            "confirmation": "",
-            "datalist_type": "row_action",
-            "href": "",
-            "hrefColumn": "",
-            "hrefParam": "",
-            "label": "Hyperlink",
-            "rules": [{
-                "field": "nom",
-                "join": "AND",
-                "operator": "=",
-                "value": "ibm"
-            }],
-            "target": "_self"
-        },
-        "type": "text"
-    }],
+    "rowActions": [],
     "searchPopup": "",
     "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
