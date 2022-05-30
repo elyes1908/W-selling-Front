@@ -58,6 +58,22 @@
             "label": "region",
             "name": "region",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "Date début",
+            "name": "dateDebut",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "Date de fin prévue",
+            "name": "dateFin",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
