@@ -47,7 +47,18 @@
     }],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [],
+    "filters": [{
+        "datalist_type": "filter",
+        "filterParamName": "d-994838-fn_nom",
+        "hidden": "",
+        "id": "filter_0",
+        "label": "Nom de la compagne",
+        "name": "nom",
+        "type": {
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {"defaultValue": "ibm"}
+        }
+    }],
     "id": "comapgesActives",
     "name": "Comapges Actives",
     "order": "",
