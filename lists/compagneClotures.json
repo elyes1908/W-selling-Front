@@ -25,6 +25,14 @@
             "label": "motCles",
             "name": "motCles",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "dateDebut",
+            "name": "dateDebut",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
