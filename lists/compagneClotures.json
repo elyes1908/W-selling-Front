@@ -11,6 +11,7 @@
     "checkboxPosition": "left",
     "columns": [
         {
+            "datalist_type": "column",
             "filterable": true,
             "hidden": "false",
             "id": "column_4",
@@ -29,7 +30,7 @@
             "filterable": true,
             "format": {
                 "className": "org.joget.BeanShellFormatter",
-                "properties": {"script": "return value + \"#datalist.compagnesClotures.dateFin#\""}
+                "properties": {"script": "return value + \"#form.compagnes.ID#\""}
             },
             "headerAlignment": "",
             "hidden": "false",
