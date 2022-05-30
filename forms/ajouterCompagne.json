@@ -164,6 +164,17 @@
                             "properties": {}
                         }
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "field8",
+                        "label": "Text Field",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "storeNumeric": "False",
+                        "style": ""
+                    }
                 }
             ],
             "properties": {"width": "100%"}
