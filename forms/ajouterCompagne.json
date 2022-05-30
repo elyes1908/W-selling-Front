@@ -172,6 +172,15 @@
                             "properties": {}
                         }
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.HiddenField",
+                    "properties": {
+                        "id": "statut",
+                        "useDefaultWhenEmpty": "",
+                        "value": "Active",
+                        "workflowVariable": ""
+                    }
                 }
             ],
             "properties": {"width": "100%"}
