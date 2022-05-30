@@ -52,8 +52,12 @@
                         "readonlyLabel": "",
                         "startDateFieldId": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
                         },
                         "value": "",
                         "workflowVariable": "",
@@ -76,8 +80,12 @@
                         "readonlyLabel": "",
                         "startDateFieldId": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "mandatory": "true",
+                                "message": "",
+                                "type": ""
+                            }
                         },
                         "value": "",
                         "workflowVariable": "",
