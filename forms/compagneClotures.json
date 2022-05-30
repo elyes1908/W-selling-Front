@@ -7,8 +7,8 @@
             "elements": [{
                 "className": "org.joget.apps.form.lib.TextField",
                 "properties": {
-                    "id": "compagne",
-                    "label": "compagne",
+                    "id": "nom",
+                    "label": "Nom",
                     "maxlength": "",
                     "placeholder": "",
                     "readonly": "",
