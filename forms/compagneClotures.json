@@ -35,13 +35,8 @@
         "description": "",
         "id": "compagneClotures",
         "loadBinder": {
-            "className": "org.joget.apps.form.lib.BeanShellFormBinder",
-            "properties": {
-                "autoHandleFiles": "",
-                "autoHandleWorkflowVariable": "true",
-                "cacheInterval": "",
-                "script": "import java.sql.Connection;\r\nimport java.sql.PreparedStatement;\r\nimport java.sql.ResultSet;\r\nimport java.sql.SQLException;\r\nimport javax.sql.DataSource;\r\nimport org.joget.apps.app.service.AppUtil;\r\nimport org.joget.apps.form.model.Element;\r\nimport org.joget.apps.form.model.FormData;\r\nimport org.joget.apps.form.model.FormRow;\r\nimport org.joget.apps.form.model.FormRowSet;\r\nimport org.joget.commons.util.LogUtil;\r\nFormRowSet f = new FormRowSet();\r\nf.setMultiRow(true);\r\n\r\n//Get Joget's current datasource configs\r\nDataSource ds = (DataSource) AppUtil.getApplicationContext().getBean(\"setupDataSource\");\r\n\r\ncon = ds.getConnection();\r\n\r\nif (!con.isClosed()) {\r\n\t//Get the URL parameter\r\n\r\n \r\n\t//Here you can query from one or multiple tables using JOIN etc\r\n\tString sql = \"SELECT * FROM app_fd_compagnes where DATE(c_dateFin) > DATE(NOW())\";\r\n\tPreparedStatement stmt = con.prepareStatement(sql);\r\n\r\n \r\n\t//Execute the SELECT SQL statement\r\n\tResultSet rs = stmt.executeQuery();\r\n\t\t\r\n\t//Get value from columns of record(s)\r\n\twhile (rs.next()) {\r\n\t\tFormRow r1 = new FormRow();\r\n\t\tr1.put(\"nom\", rs.getString(1));\r\n\t\r\n\t\tf.add(r1);\r\n\t}\r\n}\r\n\r\nreturn f;"
-            }
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
         },
         "name": "Compagne Clotures",
         "noPermissionMessage": "",
