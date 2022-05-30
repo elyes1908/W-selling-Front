@@ -68,10 +68,10 @@
             "hrefParam": "",
             "label": "Hyperlink",
             "rules": [{
-                "field": "dateFin",
+                "field": "nom",
                 "join": "AND",
-                "operator": ">",
-                "value": "#date.yyyy.MM.dd#"
+                "operator": "=",
+                "value": "ibm"
             }],
             "target": "_self"
         },
