@@ -43,14 +43,14 @@
                         "currentDateAs": "",
                         "dataFormat": "dd-MM-yyyy",
                         "datePickerType": "",
-                        "endDateFieldId": "",
+                        "endDateFieldId": "dateFin",
                         "format": "",
                         "id": "dateDebut",
                         "label": "Date début",
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
-                        "startDateFieldId": "",
+                        "startDateFieldId": "dateDebut",
                         "validator": {
                             "className": "",
                             "properties": {}
