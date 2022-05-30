@@ -13,6 +13,14 @@
         {
             "filterable": true,
             "hidden": "false",
+            "id": "column_4",
+            "label": "ID",
+            "name": "id",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_0",
             "label": "Nom",
             "name": "nom",
