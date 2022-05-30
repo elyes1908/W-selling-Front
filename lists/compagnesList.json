@@ -82,6 +82,14 @@
             "label": "Created By Name",
             "name": "createdByName",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_7",
+            "label": "statut",
+            "name": "statut",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
