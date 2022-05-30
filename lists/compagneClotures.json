@@ -43,12 +43,27 @@
             "sortable": "false"
         },
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_4",
             "label": "motCles",
             "name": "motCles",
-            "sortable": "false"
+            "renderHtml": "true",
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
             "filterable": true,
