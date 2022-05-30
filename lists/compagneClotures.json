@@ -3,7 +3,7 @@
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "extraCondition": "nom = \"ibm\"",
+            "extraCondition": "e.id= \"ID-000005\"",
             "formDefId": "compagneClotures"
         }
     },
