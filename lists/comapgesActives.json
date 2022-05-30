@@ -9,56 +9,67 @@
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [{
-        "action": {
-            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-            "properties": {
-                "abortRelatedRunningProcesses": "",
-                "confirmation": "",
-                "deleteFiles": "",
-                "deleteGridData": "true",
-                "deleteSubformData": "",
-                "formDefId": "ajouterCompagne",
-                "label": "Delete"
-            }
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "ID",
+            "name": "id",
+            "sortable": "false"
         },
-        "alignment": "",
-        "datalist_type": "column",
-        "exclude_export": "",
-        "filterable": true,
-        "format": {
-            "className": "org.joget.apps.datalist.lib.DefaultFormatter",
-            "properties": {
-                "color": "",
-                "field": "",
-                "formDefId": "",
-                "formatting": "sup",
-                "size": ""
-            }
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Nom de la compagne",
+            "name": "nom",
+            "sortable": "false"
         },
-        "headerAlignment": "",
-        "hidden": "false",
-        "id": "column_0",
-        "label": "Nom de la compagne",
-        "name": "nom",
-        "sortable": "false",
-        "style": "",
-        "width": ""
-    }],
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Date début",
+            "name": "dateDebut",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Date de fin prévue",
+            "name": "dateFin",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "motCles",
+            "name": "motCles",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "pays",
+            "name": "pays",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_6",
+            "label": "region",
+            "name": "region",
+            "sortable": "false"
+        }
+    ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [{
-        "datalist_type": "filter",
-        "filterParamName": "d-994838-fn_dateFin",
-        "hidden": "",
-        "id": "filter_0",
-        "label": "Date de fin prévue",
-        "name": "dateFin",
-        "type": {
-            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {"defaultValue": "#date.dd-MM-yyyy#"}
-        }
-    }],
+    "filters": [],
     "id": "comapgesActives",
     "name": "Comapges Actives",
     "order": "",
