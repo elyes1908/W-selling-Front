@@ -78,7 +78,15 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [],
+    "filters": [{
+        "id": "filter_0",
+        "label": "Date de fin prévue",
+        "name": "dateFin",
+        "type": {
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {}
+        }
+    }],
     "id": "compagnesList",
     "name": "Compagnes",
     "order": "",
