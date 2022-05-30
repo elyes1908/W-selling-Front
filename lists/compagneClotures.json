@@ -30,7 +30,7 @@
             "filterable": true,
             "format": {
                 "className": "org.joget.BeanShellFormatter",
-                "properties": {"script": "return value + \"#form.compagnes.ID#\""}
+                "properties": {"script": "//import the necessary classes\r\nimport org.joget.apps.datalist.service.DataListService;\r\nimport org.joget.apps.app.service.AppUtil;\r\n  \r\nDataListService dataListService = (DataListService) AppUtil.getApplicationContext().getBean(\"dataListService\");\r\n   \r\n//since this entire bean shell applies to every row, \"row\" is automatically iterated here.\r\n//\"name\" is the column id\r\nreturn dataListService.evaluateColumnValueFromRow(row, \"nom\");"}
             },
             "headerAlignment": "",
             "hidden": "false",
