@@ -41,7 +41,7 @@
                     "properties": {
                         "allowManual": "",
                         "currentDateAs": "",
-                        "dataFormat": "dd-MM-yyyy",
+                        "dataFormat": "",
                         "datePickerType": "",
                         "endDateFieldId": "dateFin",
                         "format": "",
@@ -65,7 +65,7 @@
                     "properties": {
                         "allowManual": "",
                         "currentDateAs": "",
-                        "dataFormat": "dd-MM-yyyy",
+                        "dataFormat": "",
                         "datePickerType": "",
                         "endDateFieldId": "",
                         "format": "",
