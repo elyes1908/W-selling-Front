@@ -29,7 +29,7 @@
             "filterable": true,
             "format": {
                 "className": "org.joget.BeanShellFormatter",
-                "properties": {"script": "return value + \"append this text to every column value\";"}
+                "properties": {"script": "return value + \"#datalist.compagnesClotures.dateFin#\""}
             },
             "headerAlignment": "",
             "hidden": "false",
