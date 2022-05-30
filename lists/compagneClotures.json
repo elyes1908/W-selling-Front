@@ -19,8 +19,8 @@
         "exclude_export": "",
         "filterable": true,
         "format": {
-            "className": "org.joget.BeanShellFormatter",
-            "properties": {"script": "//import the necessary classes\r\nimport org.joget.apps.datalist.service.DataListService;\r\nimport org.joget.apps.app.service.AppUtil;\r\nimport java.text.ParseException;\r\nimport java.text.SimpleDateFormat;\r\nimport java.util.Date;  \r\nDataListService dataListService = (DataListService) AppUtil.getApplicationContext().getBean(\"dataListService\");\r\n   \r\n\r\ndateFin = dataListService.evaluateColumnValueFromRow(row, \"dateFin\");\r\n \r\nSimpleDateFormat formatter = new SimpleDateFormat(\"yyyy-MM-dd\");\r\ntry {\r\n    Date date = formatter.parse(dateFin);\r\n    Calendar cal = Calendar.getInstance();\r\n    if (date.before(cal.getTime())) {\r\n        return \"hi\";\r\n    } else {\r\n        return null;\r\n    }\r\n} catch (ParseException e) {\r\n    e.printStackTrace();\r\n}"}
+            "className": "",
+            "properties": {}
         },
         "headerAlignment": "",
         "hidden": "false",
@@ -54,7 +54,29 @@
             "view": "Tablet"
         }
     ],
-    "rowActions": [],
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "icon": "<i class=\"fas fa-link\"><\/i>",
+        "id": "rowAction_0",
+        "label": "Hyperlink",
+        "name": "Data List Hyperlink Action",
+        "properties": {
+            "confirmation": "",
+            "datalist_type": "row_action",
+            "href": "",
+            "hrefColumn": "",
+            "hrefParam": "",
+            "label": "Hyperlink",
+            "rules": [{
+                "field": "dateFin",
+                "join": "AND",
+                "operator": ">",
+                "value": "#date.yyyy.MM.dd#"
+            }],
+            "target": "_self"
+        },
+        "type": "text"
+    }],
     "searchPopup": "",
     "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
