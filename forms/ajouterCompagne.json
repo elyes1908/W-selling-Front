@@ -43,14 +43,14 @@
                         "currentDateAs": "",
                         "dataFormat": "",
                         "datePickerType": "",
-                        "endDateFieldId": "dateFin",
+                        "endDateFieldId": "",
                         "format": "",
                         "id": "dateDebut",
                         "label": "Date début",
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
-                        "startDateFieldId": "dateDebut",
+                        "startDateFieldId": "",
                         "validator": {
                             "className": "",
                             "properties": {}
@@ -67,14 +67,14 @@
                         "currentDateAs": "",
                         "dataFormat": "yyyy-MM-dd",
                         "datePickerType": "",
-                        "endDateFieldId": "dateFin",
+                        "endDateFieldId": "",
                         "format": "",
                         "id": "dateFin",
                         "label": "Date de fin prévue",
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
-                        "startDateFieldId": "dateDebut",
+                        "startDateFieldId": "",
                         "validator": {
                             "className": "",
                             "properties": {}
