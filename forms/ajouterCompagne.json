@@ -9,7 +9,7 @@
                     "className": "org.joget.apps.form.lib.IdGeneratorField",
                     "properties": {
                         "envVariable": "counter",
-                        "format": "ID-??????",
+                        "format": "CA-??????",
                         "hidden": "",
                         "id": "id",
                         "label": "ID de la compagne",
