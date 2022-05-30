@@ -56,7 +56,7 @@
         "name": "dateFin",
         "type": {
             "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {"defaultValue": "#dateFin.dd-MM-yyyy#"}
+            "properties": {"defaultValue": "#date.dd-MM-yyyy#"}
         }
     }],
     "id": "comapgesActives",
