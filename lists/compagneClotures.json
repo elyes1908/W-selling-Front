@@ -9,14 +9,24 @@
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [{
-        "filterable": true,
-        "hidden": "false",
-        "id": "column_0",
-        "label": "compagne",
-        "name": "compagne",
-        "sortable": "false"
-    }],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "Nom",
+            "name": "nom",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "motCles",
+            "name": "motCles",
+            "sortable": "false"
+        }
+    ],
     "considerFilterWhenGetTotal": "",
     "description": "",
     "filters": [],
