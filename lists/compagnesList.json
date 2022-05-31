@@ -54,7 +54,7 @@
                 "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
                 "properties": {
                     "confirmation": "",
-                    "href": "https://www.linkedin.com",
+                    "href": "#requestParam.url#",
                     "hrefColumn": "nom",
                     "hrefParam": "url",
                     "label": "Hyperlink",
