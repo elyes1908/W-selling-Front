@@ -55,8 +55,8 @@
                 "properties": {
                     "confirmation": "",
                     "href": "#value",
-                    "hrefColumn": "",
-                    "hrefParam": "",
+                    "hrefColumn": "nom",
+                    "hrefParam": "url",
                     "label": "Hyperlink",
                     "target": "_self",
                     "visible": ""
