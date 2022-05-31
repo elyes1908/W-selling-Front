@@ -54,7 +54,7 @@
                 "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
                 "properties": {
                     "confirmation": "",
-                    "href": "wa",
+                    "href": "httpwa",
                     "hrefColumn": "",
                     "hrefParam": "",
                     "label": "Hyperlink",
