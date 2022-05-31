@@ -180,7 +180,7 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "<i class=\"fa-solid fa-circle-trash\"><\/i>",
+                "href": "",
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "<i class=\"fa-solid fa-circle-trash\"><\/i>",
