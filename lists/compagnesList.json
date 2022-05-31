@@ -51,24 +51,16 @@
         },
         {
             "action": {
-                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-                "properties": {
-                    "confirmation": "",
-                    "href": "#datalist.value#",
-                    "hrefColumn": "",
-                    "hrefParam": "",
-                    "label": "Hyperlink",
-                    "target": "_blank",
-                    "visible": ""
-                }
+                "className": "",
+                "properties": {}
             },
             "alignment": "",
             "datalist_type": "column",
             "exclude_export": "",
             "filterable": true,
             "format": {
-                "className": "",
-                "properties": {}
+                "className": "org.joget.BeanShellFormatter",
+                "properties": {"script": "import java.net.URL;\r\nu = value\r\nURL url = new URL(vars.get(u));"}
             },
             "headerAlignment": "",
             "hidden": "false",
