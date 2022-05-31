@@ -11,7 +11,7 @@
                         "cancelButtonLabel": "",
                         "customFooter": "",
                         "customHeader": "",
-                        "customId": "",
+                        "customId": "ajouterCompagne",
                         "enableOffline": "",
                         "fieldPassover": "",
                         "fieldPassoverMethod": "append",
