@@ -76,9 +76,30 @@
     "properties": {
         "description": "",
         "id": "mongoForm",
-        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.BeanShellFormBinder",
+            "properties": {
+                "autoHandleFiles": "",
+                "autoHandleWorkflowVariable": "true",
+                "cacheInterval": "",
+                "script": "import org.joget.apps.form.model.*;\r\nimport org.joget.apps.form.service.*;\r\n \r\npublic FormRowSet test() {\r\n    FormRowSet f = new FormRowSet();\r\n    f.setMultiRow(true);\r\n \r\n    FormRow r1 = new FormRow();\r\n    r1.put(FormUtil.PROPERTY_VALUE, \"test1\");\r\n    r1.put(FormUtil.PROPERTY_LABEL, \"tester1\");\r\n    f.add(r1);\r\n \r\n    FormRow r2 = new FormRow();\r\n    r2.put(FormUtil.PROPERTY_VALUE, \"test2\");\r\n    r2.put(FormUtil.PROPERTY_LABEL, \"tester2\");\r\n    f.add(r2);\r\n \r\n    return f;\r\n}\r\n \r\nreturn test();"
+            }
+        },
         "name": "Mongo",
-        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "noPermissionMessage": "",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessor": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessorRunOn": "create",
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "tableName": "mongo"
     }
 }
