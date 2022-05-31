@@ -165,7 +165,7 @@
             "deleteGridData": "true",
             "deleteSubformData": "",
             "formDefId": "ajouterCompagne",
-            "label": "<i class=\"fa fa-circle-trash\"><\/i>",
+            "label": "<i class=\"fa fa-circle-trash\"><\/i> Delete",
             "rules": []
         },
         "type": "text"
