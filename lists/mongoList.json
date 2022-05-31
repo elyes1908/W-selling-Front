@@ -47,6 +47,14 @@
             "label": "Last Name",
             "name": "lastName",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Result",
+            "name": "res",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
