@@ -87,8 +87,8 @@
                 "confirmation": "",
                 "datalist_type": "row_action",
                 "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/ajouterCompagne",
-                "hrefColumn": "",
-                "hrefParam": "",
+                "hrefColumn": "id",
+                "hrefParam": "id",
                 "label": "<i class=\"fas fa-wrench\"><\/i>",
                 "rules": [],
                 "target": "_self"
