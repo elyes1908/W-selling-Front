@@ -178,8 +178,18 @@
             "label": "Select Box",
             "name": "field9",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
+                "className": "org.joget.HyperlinkOptionsFilter",
+                "properties": {
+                    "defaultValue": "",
+                    "displayFull": "true",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "",
+                        "properties": {}
+                    },
+                    "showCount": "",
+                    "showLabel": "true"
+                }
             }
         }
     ],
