@@ -136,6 +136,7 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
+    "disableResponsive": "",
     "filters": [{
         "id": "filter_0",
         "label": "Date de fin prévue",
@@ -145,12 +146,25 @@
             "properties": {}
         }
     }],
+    "hidePageSize": "",
     "id": "compagnesList",
     "name": "Compagnes",
     "order": "",
     "orderBy": "",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "responsiveView": [
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Mobile"
+        },
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Tablet"
+        }
+    ],
     "rowActions": [{
         "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
         "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
@@ -165,11 +179,13 @@
             "deleteGridData": "true",
             "deleteSubformData": "",
             "formDefId": "ajouterCompagne",
-            "label": "<i class=\"fa fa-circle-trash\"><\/i>",
+            "label": "<i class=\"fa fa-trash\"><\/i>",
             "rules": []
         },
         "type": "text"
     }],
+    "searchPopup": "",
+    "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
-    "useSession": "false"
+    "useSession": ""
 }
