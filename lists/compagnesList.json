@@ -68,7 +68,7 @@
             "filterable": true,
             "format": {
                 "className": "org.joget.BeanShellFormatter",
-                "properties": {"script": "import org.joget.apps.datalist.model.DataListActionResult;\r\n \r\nDataListActionResult result = new DataListActionResult();\r\nresult.setType(DataListActionResult.TYPE_REDIRECT);\r\nresult.setUrl(\"http://www.google.com\");\r\nreturn result.getUrl();"}
+                "properties": {"script": "import org.joget.apps.datalist.model.DataListActionResult;\r\nimport java.net.URL;\r\n\r\nDataListActionResult result = new DataListActionResult();\r\nresult.setType(DataListActionResult.TYPE_REDIRECT);\r\nresult.setUrl(\"http://www.google.com\");\r\nURL url = new URL(vars.get( result.getUrl()));\r\nreturn result.getUrl();"}
             },
             "headerAlignment": "",
             "hidden": "false",
