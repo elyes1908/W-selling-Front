@@ -179,18 +179,8 @@
             "label": "Created By Name",
             "name": "createdByName",
             "type": {
-                "className": "org.joget.HyperlinkOptionsFilter",
-                "properties": {
-                    "defaultValue": "",
-                    "displayFull": "true",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "",
-                        "properties": {}
-                    },
-                    "showCount": "",
-                    "showLabel": ""
-                }
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
             }
         }
     ],
