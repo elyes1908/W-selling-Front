@@ -140,6 +140,8 @@
     "disableResponsive": "",
     "filters": [
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-6838311-fn_nom",
             "id": "filter_1",
             "label": "Nom de la compagne",
             "name": "nom",
@@ -164,6 +166,15 @@
             "id": "filter_0",
             "label": "Date de fin prévue",
             "name": "dateFin",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_3",
+            "label": "Created By Name",
+            "name": "createdByName",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
