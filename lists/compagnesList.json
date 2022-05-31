@@ -138,15 +138,38 @@
     "considerFilterWhenGetTotal": "",
     "description": "",
     "disableResponsive": "",
-    "filters": [{
-        "id": "filter_0",
-        "label": "Date de fin prévue",
-        "name": "dateFin",
-        "type": {
-            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {}
+    "filters": [
+        {
+            "id": "filter_1",
+            "label": "Nom de la compagne",
+            "name": "nom",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-6838311-fn_dateDebut",
+            "hidden": "",
+            "id": "filter_2",
+            "label": "Date début",
+            "name": "dateDebut",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "id": "filter_0",
+            "label": "Date de fin prévue",
+            "name": "dateFin",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
         }
-    }],
+    ],
     "hidePageSize": "",
     "id": "compagnesList",
     "name": "Compagnes",
