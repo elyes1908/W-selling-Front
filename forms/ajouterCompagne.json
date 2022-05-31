@@ -17,26 +17,6 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "id": "nom",
-                        "label": "Nom de la compagne",
-                        "maxlength": "",
-                        "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "storeNumeric": "",
-                        "style": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                },
-                {
                     "className": "org.joget.apps.form.lib.DatePicker",
                     "properties": {
                         "allowManual": "",
@@ -178,7 +158,7 @@
                     "properties": {
                         "id": "statut",
                         "useDefaultWhenEmpty": "",
-                        "value": "Active",
+                        "value": "",
                         "workflowVariable": ""
                     }
                 }
