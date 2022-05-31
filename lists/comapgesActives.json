@@ -76,7 +76,45 @@
     "orderBy": "",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
-    "rowActions": [],
+    "rowActions": [
+        {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "icon": "<i class=\"fas fa-link\"><\/i>",
+            "id": "rowAction_1",
+            "label": "Hyperlink",
+            "name": "Data List Hyperlink Action",
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/ajouterCompagne",
+                "hrefColumn": "",
+                "hrefParam": "",
+                "label": "<i class=\"fas fa-wrench\"><\/i>",
+                "rules": [],
+                "target": "_self"
+            },
+            "type": "text"
+        },
+        {
+            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+            "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
+            "id": "rowAction_0",
+            "label": "Delete",
+            "name": "Form Row Delete Action",
+            "properties": {
+                "abortRelatedRunningProcesses": "",
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "deleteFiles": "",
+                "deleteGridData": "",
+                "deleteSubformData": "",
+                "formDefId": "ajouterCompagne",
+                "label": "<i class=\"fa fa-trash\"><\/i>",
+                "rules": []
+            },
+            "type": "text"
+        }
+    ],
     "showPageSizeSelector": "true",
     "useSession": "false"
 }
