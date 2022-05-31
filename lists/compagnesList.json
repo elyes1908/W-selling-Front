@@ -50,12 +50,34 @@
             "width": ""
         },
         {
+            "action": {
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "confirmation": "",
+                    "href": "https://www.linkedin.com/in/elyes-tarmiz-9aa9891a4/",
+                    "hrefColumn": "",
+                    "hrefParam": "",
+                    "label": "Hyperlink",
+                    "target": "_blank",
+                    "visible": ""
+                }
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_1",
             "label": "Nom de la compagne",
             "name": "nom",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
             "filterable": true,
