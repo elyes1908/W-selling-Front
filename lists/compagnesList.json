@@ -169,31 +169,6 @@
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
             }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-6838311-fn_createdBy",
-            "hidden": "",
-            "id": "filter_4",
-            "label": "Created By",
-            "name": "createdBy",
-            "type": {
-                "className": "org.joget.HyperlinkOptionsFilter",
-                "properties": {
-                    "defaultValue": "",
-                    "displayFull": "true",
-                    "options": [{
-                        "label": "aa",
-                        "value": "aa"
-                    }],
-                    "optionsBinder": {
-                        "className": "",
-                        "properties": {}
-                    },
-                    "showCount": "",
-                    "showLabel": "true"
-                }
-            }
         }
     ],
     "hidePageSize": "",
