@@ -54,7 +54,7 @@
                 "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
                 "properties": {
                     "confirmation": "",
-                    "href": "https://www.linkedin.com/in/elyes-tarmiz-9aa9891a4/",
+                    "href": "#form.compagnes.nom#",
                     "hrefColumn": "",
                     "hrefParam": "",
                     "label": "Hyperlink",
