@@ -178,7 +178,7 @@
                 "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/ajouterCompagne",
                 "hrefColumn": "id",
                 "hrefParam": "id",
-                "label": "<i class=\"fa-chevron-circle-right\"><\/i>",
+                "label": "<i class=\"fas-chevron-circle-right\"><\/i>",
                 "rules": [],
                 "target": "_blank"
             },
