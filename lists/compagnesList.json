@@ -104,12 +104,11 @@
             "sortable": "false"
         },
         {
-            "datalist_type": "column",
             "filterable": true,
             "hidden": "false",
             "id": "column_6",
-            "label": "Created By Name",
-            "name": "createdByName",
+            "label": "Created By",
+            "name": "createdBy",
             "sortable": "false"
         },
         {
@@ -172,15 +171,12 @@
             }
         },
         {
-            "datalist_type": "filter",
-            "filterParamName": "d-6838311-fn_createdByName",
-            "hidden": "",
-            "id": "filter_3",
-            "label": "Created By Name",
-            "name": "createdByName",
+            "id": "filter_4",
+            "label": "Created By",
+            "name": "createdBy",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
+                "properties": {}
             }
         }
     ],
