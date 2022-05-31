@@ -103,10 +103,10 @@
             "name": "Form Row Delete Action",
             "properties": {
                 "abortRelatedRunningProcesses": "",
-                "confirmation": "",
+                "confirmation": "Etes-vous sûr de vouloir supprimer définitivement cette campagne #form.compagnes.nom#?",
                 "datalist_type": "row_action",
                 "deleteFiles": "",
-                "deleteGridData": "",
+                "deleteGridData": "true",
                 "deleteSubformData": "",
                 "formDefId": "ajouterCompagne",
                 "label": "<i class=\"fa fa-trash\"><\/i>",
