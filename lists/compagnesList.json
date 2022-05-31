@@ -60,7 +60,7 @@
             "filterable": true,
             "format": {
                 "className": "org.joget.BeanShellFormatter",
-                "properties": {"script": "import java.net.URL;\r\n\r\n\r\nreturn value;"}
+                "properties": {"script": "import org.joget.apps.datalist.model.DataListActionResult;\r\n \r\nDataListActionResult result = new DataListActionResult();\r\nresult.setType(DataListActionResult.TYPE_REDIRECT);\r\nresult.setUrl(value);\r\nreturn result;"}
             },
             "headerAlignment": "",
             "hidden": "false",
