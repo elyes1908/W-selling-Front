@@ -169,28 +169,6 @@
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
             }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-6838311-fn_field9",
-            "hidden": "",
-            "id": "filter_3",
-            "label": "Select Box",
-            "name": "field9",
-            "type": {
-                "className": "org.joget.HyperlinkOptionsFilter",
-                "properties": {
-                    "defaultValue": "",
-                    "displayFull": "true",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "",
-                        "properties": {}
-                    },
-                    "showCount": "",
-                    "showLabel": "true"
-                }
-            }
         }
     ],
     "hidePageSize": "",
