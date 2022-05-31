@@ -165,25 +165,45 @@
             "view": "Tablet"
         }
     ],
-    "rowActions": [{
-        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-        "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
-        "id": "rowAction_0",
-        "label": "Delete",
-        "name": "Form Row Delete Action",
-        "properties": {
-            "abortRelatedRunningProcesses": "",
-            "confirmation": "",
-            "datalist_type": "row_action",
-            "deleteFiles": "",
-            "deleteGridData": "true",
-            "deleteSubformData": "",
-            "formDefId": "ajouterCompagne",
-            "label": "<i class=\"fa fa-trash\"><\/i>",
-            "rules": []
+    "rowActions": [
+        {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "icon": "<i class=\"fas fa-link\"><\/i>",
+            "id": "rowAction_1",
+            "label": "Hyperlink",
+            "name": "Data List Hyperlink Action",
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "href": "",
+                "hrefColumn": "",
+                "hrefParam": "",
+                "label": "<i class=\"fa-solid fa-angles-right\"><\/i>",
+                "rules": [],
+                "target": "_blank"
+            },
+            "type": "text"
         },
-        "type": "text"
-    }],
+        {
+            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+            "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
+            "id": "rowAction_0",
+            "label": "Delete",
+            "name": "Form Row Delete Action",
+            "properties": {
+                "abortRelatedRunningProcesses": "",
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "deleteFiles": "",
+                "deleteGridData": "true",
+                "deleteSubformData": "",
+                "formDefId": "ajouterCompagne",
+                "label": "<i class=\"fa fa-trash\"><\/i>",
+                "rules": []
+            },
+            "type": "text"
+        }
+    ],
     "searchPopup": "",
     "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
