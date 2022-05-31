@@ -51,16 +51,8 @@
         },
         {
             "action": {
-                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-                "properties": {
-                    "confirmation": "",
-                    "href": "#requestParam.url#",
-                    "hrefColumn": "nom",
-                    "hrefParam": "url",
-                    "label": "Hyperlink",
-                    "target": "_blank",
-                    "visible": ""
-                }
+                "className": "",
+                "properties": {}
             },
             "alignment": "",
             "datalist_type": "column",
