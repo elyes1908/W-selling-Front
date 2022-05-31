@@ -178,7 +178,7 @@
                 "href": "",
                 "hrefColumn": "",
                 "hrefParam": "",
-                "label": "<i class=\"fa fa-angles-right\"><\/i>",
+                "label": "<i class=\"fa-solid fa-angle-right\"><\/i>",
                 "rules": [],
                 "target": "_blank"
             },
