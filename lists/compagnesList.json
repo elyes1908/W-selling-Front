@@ -60,7 +60,7 @@
             "filterable": true,
             "format": {
                 "className": "org.joget.BeanShellFormatter",
-                "properties": {"script": "\r\nSystem.out.println(u)"}
+                "properties": {"script": "\r\nSystem.out.println(value)"}
             },
             "headerAlignment": "",
             "hidden": "false",
