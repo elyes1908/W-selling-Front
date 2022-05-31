@@ -60,7 +60,7 @@
             "filterable": true,
             "format": {
                 "className": "org.joget.BeanShellFormatter",
-                "properties": {"script": "import java.net.URL;\r\nu = value\r\nURL url = new URL(vars.get(u));"}
+                "properties": {"script": "\r\nSystem.out.println(u)"}
             },
             "headerAlignment": "",
             "hidden": "false",
