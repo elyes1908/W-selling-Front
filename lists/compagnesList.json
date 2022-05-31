@@ -175,10 +175,10 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "",
-                "hrefColumn": "",
-                "hrefParam": "",
-                "label": "<i class=\"fa fa-angle-right\"><\/i>",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/ajouterCompagne",
+                "hrefColumn": "id",
+                "hrefParam": "id",
+                "label": "<i class=\"fa fa-chevrons-right\"><\/i>",
                 "rules": [],
                 "target": "_blank"
             },
