@@ -166,7 +166,7 @@
                 "deleteGridData": "true",
                 "deleteSubformData": "",
                 "formDefId": "ajouterCompagne",
-                "label": "<i class=\"fa fa-bullhorn\"><\/i>Delete",
+                "label": "<i class=\"fa fa-bullhorn\"><\/i>",
                 "rules": []
             },
             "type": "text"
