@@ -1,5 +1,22 @@
 {
-    "actions": [],
+    "actions": [{
+        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+        "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
+        "id": "action_0",
+        "label": "Delete",
+        "name": "Form Row Delete Action",
+        "properties": {
+            "abortRelatedRunningProcesses": "",
+            "confirmation": "",
+            "datalist_type": "action",
+            "deleteFiles": "",
+            "deleteGridData": "true",
+            "deleteSubformData": "",
+            "formDefId": "mongo",
+            "label": "Delete"
+        },
+        "type": "text"
+    }],
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
