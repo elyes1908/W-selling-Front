@@ -31,8 +31,8 @@
             "filterable": true,
             "hidden": "false",
             "id": "column_0",
-            "label": "Text Field",
-            "name": "mongoid",
+            "label": "ID",
+            "name": "id",
             "sortable": "false"
         },
         {
