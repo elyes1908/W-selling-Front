@@ -8,12 +8,21 @@
                 {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "id": "field3",
+                        "id": "mongoid",
                         "label": "Text Field",
-                        "readonly": "False",
-                        "readonlyLabel": "False",
-                        "storeNumeric": "False",
-                        "style": ""
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
                     }
                 },
                 {
