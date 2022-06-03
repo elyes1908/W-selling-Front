@@ -6,12 +6,12 @@
         "label": "Delete",
         "name": "Form Row Delete Action",
         "properties": {
-            "abortRelatedRunningProcesses": "",
+            "abortRelatedRunningProcesses": "true",
             "confirmation": "",
             "datalist_type": "action",
-            "deleteFiles": "",
+            "deleteFiles": "true",
             "deleteGridData": "true",
-            "deleteSubformData": "",
+            "deleteSubformData": "true",
             "formDefId": "mongoForm",
             "label": "Delete"
         },
