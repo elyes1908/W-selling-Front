@@ -101,7 +101,7 @@
             "datalist_type": "row_action",
             "deleteFiles": "",
             "deleteGridData": "true",
-            "deleteSubformData": "",
+            "deleteSubformData": "true",
             "formDefId": "mongoForm",
             "label": "Delete",
             "rules": []
