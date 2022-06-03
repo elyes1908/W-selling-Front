@@ -105,60 +105,19 @@
         },
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "buttonPosition": "bottomLeft",
-                        "cacheAllLinks": "",
-                        "cacheListAction": "",
-                        "checkboxPosition": "left",
-                        "customFooter": "",
-                        "customHeader": "",
-                        "customId": "",
-                        "datalistId": "mongoList",
-                        "enableOffline": "",
-                        "id": "1D9B2A5CF0234F5ABCA41814FD8CBF26",
-                        "keyName": "",
-                        "label": "List",
-                        "rowCount": "",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.FormMenu",
-                    "properties": {
-                        "actionAfterSaved": "",
-                        "actionOnCancel": "",
-                        "cancelButtonLabel": "",
-                        "customFooter": "",
-                        "customHeader": "",
-                        "customId": "",
-                        "enableOffline": "",
-                        "fieldPassover": "",
-                        "fieldPassoverMethod": "append",
-                        "formId": "mongoForm",
-                        "id": "C58276DB309C48619AEBB5DD87938900",
-                        "keyName": "",
-                        "label": "Form",
-                        "loadDataWithKey": "",
-                        "messageShowAfterComplete": "",
-                        "paramName": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "redirectTargetOnCancel": "top",
-                        "redirectTargetOnComplete": "",
-                        "redirectUrlAfterComplete": "",
-                        "redirectUrlOnCancel": "",
-                        "showInPopupDialog": "",
-                        "submitButtonLabel": "",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.DataListMenu",
+                "properties": {
+                    "buttonPosition": "bottomLeft",
+                    "checkboxPosition": "left",
+                    "id": "E9434EE9CDFC444D8D1A7610932E98CA",
+                    "label": "List",
+                    "rowCount": "false",
+                    "selectionType": "multiple",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
                 }
-            ],
+            }],
             "properties": {
                 "id": "category-F43020981F834A1AB2EB033515788A74",
                 "label": "<i class=\"fa fa-chart-area\"><\/i> Résultat des compagnes"
