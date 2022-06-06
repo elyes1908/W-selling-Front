@@ -35,20 +35,34 @@
             "sortable": "false"
         },
         {
+            "action": {
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "confirmation": "",
+                    "href": "",
+                    "hrefColumn": "url",
+                    "hrefParam": "",
+                    "label": "Hyperlink",
+                    "target": "_self",
+                    "visible": ""
+                }
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
-            "hidden": "false",
-            "id": "column_0",
-            "label": "Company Size",
-            "name": "companySize",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_7",
             "label": "Website",
             "name": "website",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
             "filterable": true,
@@ -56,22 +70,6 @@
             "id": "column_3",
             "label": "Industry",
             "name": "industry",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_5",
-            "label": "Specialities",
-            "name": "specialities",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_2",
-            "label": "Description",
-            "name": "description",
             "sortable": "false"
         }
     ],
