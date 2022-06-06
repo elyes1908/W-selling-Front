@@ -204,8 +204,37 @@
             "properties": {}
         },
         "postProcessor": {
-            "className": "",
-            "properties": {}
+            "className": "org.joget.apps.app.lib.JsonTool",
+            "properties": {
+                "debugMode": "",
+                "fieldMapping": [],
+                "formDefId": "",
+                "headers": [
+                    {
+                        "name": "id_firm",
+                        "value": "#form.ajouterCompagne.id#"
+                    },
+                    {
+                        "name": "motCles",
+                        "value": "#form.ajouterCompagne.keyword_grid#"
+                    },
+                    {
+                        "name": "pays",
+                        "value": "#form.ajouterCompagne.city_grid#"
+                    },
+                    {
+                        "name": "region",
+                        "value": "#form.ajouterCompagne.region#"
+                    }
+                ],
+                "jsonUrl": "http://127.0.0.1:9004//get-urls/",
+                "multirowBaseObject": "",
+                "noResponse": "",
+                "params": [],
+                "postMethod": "",
+                "requestType": "post",
+                "wfVariableMapping": []
+            }
         },
         "postProcessorRunOn": "create",
         "storeBinder": {
