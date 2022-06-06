@@ -212,19 +212,19 @@
                 "headers": [
                     {
                         "name": "id_firm",
-                        "value": "#form.ajouterCompagne.id#"
+                        "value": "#form.compagnes.id#"
                     },
                     {
                         "name": "motCles",
-                        "value": "#form.ajouterCompagne.keyword_grid#"
+                        "value": "#form.compagnes.motCles#"
                     },
                     {
                         "name": "pays",
-                        "value": "#form.ajouterCompagne.city_grid#"
+                        "value": "#form.compagnes.pays#"
                     },
                     {
                         "name": "region",
-                        "value": "#form.ajouterCompagne.region#"
+                        "value": "#form.compagnes.region#"
                     }
                 ],
                 "jsonUrl": "http://127.0.0.1:9004//get-urls/",
