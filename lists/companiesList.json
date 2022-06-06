@@ -27,14 +27,6 @@
             "sortable": "false"
         },
         {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_0",
-            "label": "Company Size",
-            "name": "companySize",
-            "sortable": "false"
-        },
-        {
             "action": {
                 "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
                 "properties": {
@@ -63,14 +55,6 @@
             "sortable": "false",
             "style": "",
             "width": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_2",
-            "label": "Description",
-            "name": "description",
-            "sortable": "false"
         },
         {
             "action": {
