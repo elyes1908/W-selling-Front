@@ -236,7 +236,7 @@
                 "wfVariableMapping": []
             }
         },
-        "postProcessorRunOn": "create",
+        "postProcessorRunOn": "both",
         "storeBinder": {
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
