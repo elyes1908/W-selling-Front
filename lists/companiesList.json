@@ -31,11 +31,11 @@
                 "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
                 "properties": {
                     "confirmation": "",
-                    "href": "",
+                    "href": "#requestParam#",
                     "hrefColumn": "url",
-                    "hrefParam": "",
+                    "hrefParam": "url",
                     "label": "Hyperlink",
-                    "target": "_self",
+                    "target": "_blank",
                     "visible": ""
                 }
             },
