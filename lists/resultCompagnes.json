@@ -41,14 +41,6 @@
             "label": "Query",
             "name": "c_query",
             "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_4",
-            "label": "Firm (COUNT)",
-            "name": "COUNT_c_firm",
-            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
