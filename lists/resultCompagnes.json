@@ -56,9 +56,9 @@
             "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/companiesList",
             "hrefColumn": "firm",
             "hrefParam": "id_firm",
-            "label": "<i class=\"fa-solid fa-briefcase\"><\/i>",
+            "label": "<i class=\"fas fa-briefcase\"><\/i>",
             "rules": [],
-            "target": "_blank"
+            "target": "_parent"
         },
         "type": "text"
     }],
