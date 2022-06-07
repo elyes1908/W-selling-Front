@@ -225,6 +225,10 @@
                     {
                         "name": "region",
                         "value": "#form.compagnes.region#"
+                    },
+                    {
+                        "name": "name",
+                        "value": "#form.compagnes.name#"
                     }
                 ],
                 "jsonUrl": "http://127.0.0.1:9004//get-urls/",
