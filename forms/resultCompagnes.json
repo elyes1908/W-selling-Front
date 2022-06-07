@@ -28,8 +28,8 @@
                 {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "id": "link",
-                        "label": "Link",
+                        "id": "name",
+                        "label": "name",
                         "maxlength": "",
                         "placeholder": "",
                         "readonly": "",
@@ -48,8 +48,8 @@
                 {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "id": "query",
-                        "label": "Query",
+                        "id": "firm",
+                        "label": "Firm",
                         "maxlength": "",
                         "placeholder": "",
                         "readonly": "",
@@ -66,29 +66,17 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "controlField": "",
-                        "id": "firm",
-                        "label": "Firm",
-                        "multiple": "",
-                        "options": [],
-                        "optionsBinder": {
-                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                            "properties": {
-                                "addEmptyOption": "",
-                                "cacheInterval": "",
-                                "emptyLabel": "",
-                                "extraCondition": "",
-                                "formDefId": "resultCompagnes",
-                                "groupingColumn": "firm",
-                                "idColumn": "firm",
-                                "labelColumn": "firm"
-                            }
-                        },
+                        "id": "totalCompanies",
+                        "label": "Total Companies",
+                        "maxlength": "",
+                        "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
                         "size": "",
+                        "storeNumeric": "",
+                        "style": "",
                         "validator": {
                             "className": "",
                             "properties": {}
