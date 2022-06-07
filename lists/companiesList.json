@@ -3,7 +3,7 @@
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "extraCondition": "",
+            "extraCondition": "e.customProperties.firm = #requestParam.id_firm#",
             "formDefId": "companies"
         }
     },
