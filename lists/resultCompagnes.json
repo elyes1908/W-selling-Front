@@ -1,7 +1,7 @@
 {
     "actions": [],
     "binder": {
-        "className": "org.joget.AggregateDatalistBinder",
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
             "extraCondition": "",
             "formDefId": "resultCompagnes"
@@ -22,24 +22,16 @@
             "filterable": true,
             "hidden": "false",
             "id": "column_1",
-            "label": "Firm",
-            "name": "c_firm",
+            "label": "name",
+            "name": "name",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
             "id": "column_2",
-            "label": "Link",
-            "name": "c_link",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_3",
-            "label": "Query",
-            "name": "c_query",
+            "label": "Total Companies",
+            "name": "totalCompanies",
             "sortable": "false"
         }
     ],
