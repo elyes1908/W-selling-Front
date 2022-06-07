@@ -58,7 +58,7 @@
             "hrefParam": "id_firm",
             "label": "<i class=\"fas fa-briefcase\"><\/i>",
             "rules": [],
-            "target": "_parent"
+            "target": "popup"
         },
         "type": "text"
     }],
