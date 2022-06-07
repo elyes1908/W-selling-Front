@@ -66,17 +66,29 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.TextField",
+                    "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
+                        "controlField": "",
                         "id": "firm",
                         "label": "Firm",
-                        "maxlength": "",
-                        "placeholder": "",
+                        "multiple": "",
+                        "options": [],
+                        "optionsBinder": {
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "extraCondition": "",
+                                "formDefId": "resultCompagnes",
+                                "groupingColumn": "firm",
+                                "idColumn": "firm",
+                                "labelColumn": "firm"
+                            }
+                        },
                         "readonly": "",
                         "readonlyLabel": "",
                         "size": "",
-                        "storeNumeric": "",
-                        "style": "",
                         "validator": {
                             "className": "",
                             "properties": {}
