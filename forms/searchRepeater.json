@@ -55,7 +55,7 @@
                 "elements": [{
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
-                        "controlField": "",
+                        "controlField": "pays",
                         "id": "region",
                         "label": "Régions",
                         "multiple": "",
@@ -66,7 +66,7 @@
                                 "addEmptyOption": "",
                                 "cacheInterval": "",
                                 "emptyLabel": "",
-                                "extraCondition": "e.customProperties.country = #form.cities.pays#",
+                                "extraCondition": "",
                                 "formDefId": "cities",
                                 "groupingColumn": "",
                                 "idColumn": "city",
