@@ -28,6 +28,22 @@
     "checkboxPosition": "left",
     "columns": [
         {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "ID",
+            "name": "id",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "Date début",
+            "name": "dateDebut",
+            "sortable": "false"
+        },
+        {
             "action": {
                 "className": "",
                 "properties": {}
@@ -48,14 +64,6 @@
             "sortable": "false",
             "style": "",
             "width": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_4",
-            "label": "Date début",
-            "name": "dateDebut",
-            "sortable": "false"
         },
         {
             "filterable": true,
