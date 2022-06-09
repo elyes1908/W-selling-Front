@@ -74,22 +74,6 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_2",
-            "label": "pays",
-            "name": "pays",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_3",
-            "label": "region",
-            "name": "region",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
             "id": "column_4",
             "label": "Date début",
             "name": "dateDebut",
@@ -109,6 +93,22 @@
             "id": "column_6",
             "label": "Created By",
             "name": "createdBy",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "pays_region",
+            "name": "pays_region",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "keyword",
+            "name": "keyword",
             "sortable": "false"
         },
         {
