@@ -105,6 +105,39 @@
                     "className": "org.joget.SubformRepeater",
                     "properties": {
                         "addMode": "enable",
+                        "collapsedByDefault": "true",
+                        "collapsible": "true",
+                        "deleteMode": "enable",
+                        "editFormDefId": "",
+                        "editMode": "enable",
+                        "enableSorting": "",
+                        "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
+                        "formDefId": "keyword",
+                        "id": "keyword",
+                        "label": "Mots clés",
+                        "loadBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "storeBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "uniqueKey": "",
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
+                },
+                {
+                    "className": "org.joget.SubformRepeater",
+                    "properties": {
+                        "addMode": "enable",
                         "collapsedByDefault": "",
                         "collapsible": "true",
                         "deleteMode": "enable",
