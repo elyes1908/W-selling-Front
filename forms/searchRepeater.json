@@ -84,7 +84,7 @@
             "comment": "",
             "id": "section1",
             "join": "",
-            "label": "Pays et régions",
+            "label": "",
             "loadBinder": {
                 "className": "",
                 "properties": {}
