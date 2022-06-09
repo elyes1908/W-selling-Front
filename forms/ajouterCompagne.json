@@ -200,16 +200,12 @@
                         "value": "#form.compagnes.id#"
                     },
                     {
-                        "name": "motCles",
-                        "value": "#form.compagnes.motCles#"
+                        "name": "keyword",
+                        "value": "#form.compagnes.keyword#"
                     },
                     {
-                        "name": "pays",
-                        "value": "#form.compagnes.pays#"
-                    },
-                    {
-                        "name": "region",
-                        "value": "#form.compagnes.region#"
+                        "name": "pays_region",
+                        "value": "#form.compagnes.pays_region#"
                     },
                     {
                         "name": "nom",
