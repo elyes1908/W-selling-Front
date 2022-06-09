@@ -49,7 +49,7 @@
                         "id": "A3024F5AFF7F498DAA8A53B2A7A9DF26",
                         "keyName": "",
                         "label": "Toutes les compagnes",
-                        "rowCount": "",
+                        "rowCount": "true",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
@@ -70,7 +70,7 @@
                         "id": "BF6C9A131D0D4A80B63D02ECF3E207AE",
                         "keyName": "",
                         "label": "Compagnes Actives",
-                        "rowCount": "",
+                        "rowCount": "true",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
@@ -91,7 +91,7 @@
                         "id": "59AA0C1D798C4025847A7809813E4E6C",
                         "keyName": "",
                         "label": "Compagnes Cloturées",
-                        "rowCount": "",
+                        "rowCount": "true",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
@@ -121,7 +121,7 @@
                         "id": "BD5BCDC37BCF4979B7DF68385DE11CC4",
                         "keyName": "",
                         "label": "Compagnes Actives",
-                        "rowCount": "",
+                        "rowCount": "true",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
@@ -142,7 +142,7 @@
                         "id": "3780AD4B33F543189E551271BBAA20AA",
                         "keyName": "",
                         "label": "Compagne Cloturées",
-                        "rowCount": "",
+                        "rowCount": "true",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
