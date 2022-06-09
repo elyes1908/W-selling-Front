@@ -59,7 +59,11 @@
                         "id": "region",
                         "label": "Régions",
                         "multiple": "",
-                        "options": [],
+                        "options": [{
+                            "grouping": "Argentina",
+                            "label": "tunisie",
+                            "value": "tunisie"
+                        }],
                         "optionsBinder": {
                             "className": "org.joget.apps.form.lib.FormOptionsBinder",
                             "properties": {
