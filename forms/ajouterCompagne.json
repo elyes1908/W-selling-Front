@@ -146,7 +146,7 @@
                         "enableSorting": "",
                         "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
                         "formDefId": "searchRepeater",
-                        "id": "field9",
+                        "id": "pays_region",
                         "label": "Pays et régions",
                         "loadBinder": {
                             "className": "",
