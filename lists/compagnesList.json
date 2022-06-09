@@ -201,7 +201,7 @@
             "name": "Form Row Delete Action",
             "properties": {
                 "abortRelatedRunningProcesses": "",
-                "confirmation": "Etes-vous sûr de vouloir #requestParam.id# supprimer définitivement cette campagne?",
+                "confirmation": "#datalist.html.ID#",
                 "datalist_type": "row_action",
                 "deleteFiles": "",
                 "deleteGridData": "true",
