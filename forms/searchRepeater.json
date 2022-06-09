@@ -12,18 +12,7 @@
                         "id": "pays",
                         "label": "Pays",
                         "multiple": "",
-                        "options": [
-                            {
-                                "grouping": "",
-                                "label": "France",
-                                "value": "france"
-                            },
-                            {
-                                "grouping": "",
-                                "label": "Italie",
-                                "value": "italie"
-                            }
-                        ],
+                        "options": [],
                         "optionsBinder": {
                             "className": "org.joget.apps.form.lib.FormOptionsBinder",
                             "properties": {
