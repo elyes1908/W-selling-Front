@@ -93,87 +93,6 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.Grid",
-                    "properties": {
-                        "errorMessage": "Invalid number of rows",
-                        "id": "motCles",
-                        "label": "Mot clé",
-                        "loadBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "options": [{
-                            "label": "Mot clé",
-                            "value": "motcle"
-                        }],
-                        "readonly": "",
-                        "storeBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "validateMaxRow": "",
-                        "validateMinRow": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        }
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.Grid",
-                    "properties": {
-                        "errorMessage": "Invalid number of rows",
-                        "id": "pays",
-                        "label": "Pays",
-                        "loadBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "options": [{
-                            "label": "Pays",
-                            "value": "pays"
-                        }],
-                        "readonly": "",
-                        "storeBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "validateMaxRow": "",
-                        "validateMinRow": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        }
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.Grid",
-                    "properties": {
-                        "errorMessage": "Invalid number of rows",
-                        "id": "region",
-                        "label": "Regions",
-                        "loadBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "options": [{
-                            "label": "Region",
-                            "value": "region"
-                        }],
-                        "readonly": "",
-                        "storeBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "validateMaxRow": "",
-                        "validateMinRow": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        }
-                    }
-                },
-                {
                     "className": "org.joget.apps.form.lib.HiddenField",
                     "properties": {
                         "id": "statut",
@@ -195,7 +114,7 @@
                         "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
                         "formDefId": "searchRepeater",
                         "id": "field9",
-                        "label": "Subform Repeater",
+                        "label": "Pays et régions",
                         "loadBinder": {
                             "className": "",
                             "properties": {}
