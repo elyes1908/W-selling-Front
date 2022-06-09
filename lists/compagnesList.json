@@ -201,7 +201,7 @@
             "name": "Form Row Delete Action",
             "properties": {
                 "abortRelatedRunningProcesses": "",
-                "confirmation": "#datalist.Compagnes.id#",
+                "confirmation": "#datalist.html.ID#",
                 "datalist_type": "row_action",
                 "deleteFiles": "",
                 "deleteGridData": "true",
