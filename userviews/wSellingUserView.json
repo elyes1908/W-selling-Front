@@ -162,7 +162,7 @@
                         "enableOffline": "",
                         "id": "F500F1D33DEC418C947227470012F07A",
                         "keyName": "",
-                        "label": "List",
+                        "label": "List <span hidden=\"true\">h<\/span>",
                         "rowCount": "true",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
