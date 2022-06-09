@@ -3,7 +3,7 @@
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "extraCondition": "",
+            "extraCondition": "e.customProperties.dateFin >= current_date",
             "formDefId": "resultCompagnes"
         }
     },
