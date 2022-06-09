@@ -151,7 +151,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.DataListMenu",
                     "properties": {
-                        "buttonPosition": "bottomLeft",
+                        "buttonPosition": "topRight",
                         "cacheAllLinks": "",
                         "cacheListAction": "",
                         "checkboxPosition": "left",
