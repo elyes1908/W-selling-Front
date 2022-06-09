@@ -210,6 +210,10 @@
                     {
                         "name": "nom",
                         "value": "#form.compagnes.nom#"
+                    },
+                    {
+                        "name": "dateFin",
+                        "value": "#form.compagnes.dateFin#"
                     }
                 ],
                 "jsonUrl": "http://127.0.0.1:9004//get-urls/",
