@@ -13,14 +13,6 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
-            "label": "ID",
-            "name": "id",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
             "id": "column_1",
             "label": "Nom de la compagne",
             "name": "nom",
@@ -40,30 +32,6 @@
             "id": "column_3",
             "label": "Date de fin prévue",
             "name": "dateFin",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_4",
-            "label": "motCles",
-            "name": "motCles",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_5",
-            "label": "pays",
-            "name": "pays",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_6",
-            "label": "region",
-            "name": "region",
             "sortable": "false"
         }
     ],
