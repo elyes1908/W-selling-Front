@@ -96,22 +96,6 @@
             "sortable": "false"
         },
         {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_2",
-            "label": "pays_region",
-            "name": "pays_region",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_3",
-            "label": "keyword",
-            "name": "keyword",
-            "sortable": "false"
-        },
-        {
             "action": {
                 "className": "",
                 "properties": {}
