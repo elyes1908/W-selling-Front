@@ -59,27 +59,16 @@
                         "id": "region",
                         "label": "Régions",
                         "multiple": "",
-                        "options": [
-                            {
-                                "grouping": "",
-                                "label": "Paris",
-                                "value": "paris"
-                            },
-                            {
-                                "grouping": "",
-                                "label": "Milan",
-                                "value": "milan"
-                            }
-                        ],
+                        "options": [],
                         "optionsBinder": {
                             "className": "org.joget.apps.form.lib.FormOptionsBinder",
                             "properties": {
                                 "addEmptyOption": "",
                                 "cacheInterval": "",
                                 "emptyLabel": "",
-                                "extraCondition": "",
+                                "extraCondition": "e.customProperties.country = #form.cities.country#",
                                 "formDefId": "cities",
-                                "groupingColumn": "country",
+                                "groupingColumn": "",
                                 "idColumn": "city",
                                 "labelColumn": "city"
                             }
