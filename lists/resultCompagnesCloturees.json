@@ -36,7 +36,18 @@
     "orderBy": "",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
-    "rowActions": [],
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "icon": "<i class=\"fas fa-link\"><\/i>",
+        "id": "rowAction_0",
+        "label": "Hyperlink",
+        "name": "Data List Hyperlink Action",
+        "properties": {
+            "label": "Hyperlink",
+            "target": "_self"
+        },
+        "type": "text"
+    }],
     "showPageSizeSelector": "true",
     "useSession": "false"
 }
