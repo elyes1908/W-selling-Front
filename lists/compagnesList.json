@@ -137,13 +137,13 @@
                             "emptyLabel": "",
                             "extraCondition": "",
                             "formDefId": "ajouterCompagne",
-                            "groupingColumn": "",
+                            "groupingColumn": "dateDebut",
                             "idColumn": "dateDebut",
                             "labelColumn": "dateDebut"
                         }
                     },
-                    "showCount": "",
-                    "showLabel": ""
+                    "showCount": "true",
+                    "showLabel": "true"
                 }
             }
         },
