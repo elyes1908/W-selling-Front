@@ -120,7 +120,16 @@
                 "properties": {
                     "defaultValue": "",
                     "displayFull": "true",
-                    "options": [],
+                    "options": [
+                        {
+                            "label": "amal",
+                            "value": "amal"
+                        },
+                        {
+                            "label": "elyes",
+                            "value": "elyes"
+                        }
+                    ],
                     "optionsBinder": {
                         "className": "org.joget.apps.form.lib.FormOptionsBinder",
                         "properties": {
