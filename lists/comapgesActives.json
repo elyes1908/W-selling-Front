@@ -45,48 +45,7 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [
-        {
-            "id": "filter_0",
-            "label": "keyword",
-            "name": "keyword",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-994838-fn_pays_region",
-            "hidden": "",
-            "id": "filter_1",
-            "label": "pays_region",
-            "name": "pays_region",
-            "type": {
-                "className": "org.joget.HyperlinkOptionsFilter",
-                "properties": {
-                    "defaultValue": "",
-                    "displayFull": "true",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "cities",
-                            "groupingColumn": "",
-                            "idColumn": "city",
-                            "labelColumn": "city"
-                        }
-                    },
-                    "showCount": "",
-                    "showLabel": ""
-                }
-            }
-        }
-    ],
+    "filters": [],
     "id": "comapgesActives",
     "name": "Comapges Actives",
     "order": "",
