@@ -7,12 +7,12 @@
         "name": "Form Row Delete Action",
         "properties": {
             "abortRelatedRunningProcesses": "",
-            "confirmation": "",
+            "confirmation": "Etes-vous sûr de vouloir tout supprimer définitivement ?",
             "datalist_type": "action",
             "deleteFiles": "",
             "deleteGridData": "true",
             "deleteSubformData": "",
-            "formDefId": "ajouterCompagne",
+            "formDefId": "resultCompagnes",
             "label": "Delete"
         },
         "type": "text"
