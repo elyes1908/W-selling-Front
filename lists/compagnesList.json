@@ -118,11 +118,11 @@
     "filters": [
         {
             "datalist_type": "filter",
-            "filterParamName": "d-6838311-fn_dateCreated",
+            "filterParamName": "d-6838311-fn_dateDebut",
             "hidden": "",
             "id": "filter_1",
-            "label": "Date Created",
-            "name": "dateCreated",
+            "label": "Date début",
+            "name": "dateDebut",
             "type": {
                 "className": "org.joget.HyperlinkOptionsFilter",
                 "properties": {
@@ -138,8 +138,8 @@
                             "extraCondition": "",
                             "formDefId": "ajouterCompagne",
                             "groupingColumn": "",
-                            "idColumn": "dateCreated",
-                            "labelColumn": "dateCreated"
+                            "idColumn": "dateFin",
+                            "labelColumn": "dateFin"
                         }
                     },
                     "showCount": "",
