@@ -168,32 +168,45 @@
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "buttonPosition": "topRight",
-                        "cacheAllLinks": "",
-                        "cacheListAction": "",
-                        "checkboxPosition": "left",
-                        "customFooter": "",
-                        "customHeader": "",
-                        "customId": "companiesList",
-                        "datalistId": "companiesList",
-                        "enableOffline": "",
-                        "id": "F500F1D33DEC418C947227470012F07A",
-                        "keyName": "",
-                        "label": "Entreprises",
-                        "rowCount": "true",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
                 }
             ],
             "properties": {
                 "id": "category-F43020981F834A1AB2EB033515788A74",
                 "label": "<i class=\"fa fa-chart-area\"><\/i> Résultat des compagnes"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.DataListMenu",
+                "properties": {
+                    "buttonPosition": "topRight",
+                    "cacheAllLinks": "",
+                    "cacheListAction": "",
+                    "checkboxPosition": "left",
+                    "customFooter": "",
+                    "customHeader": "",
+                    "customId": "companiesList",
+                    "datalistId": "companiesList",
+                    "enableOffline": "",
+                    "id": "F500F1D33DEC418C947227470012F07A",
+                    "keyName": "",
+                    "label": "Entreprises",
+                    "rowCount": "true",
+                    "selectionType": "multiple",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            }],
+            "properties": {
+                "comment": "",
+                "hide": "yes",
+                "id": "category-BFAC47FB0A454DEFBC61DEE20A61528A",
+                "label": "New Category",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                }
             }
         }
     ],
