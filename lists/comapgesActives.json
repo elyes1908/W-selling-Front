@@ -63,8 +63,27 @@
             "label": "pays_region",
             "name": "pays_region",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
+                "className": "org.joget.HyperlinkOptionsFilter",
+                "properties": {
+                    "defaultValue": "",
+                    "displayFull": "true",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "cities",
+                            "groupingColumn": "",
+                            "idColumn": "city",
+                            "labelColumn": "city"
+                        }
+                    },
+                    "showCount": "",
+                    "showLabel": ""
+                }
             }
         }
     ],
