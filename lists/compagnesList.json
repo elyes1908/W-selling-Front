@@ -138,8 +138,8 @@
                             "extraCondition": "",
                             "formDefId": "ajouterCompagne",
                             "groupingColumn": "",
-                            "idColumn": "dateFin",
-                            "labelColumn": "dateFin"
+                            "idColumn": "dateDebut",
+                            "labelColumn": "dateDebut"
                         }
                     },
                     "showCount": "",
