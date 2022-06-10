@@ -171,8 +171,14 @@
                 }
             ],
             "properties": {
+                "comment": "Heyy",
+                "hide": "",
                 "id": "category-F43020981F834A1AB2EB033515788A74",
-                "label": "<i class=\"fa fa-chart-area\"><\/i> Résultat des compagnes"
+                "label": "<i class=\"fa fa-chart-area\"><\/i> Résultat des compagnes",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                }
             }
         },
         {
