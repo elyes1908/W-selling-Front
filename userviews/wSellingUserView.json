@@ -168,27 +168,6 @@
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "buttonPosition": "topRight",
-                        "cacheAllLinks": "",
-                        "cacheListAction": "",
-                        "checkboxPosition": "left",
-                        "customFooter": "",
-                        "customHeader": "",
-                        "customId": "companiesList",
-                        "datalistId": "companiesList",
-                        "enableOffline": "",
-                        "id": "F500F1D33DEC418C947227470012F07A",
-                        "keyName": "",
-                        "label": "Entreprises",
-                        "rowCount": "true",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
                 }
             ],
             "properties": {
