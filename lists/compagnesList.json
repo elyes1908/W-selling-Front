@@ -30,6 +30,14 @@
         {
             "filterable": true,
             "hidden": "false",
+            "id": "column_2",
+            "label": "Date début",
+            "name": "dateDebut",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_0",
             "label": "ID",
             "name": "id",
@@ -107,37 +115,70 @@
     "considerFilterWhenGetTotal": "",
     "description": "",
     "disableResponsive": "",
-    "filters": [{
-        "datalist_type": "filter",
-        "filterParamName": "d-6838311-fn_createdBy",
-        "hidden": "",
-        "id": "filter_0",
-        "label": "Created By",
-        "name": "createdBy",
-        "type": {
-            "className": "org.joget.HyperlinkOptionsFilter",
-            "properties": {
-                "defaultValue": "",
-                "displayFull": "true",
-                "options": [],
-                "optionsBinder": {
-                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                    "properties": {
-                        "addEmptyOption": "",
-                        "cacheInterval": "",
-                        "emptyLabel": "",
-                        "extraCondition": "",
-                        "formDefId": "ajouterCompagne",
-                        "groupingColumn": "",
-                        "idColumn": "createdBy",
-                        "labelColumn": "createdBy"
-                    }
-                },
-                "showCount": "",
-                "showLabel": ""
+    "filters": [
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-6838311-fn_dateCreated",
+            "hidden": "",
+            "id": "filter_1",
+            "label": "Date Created",
+            "name": "dateCreated",
+            "type": {
+                "className": "org.joget.HyperlinkOptionsFilter",
+                "properties": {
+                    "defaultValue": "",
+                    "displayFull": "true",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "ajouterCompagne",
+                            "groupingColumn": "",
+                            "idColumn": "dateCreated",
+                            "labelColumn": "dateCreated"
+                        }
+                    },
+                    "showCount": "",
+                    "showLabel": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-6838311-fn_createdBy",
+            "hidden": "",
+            "id": "filter_0",
+            "label": "Created By",
+            "name": "createdBy",
+            "type": {
+                "className": "org.joget.HyperlinkOptionsFilter",
+                "properties": {
+                    "defaultValue": "",
+                    "displayFull": "true",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "ajouterCompagne",
+                            "groupingColumn": "",
+                            "idColumn": "createdBy",
+                            "labelColumn": "createdBy"
+                        }
+                    },
+                    "showCount": "",
+                    "showLabel": ""
+                }
             }
         }
-    }],
+    ],
     "hidePageSize": "",
     "id": "compagnesList",
     "name": "Compagnes",
