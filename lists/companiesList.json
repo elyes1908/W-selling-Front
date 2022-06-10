@@ -34,7 +34,7 @@
                     "href": "#requestParam.url#",
                     "hrefColumn": "link",
                     "hrefParam": "url",
-                    "label": "Go to link",
+                    "label": "Hyperlink",
                     "target": "_blank",
                     "visible": ""
                 }
