@@ -107,71 +107,37 @@
     "considerFilterWhenGetTotal": "",
     "description": "",
     "disableResponsive": "",
-    "filters": [
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-6838311-fn_createdByName",
-            "hidden": "",
-            "id": "filter_3",
-            "label": "Created By Name",
-            "name": "createdByName",
-            "type": {
-                "className": "org.joget.HyperlinkOptionsFilter",
-                "properties": {
-                    "defaultValue": "",
-                    "displayFull": "true",
-                    "options": [
-                        {
-                            "label": "amal",
-                            "value": "amal"
-                        },
-                        {
-                            "label": "elyes",
-                            "value": "elyes"
-                        }
-                    ],
-                    "optionsBinder": {
-                        "className": "",
-                        "properties": {}
-                    },
-                    "showCount": "",
-                    "showLabel": ""
-                }
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-6838311-fn_nom",
-            "id": "filter_1",
-            "label": "Nom de la compagne",
-            "name": "nom",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-6838311-fn_dateDebut",
-            "hidden": "",
-            "id": "filter_2",
-            "label": "Date début",
-            "name": "dateDebut",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
-            }
-        },
-        {
-            "id": "filter_0",
-            "label": "Date de fin prévue",
-            "name": "dateFin",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+    "filters": [{
+        "datalist_type": "filter",
+        "filterParamName": "d-6838311-fn_createdBy",
+        "hidden": "",
+        "id": "filter_0",
+        "label": "Created By",
+        "name": "createdBy",
+        "type": {
+            "className": "org.joget.HyperlinkOptionsFilter",
+            "properties": {
+                "defaultValue": "",
+                "displayFull": "true",
+                "options": [],
+                "optionsBinder": {
+                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                    "properties": {
+                        "addEmptyOption": "",
+                        "cacheInterval": "",
+                        "emptyLabel": "",
+                        "extraCondition": "",
+                        "formDefId": "ajouterCompagne",
+                        "groupingColumn": "",
+                        "idColumn": "createdBy",
+                        "labelColumn": "createdBy"
+                    }
+                },
+                "showCount": "",
+                "showLabel": ""
             }
         }
-    ],
+    }],
     "hidePageSize": "",
     "id": "compagnesList",
     "name": "Compagnes",
