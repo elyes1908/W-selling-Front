@@ -45,15 +45,29 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [{
-        "id": "filter_0",
-        "label": "keyword",
-        "name": "keyword",
-        "type": {
-            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {}
+    "filters": [
+        {
+            "id": "filter_0",
+            "label": "keyword",
+            "name": "keyword",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-994838-fn_pays_region",
+            "hidden": "",
+            "id": "filter_1",
+            "label": "pays_region",
+            "name": "pays_region",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
         }
-    }],
+    ],
     "id": "comapgesActives",
     "name": "Comapges Actives",
     "order": "",
