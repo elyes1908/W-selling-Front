@@ -25,14 +25,6 @@
             "label": "Total Companies",
             "name": "totalCompanies",
             "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_0",
-            "label": "Text Field",
-            "name": "dateFin",
-            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
