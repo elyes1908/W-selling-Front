@@ -119,7 +119,7 @@
         {
             "datalist_type": "filter",
             "filterParamName": "d-6838311-fn_dateDebut",
-            "hidden": "",
+            "hidden": "true",
             "id": "filter_1",
             "label": "Date début",
             "name": "dateDebut",
