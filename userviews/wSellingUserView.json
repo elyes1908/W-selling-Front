@@ -236,7 +236,7 @@
             "className": "org.joget.plugin.enterprise.UniversalTheme",
             "properties": {
                 "accentColor": "BLUE",
-                "buttonColor": "YELLOW",
+                "buttonColor": "AMBER",
                 "buttonTextColor": "WHITE",
                 "css": "",
                 "disableHelpGuide": "",
