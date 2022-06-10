@@ -43,7 +43,13 @@
         "label": "Hyperlink",
         "name": "Data List Hyperlink Action",
         "properties": {
-            "label": "Hyperlink",
+            "confirmation": "",
+            "datalist_type": "row_action",
+            "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/companiesList",
+            "hrefColumn": "firm",
+            "hrefParam": "id_firm",
+            "label": "<i class=\"fas fa-briefcase\"><\/i>",
+            "rules": [],
             "target": "_self"
         },
         "type": "text"
