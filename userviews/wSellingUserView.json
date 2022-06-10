@@ -228,7 +228,7 @@
     "setting": {"properties": {
         "hideThisUserviewInAppCenter": "",
         "permission": {
-            "className": "",
+            "className": "org.joget.apps.userview.lib.LoggedInUserPermission",
             "properties": {}
         },
         "tempDisablePermissionChecking": "",
@@ -243,10 +243,10 @@
                 "disablePush": "",
                 "disablePwa": "",
                 "displayCategoryLabel": "",
-                "enableResponsiveSwitch": "",
+                "enableResponsiveSwitch": "true",
                 "fav_icon": "",
                 "fontColor": "WHITE",
-                "fontControl": "",
+                "fontControl": "true",
                 "homeAttractBanner": "",
                 "homeUrl": "",
                 "horizontal_menu": "",
