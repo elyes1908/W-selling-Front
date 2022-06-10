@@ -255,7 +255,6 @@
                 "loginPageBottom": "",
                 "loginPageTop": "",
                 "logo": "",
-                "menuFontColor": "BLACK",
                 "primaryColor": "DARKROYALBLUE",
                 "profile": "",
                 "removeAssignmentTitle": "",
@@ -263,7 +262,7 @@
                 "shortcutLinkLabel": "Shortcut",
                 "subfooter": "",
                 "subheader": "",
-                "themeScheme": "light",
+                "themeScheme": "dark",
                 "urlsToCache": "",
                 "userImage": "",
                 "userMenu": []
