@@ -131,17 +131,8 @@
                         }
                     ],
                     "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "ajouterCompagne",
-                            "groupingColumn": "",
-                            "idColumn": "createdByName",
-                            "labelColumn": "createdByName"
-                        }
+                        "className": "",
+                        "properties": {}
                     },
                     "showCount": "",
                     "showLabel": ""
