@@ -246,7 +246,7 @@
                 "enableResponsiveSwitch": "true",
                 "fav_icon": "",
                 "fontColor": "WHITE",
-                "fontControl": "",
+                "fontControl": "true",
                 "homeAttractBanner": "",
                 "homeUrl": "",
                 "horizontal_menu": "",
