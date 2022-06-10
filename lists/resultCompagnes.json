@@ -6,10 +6,13 @@
         "label": "Delete",
         "name": "Form Row Delete Action",
         "properties": {
-            "abortRelatedRunningProcesses": "false",
-            "deleteFiles": "false",
-            "deleteGridData": "false",
-            "deleteSubformData": "false",
+            "abortRelatedRunningProcesses": "",
+            "confirmation": "Etes-vous sûr de vouloir tout supprimer définitivement ?",
+            "datalist_type": "action",
+            "deleteFiles": "",
+            "deleteGridData": "true",
+            "deleteSubformData": "",
+            "formDefId": "resultCompagnes",
             "label": "Delete"
         },
         "type": "text"
@@ -80,7 +83,7 @@
                 "confirmation": "Etes-vous sûr de vouloir supprimer définitivement ce resultat?",
                 "datalist_type": "row_action",
                 "deleteFiles": "",
-                "deleteGridData": "",
+                "deleteGridData": "true",
                 "deleteSubformData": "",
                 "formDefId": "resultCompagnes",
                 "label": "<i class=\"fa fa-trash\"><\/i>",
