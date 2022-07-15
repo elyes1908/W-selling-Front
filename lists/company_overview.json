@@ -183,9 +183,9 @@
                 "href": "#requestParam.url#",
                 "hrefColumn": "url",
                 "hrefParam": "url",
-                "label": "<i class=\"fa-brand fa-linkedin\"><\/i>",
+                "label": "<i class=\"fa-brands fa-linkedin-in\"><\/i>",
                 "rules": [],
-                "target": "_self"
+                "target": "_blank"
             },
             "type": "text"
         }
