@@ -64,12 +64,20 @@
             },
             "headerAlignment": "",
             "hidden": "false",
-            "id": "column_2",
-            "label": "Jobs",
-            "name": "jobs",
+            "id": "column_1",
+            "label": "Industry",
+            "name": "industry",
             "sortable": "true",
             "style": "",
             "width": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "Website",
+            "name": "website",
+            "sortable": "false"
         },
         {
             "action": {
@@ -86,9 +94,9 @@
             },
             "headerAlignment": "",
             "hidden": "false",
-            "id": "column_1",
-            "label": "Industry",
-            "name": "industry",
+            "id": "column_2",
+            "label": "Jobs",
+            "name": "jobs",
             "sortable": "true",
             "style": "",
             "width": ""
