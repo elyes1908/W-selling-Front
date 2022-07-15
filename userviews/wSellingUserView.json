@@ -22,7 +22,7 @@
                         "loadDataWithKey": "",
                         "messageShowAfterComplete": "",
                         "paramName": "",
-                        "readonly": "",
+                        "readonly": "Yes",
                         "readonlyLabel": "",
                         "redirectTargetOnCancel": "top",
                         "redirectTargetOnComplete": "",
