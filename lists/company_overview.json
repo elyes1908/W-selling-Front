@@ -34,28 +34,6 @@
             },
             "alignment": "",
             "datalist_type": "column",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "true",
-            "id": "column_5",
-            "include_export": "",
-            "label": "ID",
-            "name": "id",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
             "exclude_export": "",
             "filterable": true,
             "format": {
@@ -165,7 +143,7 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/entreprises_form",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/details_entreprise",
                 "hrefColumn": "id",
                 "hrefParam": "id",
                 "label": "<i class=\"fas fa-angle-double-right\"><\/i>",
