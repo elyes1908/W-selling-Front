@@ -28,14 +28,6 @@
     "checkboxPosition": "left",
     "columns": [
         {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_5",
-            "label": "ID",
-            "name": "id",
-            "sortable": "false"
-        },
-        {
             "action": {
                 "className": "",
                 "properties": {}
