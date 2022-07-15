@@ -45,9 +45,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_5",
-            "label": "Specialities",
-            "name": "specialities",
+            "id": "column_4",
+            "label": "Specialties",
+            "name": "specialties",
             "sortable": "false"
         }
     ],
