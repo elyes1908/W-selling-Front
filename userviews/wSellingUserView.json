@@ -313,7 +313,7 @@
                 "enableResponsiveSwitch": "true",
                 "fav_icon": "",
                 "fontColor": "WHITE",
-                "fontControl": "true",
+                "fontControl": "",
                 "homeAttractBanner": "",
                 "homeUrl": "",
                 "horizontal_menu": "",
