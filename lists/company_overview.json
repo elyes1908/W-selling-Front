@@ -11,92 +11,36 @@
     "checkboxPosition": "left",
     "columns": [
         {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
             "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
             "hidden": "false",
             "id": "column_0",
             "label": "Name",
             "name": "name",
-            "sortable": "true",
-            "style": "",
-            "width": ""
+            "sortable": "false"
         },
         {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
             "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_2",
-            "label": "Jobs",
-            "name": "jobs",
-            "sortable": "true",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
             "hidden": "false",
             "id": "column_1",
             "label": "Industry",
             "name": "industry",
-            "sortable": "true",
-            "style": "",
-            "width": ""
+            "sortable": "false"
         },
         {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
             "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Jobs",
+            "name": "jobs",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
             "hidden": "false",
             "id": "column_3",
             "label": "Posts",
             "name": "posts",
-            "sortable": "true",
-            "style": "",
-            "width": ""
+            "sortable": "false"
         },
         {
             "filterable": true,
