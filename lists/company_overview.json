@@ -41,6 +41,22 @@
             "label": "Posts",
             "name": "posts",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "Description",
+            "name": "description",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "Specialities",
+            "name": "specialities",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
