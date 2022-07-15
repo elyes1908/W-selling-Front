@@ -88,8 +88,8 @@
                 {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
-                        "id": "specialities",
-                        "label": "Specialities",
+                        "id": "specialties",
+                        "label": "Specialties",
                         "maxlength": "",
                         "placeholder": "",
                         "readonly": "",
@@ -170,6 +170,26 @@
                     "properties": {
                         "id": "posts",
                         "label": "Posts",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "founded",
+                        "label": "Founded",
                         "maxlength": "",
                         "placeholder": "",
                         "readonly": "",
