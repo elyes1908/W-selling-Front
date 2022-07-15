@@ -180,7 +180,7 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "",
+                "href": "#requestParam.url#",
                 "hrefColumn": "url",
                 "hrefParam": "url",
                 "label": "<i class=\"fa-brand fa-linkedin\"><\/i>",
