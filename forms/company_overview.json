@@ -209,8 +209,30 @@
             "properties": {"width": "100%"}
         }],
         "properties": {
+            "comment": "",
             "id": "section1",
-            "label": "Section"
+            "join": "",
+            "label": "Section",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "permissionHidden": "",
+            "permissionReadonly": "",
+            "readonly": "true",
+            "readonlyLabel": "",
+            "regex": "",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityControl": "",
+            "visibilityValue": ""
         }
     }],
     "properties": {
