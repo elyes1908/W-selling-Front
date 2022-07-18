@@ -60,7 +60,7 @@
                 "comment": "",
                 "hide": "",
                 "id": "category-41031A22E27B42C2BBB21F90AFD38902",
-                "label": "Entreprises",
+                "label": "<i class=\"fa fa-briefcase\" aria-hidden=\"true\"><\/i> Entreprises",
                 "permission": {
                     "className": "",
                     "properties": {}
