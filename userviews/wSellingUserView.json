@@ -2,60 +2,27 @@
     "categories": [
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
-                {
-                    "className": "org.joget.apps.userview.lib.FormMenu",
-                    "properties": {
-                        "actionAfterSaved": "",
-                        "actionOnCancel": "",
-                        "cancelButtonLabel": "",
-                        "customFooter": "",
-                        "customHeader": "",
-                        "customId": "details_entreprise",
-                        "enableOffline": "",
-                        "fieldPassover": "",
-                        "fieldPassoverMethod": "append",
-                        "formId": "company_overview",
-                        "id": "43AE1546BC38499986C158D2471EA461",
-                        "keyName": "",
-                        "label": "Details Entreprise",
-                        "loadDataWithKey": "",
-                        "messageShowAfterComplete": "",
-                        "paramName": "",
-                        "readonly": "Yes",
-                        "readonlyLabel": "",
-                        "redirectTargetOnCancel": "top",
-                        "redirectTargetOnComplete": "",
-                        "redirectUrlAfterComplete": "",
-                        "redirectUrlOnCancel": "",
-                        "showInPopupDialog": "",
-                        "submitButtonLabel": "",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "buttonPosition": "bottomLeft",
-                        "cacheAllLinks": "",
-                        "cacheListAction": "",
-                        "checkboxPosition": "left",
-                        "customFooter": "",
-                        "customHeader": "\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/fonts/fontawesome-webfont.woff2?v=4.6.1\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-brands-400.woff2\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-solid-900.woff2\" as=\"font\" crossorigin />",
-                        "customId": "entreprises",
-                        "datalistId": "company_overview",
-                        "enableOffline": "",
-                        "id": "24F7990D2AD84899B0F89F7AC3E186CB",
-                        "keyName": "",
-                        "label": "Entreprises",
-                        "rowCount": "",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.DataListMenu",
+                "properties": {
+                    "buttonPosition": "bottomLeft",
+                    "cacheAllLinks": "",
+                    "cacheListAction": "",
+                    "checkboxPosition": "left",
+                    "customFooter": "",
+                    "customHeader": "\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/fonts/fontawesome-webfont.woff2?v=4.6.1\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-brands-400.woff2\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-solid-900.woff2\" as=\"font\" crossorigin />",
+                    "customId": "entreprises",
+                    "datalistId": "company_overview",
+                    "enableOffline": "",
+                    "id": "24F7990D2AD84899B0F89F7AC3E186CB",
+                    "keyName": "",
+                    "label": "Entreprises",
+                    "rowCount": "",
+                    "selectionType": "multiple",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
                 }
-            ],
+            }],
             "properties": {
                 "comment": "",
                 "hide": "",
@@ -250,27 +217,60 @@
         },
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [{
-                "className": "org.joget.apps.userview.lib.DataListMenu",
-                "properties": {
-                    "buttonPosition": "topRight",
-                    "cacheAllLinks": "",
-                    "cacheListAction": "",
-                    "checkboxPosition": "left",
-                    "customFooter": "",
-                    "customHeader": "",
-                    "customId": "companiesList",
-                    "datalistId": "companiesList",
-                    "enableOffline": "",
-                    "id": "F500F1D33DEC418C947227470012F07A",
-                    "keyName": "",
-                    "label": "Entreprises",
-                    "rowCount": "true",
-                    "selectionType": "multiple",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": ""
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "topRight",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "companiesList",
+                        "datalistId": "companiesList",
+                        "enableOffline": "",
+                        "id": "F500F1D33DEC418C947227470012F07A",
+                        "keyName": "",
+                        "label": "Entreprises",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "actionAfterSaved": "",
+                        "actionOnCancel": "",
+                        "cancelButtonLabel": "",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "details_entreprise",
+                        "enableOffline": "",
+                        "fieldPassover": "",
+                        "fieldPassoverMethod": "append",
+                        "formId": "company_overview",
+                        "id": "43AE1546BC38499986C158D2471EA461",
+                        "keyName": "",
+                        "label": "Details Entreprise",
+                        "loadDataWithKey": "",
+                        "messageShowAfterComplete": "",
+                        "paramName": "",
+                        "readonly": "Yes",
+                        "readonlyLabel": "",
+                        "redirectTargetOnCancel": "top",
+                        "redirectTargetOnComplete": "",
+                        "redirectUrlAfterComplete": "",
+                        "redirectUrlOnCancel": "",
+                        "showInPopupDialog": "",
+                        "submitButtonLabel": "",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
                 }
-            }],
+            ],
             "properties": {
                 "comment": "",
                 "hide": "yes",
