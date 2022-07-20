@@ -4,44 +4,6 @@
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
                 {
-                    "className": "org.joget.marketplace.EChartMenu",
-                    "properties": {
-                        "categoryAxisLabel": "aa",
-                        "chartHeight": "600px",
-                        "chartType": "bar",
-                        "chartUseAllDataRows": "true",
-                        "chartWidth": "90%",
-                        "customChartFooter": "",
-                        "customHeader": "",
-                        "customId": "dash",
-                        "datalistId": "company_overview",
-                        "enableOffline": "",
-                        "horizontal": "",
-                        "id": "CE3F0D3A49B1448581FEBDCFF5EB9ECF",
-                        "keyName": "",
-                        "label": "<i class=\"fa fa-home\" aria-hidden=\"true\"><\/i> Dashboard",
-                        "libraryVersion": "5.1.2",
-                        "mapping_values": [{
-                            "customization": "",
-                            "showValueLabel": "true",
-                            "value": "name"
-                        }],
-                        "mapping_x": "name",
-                        "optionCustomization": "",
-                        "showFilter": "",
-                        "showLegend": "true",
-                        "showTable": "",
-                        "showToolTip": "",
-                        "theme": "",
-                        "title": "Hi",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": "",
-                        "valueAxisLabel": "aa",
-                        "xAxisBoundaryGap": "",
-                        "xAxisDisplayAS": "category"
-                    }
-                },
-                {
                     "className": "org.joget.apps.userview.lib.InboxMenu",
                     "properties": {
                         "appFilter": "all",
@@ -59,6 +21,28 @@
                         "showPopup": "",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.marketplace.EChartMenu",
+                    "properties": {
+                        "categoryAxisLabel": "@@userview.sqlchartmenu.category@@",
+                        "chartHeight": "600px",
+                        "chartType": "area",
+                        "chartUseAllDataRows": "",
+                        "chartWidth": "90%",
+                        "id": "4438DBC7360C40C4823F9D0C48977711",
+                        "label": "EChart Menu",
+                        "libraryVersion": "5.1.2",
+                        "showFilter": "",
+                        "showLegend": "true",
+                        "showTable": "",
+                        "smoothLine": "true",
+                        "theme": "",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": "",
+                        "valueAxisLabel": "@@userview.sqlchartmenu.value@@",
+                        "xAxisDisplayAS": ""
                     }
                 }
             ],
