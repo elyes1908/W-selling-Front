@@ -2,18 +2,40 @@
     "categories": [
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [{
-                "className": "org.joget.apps.userview.lib.HtmlPage",
-                "properties": {
-                    "content": "<p><img src=\"#appResource.dash.jpg#\" alt=\"\" /><\/p>",
-                    "customId": "",
-                    "enableOffline": "",
-                    "id": "A995B1AF3D534094A89BB066988E1FC2",
-                    "label": "<i class=\"fa fa-home\" aria-hidden=\"true\"><\/i> Dashboard",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": ""
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.HtmlPage",
+                    "properties": {
+                        "content": "<p><img src=\"#appResource.dash.jpg#\" alt=\"\" /><\/p>",
+                        "customId": "",
+                        "enableOffline": "",
+                        "id": "A995B1AF3D534094A89BB066988E1FC2",
+                        "label": "<i class=\"fa fa-home\" aria-hidden=\"true\"><\/i> Dashboard",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.InboxMenu",
+                    "properties": {
+                        "appFilter": "all",
+                        "assignment-customFooter": "",
+                        "assignment-customHeader": "",
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "customId": "",
+                        "enableOffline": "",
+                        "id": "374D39689DCA48C9BFCE63D4C0778FBA",
+                        "label": "Inbox",
+                        "list-customFooter": "",
+                        "list-customHeader": "",
+                        "rowCount": "",
+                        "showPopup": "",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
                 }
-            }],
+            ],
             "properties": {
                 "id": "category-CA2095E8501148FFB9B9376B91EDF9FB",
                 "label": "<i class=\"fa fa-home\" aria-hidden=\"true\"><\/i> Accueil"
