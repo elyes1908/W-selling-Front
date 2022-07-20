@@ -6,8 +6,9 @@
                 {
                     "className": "org.joget.marketplace.EChartMenu",
                     "properties": {
+                        "categoryAxisLabel": "aa",
                         "chartHeight": "600px",
-                        "chartType": "pie",
+                        "chartType": "area",
                         "chartUseAllDataRows": "",
                         "chartWidth": "90%",
                         "customChartFooter": "",
@@ -19,20 +20,26 @@
                         "keyName": "",
                         "label": "<i class=\"fa fa-home\" aria-hidden=\"true\"><\/i> Dashboard",
                         "libraryVersion": "5.1.2",
-                        "mapping_value": "name",
+                        "mapping_values": [{
+                            "customization": "",
+                            "showValueLabel": "true",
+                            "value": "name"
+                        }],
                         "mapping_x": "name",
                         "optionCustomization": "",
-                        "seriesCustomization": "",
                         "showExportLinks": "true",
                         "showFilter": "true",
                         "showLegend": "true",
                         "showTable": "top",
                         "showToolTip": "",
-                        "showValueLabel": "",
+                        "smoothLine": "",
                         "theme": "",
                         "title": "Hi",
                         "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
+                        "userviewCacheScope": "",
+                        "valueAxisLabel": "aa",
+                        "xAxisBoundaryGap": "",
+                        "xAxisDisplayAS": "category"
                     }
                 },
                 {
