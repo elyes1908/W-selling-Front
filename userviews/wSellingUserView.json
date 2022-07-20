@@ -8,7 +8,7 @@
                     "properties": {
                         "categoryAxisLabel": "@@userview.sqlchartmenu.category@@",
                         "chartHeight": "600px",
-                        "chartType": "area",
+                        "chartType": "line",
                         "chartUseAllDataRows": "",
                         "chartWidth": "90%",
                         "customChartFooter": "",
@@ -22,7 +22,7 @@
                         "libraryVersion": "5.1.2",
                         "mapping_values": [{
                             "customization": "",
-                            "showValueLabel": "",
+                            "showValueLabel": "true",
                             "value": "nom"
                         }],
                         "mapping_x": "statut",
