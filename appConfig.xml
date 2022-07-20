@@ -13,7 +13,7 @@
          <id>counter</id>
          <appId>wSelling</appId>
          <appVersion>1</appVersion>
-         <value>33</value>
+         <value>43</value>
          <remarks>Used for plugin: Id Generator Field</remarks>
       </environmentVariable>
    </environmentVariableList>
