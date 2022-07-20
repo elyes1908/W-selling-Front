@@ -29,20 +29,36 @@
                         "categoryAxisLabel": "@@userview.sqlchartmenu.category@@",
                         "chartHeight": "600px",
                         "chartType": "area",
-                        "chartUseAllDataRows": "",
+                        "chartUseAllDataRows": "true",
                         "chartWidth": "90%",
+                        "customChartFooter": "",
+                        "customHeader": "",
+                        "customId": "",
+                        "datalistId": "company_overview",
+                        "enableOffline": "",
                         "id": "4438DBC7360C40C4823F9D0C48977711",
+                        "keyName": "",
                         "label": "EChart Menu",
                         "libraryVersion": "5.1.2",
+                        "mapping_values": [{
+                            "customization": "",
+                            "showValueLabel": "true",
+                            "value": "jobs"
+                        }],
+                        "mapping_x": "name",
+                        "optionCustomization": "",
                         "showFilter": "",
                         "showLegend": "true",
                         "showTable": "",
+                        "showToolTip": "",
                         "smoothLine": "true",
                         "theme": "",
+                        "title": "",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": "",
                         "valueAxisLabel": "@@userview.sqlchartmenu.value@@",
-                        "xAxisDisplayAS": ""
+                        "xAxisBoundaryGap": "",
+                        "xAxisDisplayAS": "category"
                     }
                 }
             ],
