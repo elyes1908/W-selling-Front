@@ -6,10 +6,9 @@
                 {
                     "className": "org.joget.marketplace.EChartMenu",
                     "properties": {
-                        "categoryAxisLabel": "@@userview.sqlchartmenu.category@@",
                         "chartHeight": "600px",
-                        "chartType": "line",
-                        "chartUseAllDataRows": "",
+                        "chartType": "pie",
+                        "chartUseAllDataRows": "true",
                         "chartWidth": "90%",
                         "customChartFooter": "",
                         "customHeader": "",
@@ -20,25 +19,20 @@
                         "keyName": "",
                         "label": "<i class=\"fa fa-home\" aria-hidden=\"true\"><\/i> Dashboard",
                         "libraryVersion": "5.1.2",
-                        "mapping_values": [{
-                            "customization": "",
-                            "showValueLabel": "true",
-                            "value": "nom"
-                        }],
-                        "mapping_x": "statut",
+                        "mapping_value": "nom",
+                        "mapping_x": "createdBy",
                         "optionCustomization": "",
-                        "showFilter": "",
+                        "seriesCustomization": "",
+                        "showExportLinks": "true",
+                        "showFilter": "true",
                         "showLegend": "true",
-                        "showTable": "",
+                        "showTable": "top",
                         "showToolTip": "",
-                        "smoothLine": "true",
+                        "showValueLabel": "",
                         "theme": "",
-                        "title": "",
+                        "title": "Hi",
                         "userviewCacheDuration": "20",
-                        "userviewCacheScope": "",
-                        "valueAxisLabel": "@@userview.sqlchartmenu.value@@",
-                        "xAxisBoundaryGap": "",
-                        "xAxisDisplayAS": "category"
+                        "userviewCacheScope": ""
                     }
                 },
                 {
