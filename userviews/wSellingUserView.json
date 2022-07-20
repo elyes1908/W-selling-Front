@@ -2,41 +2,46 @@
     "categories": [
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
-                {
-                    "className": "org.joget.apps.userview.lib.HtmlPage",
-                    "properties": {
-                        "content": "<p><img src=\"#appResource.dash.jpg#\" alt=\"\" /><\/p>",
-                        "customId": "",
-                        "enableOffline": "",
-                        "id": "A995B1AF3D534094A89BB066988E1FC2",
-                        "label": "HTML Page",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "buttonPosition": "bottomLeft",
-                        "cacheAllLinks": "",
-                        "cacheListAction": "",
-                        "checkboxPosition": "left",
-                        "customFooter": "",
-                        "customHeader": "\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/fonts/fontawesome-webfont.woff2?v=4.6.1\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-brands-400.woff2\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-solid-900.woff2\" as=\"font\" crossorigin />",
-                        "customId": "entreprises",
-                        "datalistId": "company_overview",
-                        "enableOffline": "",
-                        "id": "24F7990D2AD84899B0F89F7AC3E186CB",
-                        "keyName": "",
-                        "label": "Entreprises",
-                        "rowCount": "",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.HtmlPage",
+                "properties": {
+                    "content": "<p><img src=\"#appResource.dash.jpg#\" alt=\"\" /><\/p>",
+                    "customId": "",
+                    "enableOffline": "",
+                    "id": "A995B1AF3D534094A89BB066988E1FC2",
+                    "label": "Dashboard",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
                 }
-            ],
+            }],
+            "properties": {
+                "id": "category-CA2095E8501148FFB9B9376B91EDF9FB",
+                "label": "<i class=\"fa fa-home\" aria-hidden=\"true\"><\/i> Accueil"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.DataListMenu",
+                "properties": {
+                    "buttonPosition": "bottomLeft",
+                    "cacheAllLinks": "",
+                    "cacheListAction": "",
+                    "checkboxPosition": "left",
+                    "customFooter": "",
+                    "customHeader": "\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/fonts/fontawesome-webfont.woff2?v=4.6.1\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-brands-400.woff2\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-solid-900.woff2\" as=\"font\" crossorigin />",
+                    "customId": "entreprises",
+                    "datalistId": "company_overview",
+                    "enableOffline": "",
+                    "id": "24F7990D2AD84899B0F89F7AC3E186CB",
+                    "keyName": "",
+                    "label": "Entreprises",
+                    "rowCount": "",
+                    "selectionType": "multiple",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            }],
             "properties": {
                 "comment": "",
                 "hide": "",
