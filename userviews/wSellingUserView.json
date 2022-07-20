@@ -351,7 +351,8 @@
                 "subfooter": "",
                 "subheader": "",
                 "urlsToCache": "",
-                "userImage": "",
+                "userImage": "hashVariable",
+                "userImageUrlHash": "#appResource.1643757027229.jfif#",
                 "userMenu": [],
                 "usermenu-style-background-image": ""
             }
