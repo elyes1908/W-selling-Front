@@ -6,9 +6,10 @@
                 {
                     "className": "org.joget.marketplace.EChartMenu",
                     "properties": {
+                        "categoryAxisLabel": "@@userview.sqlchartmenu.category@@",
                         "chartHeight": "600px",
-                        "chartType": "pie",
-                        "chartUseAllDataRows": "true",
+                        "chartType": "line",
+                        "chartUseAllDataRows": "",
                         "chartWidth": "90%",
                         "customChartFooter": "",
                         "customHeader": "",
@@ -19,20 +20,25 @@
                         "keyName": "",
                         "label": "<i class=\"fa fa-home\" aria-hidden=\"true\"><\/i> Dashboard",
                         "libraryVersion": "5.1.2",
-                        "mapping_value": "nom",
-                        "mapping_x": "createdBy",
+                        "mapping_values": [{
+                            "customization": "",
+                            "showValueLabel": "true",
+                            "value": "nom"
+                        }],
+                        "mapping_x": "statut",
                         "optionCustomization": "",
-                        "seriesCustomization": "",
-                        "showExportLinks": "true",
-                        "showFilter": "true",
+                        "showFilter": "",
                         "showLegend": "true",
-                        "showTable": "top",
+                        "showTable": "",
                         "showToolTip": "",
-                        "showValueLabel": "",
+                        "smoothLine": "true",
                         "theme": "",
-                        "title": "Hi",
+                        "title": "",
                         "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
+                        "userviewCacheScope": "",
+                        "valueAxisLabel": "@@userview.sqlchartmenu.value@@",
+                        "xAxisBoundaryGap": "",
+                        "xAxisDisplayAS": "category"
                     }
                 },
                 {
