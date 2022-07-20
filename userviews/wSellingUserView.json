@@ -6,7 +6,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.HtmlPage",
                     "properties": {
-                        "content": "<pre><span>&lt;!DOCTYPE <\/span><span>html<\/span><span>&gt;<br /><\/span><span>&lt;<\/span><span>html <\/span><span>lang<\/span><span>=\"en\"<\/span><span>&gt;<br /><\/span><span>&lt;<\/span><span>head<\/span><span>&gt;<br /><\/span><span>    &lt;<\/span><span>meta <\/span><span>charset<\/span><span>=\"UTF-8\"<\/span><span>&gt;<br /><\/span><span>    &lt;<\/span><span>title<\/span><span>&gt;<\/span>Title<span>&lt;/<\/span><span>title<\/span><span>&gt;<br /><\/span><span>&lt;/<\/span><span>head<\/span><span>&gt;<br /><\/span><span>&lt;<\/span><span>body<\/span><span>&gt;<br /><\/span><span>&lt;<\/span><span>iframe <\/span><span>title<\/span><span>=\"1st\" <\/span><span>width<\/span><span>=\"1140\" <\/span><span>height<\/span><span>=\"541.25\" <\/span><span>src<\/span><span>=\"https://app.powerbi.com/reportEmbed?reportId=1795cf19-d389-49a1-8d20-a98ebdf634d2&amp;autoAuth=true&amp;ctid=604f1a96-cbe8-43f8-abbf-f8eaf5d85730&amp;config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcnRoLWV1cm9wZS1pLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D\" <\/span><span>frameborder<\/span><span>=\"0\" <\/span><span>allowFullScreen<\/span><span>=\"true\"<\/span><span>&gt;&lt;/<\/span><span>iframe<\/span><span>&gt;<br /><\/span><span>&lt;/<\/span><span>body<\/span><span>&gt;<br /><\/span><span>&lt;/<\/span><span>html<\/span><span>&gt;<\/span><\/pre>",
+                        "content": "<p><img src=\"#appResource.dash.jpg#\" alt=\"\" /><\/p>",
                         "customId": "",
                         "enableOffline": "",
                         "id": "A995B1AF3D534094A89BB066988E1FC2",
