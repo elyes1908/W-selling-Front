@@ -35,7 +35,7 @@
                     "enableOffline": "",
                     "id": "24F7990D2AD84899B0F89F7AC3E186CB",
                     "keyName": "",
-                    "label": "Entreprises",
+                    "label": "<i class=\"fa fa-briefcase\" aria-hidden=\"true\"><\/i> Entreprises Entreprises",
                     "rowCount": "",
                     "selectionType": "multiple",
                     "userviewCacheDuration": "20",
