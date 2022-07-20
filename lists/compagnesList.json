@@ -124,27 +124,8 @@
             "label": "Date début",
             "name": "dateDebut",
             "type": {
-                "className": "org.joget.HyperlinkOptionsFilter",
-                "properties": {
-                    "defaultValue": "",
-                    "displayFull": "true",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "ajouterCompagne",
-                            "groupingColumn": "dateDebut",
-                            "idColumn": "dateDebut",
-                            "labelColumn": "dateDebut"
-                        }
-                    },
-                    "showCount": "true",
-                    "showLabel": "true"
-                }
+                "className": "org.joget.dateFilter.DateFilter",
+                "properties": {"format": "dd-mm-yy"}
             }
         },
         {
