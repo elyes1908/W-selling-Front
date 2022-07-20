@@ -20,7 +20,7 @@
                         "label": "<i class=\"fa fa-home\" aria-hidden=\"true\"><\/i> Dashboard",
                         "libraryVersion": "5.1.2",
                         "mapping_value": "name",
-                        "mapping_x": "jobs",
+                        "mapping_x": "name",
                         "optionCustomization": "",
                         "seriesCustomization": "",
                         "showExportLinks": "true",
