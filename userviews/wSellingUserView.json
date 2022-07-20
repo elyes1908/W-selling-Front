@@ -331,7 +331,7 @@
                 "fav_icon": "",
                 "fontControl": "",
                 "formElementColor": "#5D9CEC",
-                "homeAttractBanner": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title<\/title>\r\n<\/head>\r\n<body>\r\n<iframe title=\"1st\" width=\"1140\" height=\"541.25\" src=\"https://app.powerbi.com/reportEmbed?reportId=1795cf19-d389-49a1-8d20-a98ebdf634d2&autoAuth=true&ctid=604f1a96-cbe8-43f8-abbf-f8eaf5d85730&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcnRoLWV1cm9wZS1pLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D\" frameborder=\"0\" allowFullScreen=\"true\"><\/iframe>\r\n<\/body>\r\n<\/html>",
+                "homeAttractBanner": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title<\/title>\r\n<\/head>\r\n<body>\r\n<iframe title=\"1st\" width=\"1140\" height=\"541.25\" src=\"https://app.powerbi.com/reportEmbed?reportId=1795cf19-d389-49a1-8d20-a98ebdf634d2&autoAuth=true&ctid=604f1a96-cbe8-43f8-abbf-f8eaf5d85730&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcnRoLWV1cm9wZS1pLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D\" frameborder=\"0\" allowFullScreen=\"true\"><\/iframe><\/body>\r\n<\/html>",
                 "homeUrl": "",
                 "horizontal_menu": "",
                 "inbox": "current",
