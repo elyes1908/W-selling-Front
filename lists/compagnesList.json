@@ -130,6 +130,18 @@
         },
         {
             "datalist_type": "filter",
+            "filterParamName": "d-6838311-fn_dateFin",
+            "hidden": "",
+            "id": "filter_2",
+            "label": "Date de fin prévue",
+            "name": "dateFin",
+            "type": {
+                "className": "org.joget.dateFilter.DateFilter",
+                "properties": {"format": "dd-mm-yy"}
+            }
+        },
+        {
+            "datalist_type": "filter",
             "filterParamName": "d-6838311-fn_createdBy",
             "hidden": "",
             "id": "filter_0",
