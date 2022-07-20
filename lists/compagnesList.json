@@ -118,6 +118,18 @@
     "filters": [
         {
             "datalist_type": "filter",
+            "filterParamName": "d-6838311-fn_nom",
+            "hidden": "",
+            "id": "filter_3",
+            "label": "Nom de la compagne",
+            "name": "nom",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
             "filterParamName": "d-6838311-fn_dateDebut",
             "hidden": "",
             "id": "filter_1",
@@ -144,14 +156,15 @@
             "datalist_type": "filter",
             "filterParamName": "d-6838311-fn_createdBy",
             "hidden": "",
-            "id": "filter_0",
+            "id": "filter_4",
             "label": "Created By",
             "name": "createdBy",
             "type": {
-                "className": "org.joget.HyperlinkOptionsFilter",
+                "className": "org.joget.SelectBoxOptionsFilter",
                 "properties": {
                     "defaultValue": "",
                     "displayFull": "true",
+                    "isForeignKey": "",
                     "options": [],
                     "optionsBinder": {
                         "className": "org.joget.apps.form.lib.FormOptionsBinder",
@@ -161,8 +174,8 @@
                             "emptyLabel": "",
                             "extraCondition": "",
                             "formDefId": "ajouterCompagne",
-                            "groupingColumn": "",
-                            "idColumn": "createdBy",
+                            "groupingColumn": "createdBy",
+                            "idColumn": "dateCreated",
                             "labelColumn": "createdBy"
                         }
                     },
