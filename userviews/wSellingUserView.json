@@ -27,7 +27,7 @@
                     "className": "org.joget.marketplace.EChartMenu",
                     "properties": {
                         "chartHeight": "600px",
-                        "chartType": "donut",
+                        "chartType": "pie",
                         "chartUseAllDataRows": "true",
                         "chartWidth": "90%",
                         "customChartFooter": "",
@@ -39,18 +39,16 @@
                         "keyName": "",
                         "label": "EChart Menu",
                         "libraryVersion": "5.1.2",
-                        "mapping_values": [{
-                            "customization": "",
-                            "showValueLabel": "true",
-                            "value": "totalCompanies"
-                        }],
+                        "mapping_value": "totalCompanies",
                         "mapping_x": "name",
                         "optionCustomization": "",
+                        "seriesCustomization": "",
                         "showFilter": "",
                         "showLegend": "true",
                         "showTable": "",
                         "showToolTip": "",
-                        "theme": "cool",
+                        "showValueLabel": "",
+                        "theme": "azul",
                         "title": "",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
