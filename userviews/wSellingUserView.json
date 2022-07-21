@@ -141,7 +141,7 @@
                         "buttonPosition": "bottomLeft",
                         "cacheAllLinks": "",
                         "cacheListAction": "",
-                        "checkboxPosition": "left",
+                        "checkboxPosition": "both",
                         "customFooter": "",
                         "customHeader": "",
                         "customId": "listCompagnesUV",
