@@ -26,39 +26,32 @@
                 {
                     "className": "org.joget.marketplace.EChartMenu",
                     "properties": {
-                        "categoryAxisLabel": "@@userview.sqlchartmenu.category@@",
                         "chartHeight": "600px",
-                        "chartType": "bar",
-                        "chartUseAllDataRows": "true",
+                        "chartType": "pie",
+                        "chartUseAllDataRows": "",
                         "chartWidth": "90%",
                         "customChartFooter": "",
                         "customHeader": "",
                         "customId": "",
                         "datalistId": "company_overview",
                         "enableOffline": "",
-                        "horizontal": "",
-                        "id": "4438DBC7360C40C4823F9D0C48977711",
+                        "id": "33880B2FD5DB49FD8F4F5955321352B1",
                         "keyName": "",
                         "label": "EChart Menu",
                         "libraryVersion": "5.1.2",
-                        "mapping_values": [{
-                            "customization": "",
-                            "showValueLabel": "true",
-                            "value": "jobs"
-                        }],
-                        "mapping_x": "name",
+                        "mapping_value": "jobs",
+                        "mapping_x": "industry",
                         "optionCustomization": "",
+                        "seriesCustomization": "",
                         "showFilter": "",
                         "showLegend": "true",
                         "showTable": "",
                         "showToolTip": "",
+                        "showValueLabel": "",
                         "theme": "",
                         "title": "",
                         "userviewCacheDuration": "20",
-                        "userviewCacheScope": "",
-                        "valueAxisLabel": "@@userview.sqlchartmenu.value@@",
-                        "xAxisBoundaryGap": "",
-                        "xAxisDisplayAS": "value"
+                        "userviewCacheScope": ""
                     }
                 }
             ],
