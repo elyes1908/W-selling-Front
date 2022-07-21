@@ -58,7 +58,7 @@
                         "userviewCacheScope": "",
                         "valueAxisLabel": "@@userview.sqlchartmenu.value@@",
                         "xAxisBoundaryGap": "",
-                        "xAxisDisplayAS": "category"
+                        "xAxisDisplayAS": "value"
                     }
                 }
             ],
