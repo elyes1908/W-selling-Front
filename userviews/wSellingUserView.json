@@ -28,7 +28,7 @@
                     "properties": {
                         "chartHeight": "600px",
                         "chartType": "pie",
-                        "chartUseAllDataRows": "",
+                        "chartUseAllDataRows": "true",
                         "chartWidth": "90%",
                         "customChartFooter": "",
                         "customHeader": "",
@@ -48,7 +48,7 @@
                         "showTable": "",
                         "showToolTip": "",
                         "showValueLabel": "",
-                        "theme": "",
+                        "theme": "azul",
                         "title": "",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
