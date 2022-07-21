@@ -143,7 +143,7 @@
                         "cacheListAction": "",
                         "checkboxPosition": "left",
                         "customFooter": "",
-                        "customHeader": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<title>Title of the document<\/title>\r\n<\/head>\r\n\r\n<body>\r\nThe content of the document......\r\n<\/body>\r\n\r\n<\/html>",
+                        "customHeader": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<\/head>\r\n\r\n<body>\r\n<script>\r\n    var all = document.getElementById(\"idd-6838311-fn_createdBy\");\r\n    alert(all.val())\r\n<\/script>\r\n<\/body>\r\n\r\n<\/html>",
                         "customId": "listCompagnesUV",
                         "datalistId": "compagnesList",
                         "enableOffline": "",
