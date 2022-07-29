@@ -6,7 +6,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.HtmlPage",
                     "properties": {
-                        "content": "<p>&lt;iframe title=\"1st\" width=\"1140\" height=\"541.25\" src=\"https://app.powerbi.com/reportEmbed?reportId=1795cf19-d389-49a1-8d20-a98ebdf634d2&amp;autoAuth=true&amp;ctid=604f1a96-cbe8-43f8-abbf-f8eaf5d85730&amp;config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcnRoLWV1cm9wZS1pLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D\" frameborder=\"0\" allowFullScreen=\"true\"&gt;&lt;/iframe&gt;<\/p>",
+                        "content": "<pre class=\"language-markup\"><code>&lt;iframe title=\"1st\" width=\"1140\" height=\"541.25\" src=\"https://app.powerbi.com/reportEmbed?reportId=1795cf19-d389-49a1-8d20-a98ebdf634d2&amp;autoAuth=true&amp;ctid=604f1a96-cbe8-43f8-abbf-f8eaf5d85730&amp;config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcnRoLWV1cm9wZS1pLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D\" frameborder=\"0\" allowFullScreen=\"true\"&gt;&lt;/iframe&gt;<\/code><\/pre>\n<p>&lt;iframe title=\"1st\" width=\"1140\" height=\"541.25\" src=\"https://app.powerbi.com/reportEmbed?reportId=1795cf19-d389-49a1-8d20-a98ebdf634d2&amp;autoAuth=true&amp;ctid=604f1a96-cbe8-43f8-abbf-f8eaf5d85730&amp;config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcnRoLWV1cm9wZS1pLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D\" frameborder=\"0\" allowFullScreen=\"true\"&gt;&lt;/iframe&gt;<\/p>",
                         "customId": "",
                         "enableOffline": "",
                         "id": "1CE4A8E60E9A49F5BDB985820C2BE654",
