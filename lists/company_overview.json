@@ -76,9 +76,9 @@
                 "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
                 "properties": {
                     "confirmation": "",
-                    "href": "#requestParam.url#",
-                    "hrefColumn": "url",
-                    "hrefParam": "url",
+                    "href": "#requestParam.website#",
+                    "hrefColumn": "website",
+                    "hrefParam": "website",
                     "label": "Hyperlink",
                     "target": "_self",
                     "visible": ""
