@@ -129,7 +129,7 @@
                 "hrefParam": "firm",
                 "label": "<i class=\"fa fa-tasks\" aria-hidden=\"true\"><\/i>",
                 "rules": [],
-                "target": "_self"
+                "target": "popup"
             },
             "type": "text"
         },
