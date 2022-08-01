@@ -195,9 +195,27 @@
                 "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/ajouterCompagne",
                 "hrefColumn": "id",
                 "hrefParam": "id",
-                "label": "<i class=\"fas fa-wrench\"><\/i>",
+                "label": "<i class=\"fas fa-angle-double-right\"><\/i>",
                 "rules": [],
                 "target": "popup"
+            },
+            "type": "text"
+        },
+        {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "icon": "<i class=\"fas fa-link\"><\/i>",
+            "id": "rowAction_2",
+            "label": "Hyperlink",
+            "name": "Data List Hyperlink Action",
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "href": "",
+                "hrefColumn": "",
+                "hrefParam": "",
+                "label": "<i class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"><\/i>",
+                "rules": [],
+                "target": "_self"
             },
             "type": "text"
         },
