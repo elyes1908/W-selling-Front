@@ -216,7 +216,7 @@
                         "value": "#form.compagnes.dateFin#"
                     },
                     {
-                        "name": "dateFin",
+                        "name": "datDebut",
                         "value": "#form.compagnes.dateDebut#"
                     }
                 ],
