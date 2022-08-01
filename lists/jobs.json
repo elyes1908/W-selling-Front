@@ -1,5 +1,22 @@
 {
-    "actions": [],
+    "actions": [{
+        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+        "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
+        "id": "action_0",
+        "label": "Delete",
+        "name": "Form Row Delete Action",
+        "properties": {
+            "abortRelatedRunningProcesses": "",
+            "confirmation": "",
+            "datalist_type": "action",
+            "deleteFiles": "",
+            "deleteGridData": "true",
+            "deleteSubformData": "",
+            "formDefId": "jobs",
+            "label": "Delete"
+        },
+        "type": "text"
+    }],
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
@@ -11,12 +28,26 @@
     "checkboxPosition": "left",
     "columns": [
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_4",
             "label": "Firm",
             "name": "firm",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
             "filterable": true,
