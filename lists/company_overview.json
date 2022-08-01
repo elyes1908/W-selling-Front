@@ -80,7 +80,7 @@
                     "hrefColumn": "website",
                     "hrefParam": "website",
                     "label": "Hyperlink",
-                    "target": "_self",
+                    "target": "_blank",
                     "visible": ""
                 }
             },
