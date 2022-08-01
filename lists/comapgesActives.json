@@ -66,24 +66,6 @@
         {
             "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
             "icon": "<i class=\"fas fa-link\"><\/i>",
-            "id": "rowAction_7",
-            "label": "Hyperlink",
-            "name": "Data List Hyperlink Action",
-            "properties": {
-                "confirmation": "",
-                "datalist_type": "row_action",
-                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/jobs",
-                "hrefColumn": "",
-                "hrefParam": "",
-                "label": "<i class=\"fa fa-tasks\" aria-hidden=\"true\"><\/i>",
-                "rules": [],
-                "target": "_self"
-            },
-            "type": "text"
-        },
-        {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "icon": "<i class=\"fas fa-link\"><\/i>",
             "id": "rowAction_3",
             "label": "Hyperlink",
             "name": "Data List Hyperlink Action",
