@@ -42,6 +42,14 @@
             "label": "Total Companies",
             "name": "totalCompanies",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Entreprises",
+            "name": "entreprises",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
