@@ -42,13 +42,13 @@
                         "cacheListAction": "",
                         "checkboxPosition": "left",
                         "customFooter": "",
-                        "customHeader": "\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/fonts/fontawesome-webfont.woff2?v=4.6.1\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-brands-400.woff2\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-solid-900.woff2\" as=\"font\" crossorigin />\r\n",
-                        "customId": "entreprises",
-                        "datalistId": "company_overview",
+                        "customHeader": "",
+                        "customId": "",
+                        "datalistId": "jobs",
                         "enableOffline": "",
-                        "id": "24F7990D2AD84899B0F89F7AC3E186CB",
+                        "id": "AAE0961E92D34C2CA5497180BB03A6E0",
                         "keyName": "",
-                        "label": "<i class=\"fa fa-briefcase\" aria-hidden=\"true\"><\/i> Entreprises",
+                        "label": "List",
                         "rowCount": "",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
@@ -56,6 +56,34 @@
                     }
                 }
             ],
+            "properties": {
+                "id": "category-C4EB3FA0D3244CE1A8F1C59BC3F56D25",
+                "label": "Jobs"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.DataListMenu",
+                "properties": {
+                    "buttonPosition": "bottomLeft",
+                    "cacheAllLinks": "",
+                    "cacheListAction": "",
+                    "checkboxPosition": "left",
+                    "customFooter": "",
+                    "customHeader": "\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/fonts/fontawesome-webfont.woff2?v=4.6.1\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-brands-400.woff2\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-solid-900.woff2\" as=\"font\" crossorigin />\r\n",
+                    "customId": "entreprises",
+                    "datalistId": "company_overview",
+                    "enableOffline": "",
+                    "id": "24F7990D2AD84899B0F89F7AC3E186CB",
+                    "keyName": "",
+                    "label": "<i class=\"fa fa-briefcase\" aria-hidden=\"true\"><\/i> Entreprises",
+                    "rowCount": "",
+                    "selectionType": "multiple",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            }],
             "properties": {
                 "comment": "",
                 "hide": "",
