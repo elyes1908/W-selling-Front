@@ -60,6 +60,14 @@
         {
             "filterable": true,
             "hidden": "false",
+            "id": "column_5",
+            "label": "Offres d'emplois",
+            "name": "jobs",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_3",
             "label": "Date Debut",
             "name": "dateDebut",
