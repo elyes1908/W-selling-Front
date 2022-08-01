@@ -192,7 +192,7 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/ajouterCompagne",
+                "href": "",
                 "hrefColumn": "id",
                 "hrefParam": "id",
                 "label": "<i class=\"fas fa-angle-double-right\"><\/i>",
@@ -210,12 +210,12 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "",
-                "hrefColumn": "",
-                "hrefParam": "",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/ajouterCompagne",
+                "hrefColumn": "id",
+                "hrefParam": "id",
                 "label": "<i class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"><\/i>",
                 "rules": [],
-                "target": "_self"
+                "target": "popup"
             },
             "type": "text"
         },
