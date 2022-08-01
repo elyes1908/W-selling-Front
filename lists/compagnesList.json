@@ -38,40 +38,18 @@
         {
             "filterable": true,
             "hidden": "false",
+            "id": "column_3",
+            "label": "Nom de la compagne",
+            "name": "nom",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_2",
             "label": "Date début",
             "name": "dateDebut",
             "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_4",
-            "label": "Date début",
-            "name": "dateDebut",
-            "sortable": "false"
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_1",
-            "label": "Nom de la compagne",
-            "name": "nom",
-            "sortable": "false",
-            "style": "",
-            "width": ""
         },
         {
             "filterable": true,
