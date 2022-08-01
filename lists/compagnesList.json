@@ -30,17 +30,17 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_2",
-            "label": "Date début",
-            "name": "dateDebut",
+            "id": "column_0",
+            "label": "ID",
+            "name": "id",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
-            "label": "ID",
-            "name": "id",
+            "id": "column_2",
+            "label": "Date début",
+            "name": "dateDebut",
             "sortable": "false"
         },
         {
