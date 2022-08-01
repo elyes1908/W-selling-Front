@@ -58,6 +58,22 @@
             "width": ""
         },
         {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Date Debut",
+            "name": "dateDebut",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "Date Fin",
+            "name": "dateFin",
+            "sortable": "false"
+        },
+        {
             "action": {
                 "className": "",
                 "properties": {}
@@ -79,36 +95,6 @@
             "sortable": "false",
             "style": "",
             "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_3",
-            "label": "DateDebut",
-            "name": "dateDebut",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_4",
-            "label": "Date Fin",
-            "name": "dateFin",
-            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
