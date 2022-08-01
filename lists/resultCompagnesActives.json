@@ -173,7 +173,7 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/companiesList",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/entreprises",
                 "hrefColumn": "firm",
                 "hrefParam": "id_firm",
                 "label": "<i class=\"fas fa-briefcase\"><\/i>",
