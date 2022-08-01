@@ -2,78 +2,6 @@
     "categories": [
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
-                {
-                    "className": "org.joget.apps.userview.lib.HtmlPage",
-                    "properties": {
-                        "content": "<pre class=\"language-markup\"><code>&lt;iframe title=\"1st\" width=\"1140\" height=\"541.25\" src=\"https://app.powerbi.com/reportEmbed?reportId=1795cf19-d389-49a1-8d20-a98ebdf634d2&amp;autoAuth=true&amp;ctid=604f1a96-cbe8-43f8-abbf-f8eaf5d85730&amp;config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcnRoLWV1cm9wZS1pLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D\" frameborder=\"0\" allowFullScreen=\"true\"&gt;&lt;/iframe&gt;<\/code><\/pre>\n<p>&lt;iframe title=\"1st\" width=\"1140\" height=\"541.25\" src=\"https://app.powerbi.com/reportEmbed?reportId=1795cf19-d389-49a1-8d20-a98ebdf634d2&amp;autoAuth=true&amp;ctid=604f1a96-cbe8-43f8-abbf-f8eaf5d85730&amp;config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcnRoLWV1cm9wZS1pLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D\" frameborder=\"0\" allowFullScreen=\"true\"&gt;&lt;/iframe&gt;<\/p>",
-                        "customId": "",
-                        "enableOffline": "",
-                        "id": "1CE4A8E60E9A49F5BDB985820C2BE654",
-                        "label": "HTML Page",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.InboxMenu",
-                    "properties": {
-                        "appFilter": "all",
-                        "assignment-customFooter": "",
-                        "assignment-customHeader": "",
-                        "buttonPosition": "bottomLeft",
-                        "cacheAllLinks": "",
-                        "customId": "",
-                        "enableOffline": "",
-                        "id": "374D39689DCA48C9BFCE63D4C0778FBA",
-                        "label": "Inbox",
-                        "list-customFooter": "",
-                        "list-customHeader": "",
-                        "rowCount": "",
-                        "showPopup": "",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                },
-                {
-                    "className": "org.joget.marketplace.EChartMenu",
-                    "properties": {
-                        "chartHeight": "600px",
-                        "chartType": "pie",
-                        "chartUseAllDataRows": "true",
-                        "chartWidth": "90%",
-                        "customChartFooter": "",
-                        "customHeader": "",
-                        "customId": "",
-                        "datalistId": "resultCompagnes",
-                        "enableOffline": "",
-                        "id": "33880B2FD5DB49FD8F4F5955321352B1",
-                        "keyName": "",
-                        "label": "EChart Menu",
-                        "libraryVersion": "5.1.2",
-                        "mapping_value": "totalCompanies",
-                        "mapping_x": "name",
-                        "optionCustomization": "",
-                        "seriesCustomization": "",
-                        "showFilter": "true",
-                        "showLegend": "true",
-                        "showTable": "",
-                        "showToolTip": "",
-                        "showValueLabel": "",
-                        "theme": "azul",
-                        "title": "",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                }
-            ],
-            "properties": {
-                "id": "category-CA2095E8501148FFB9B9376B91EDF9FB",
-                "label": "<i class=\"fa fa-home\" aria-hidden=\"true\"><\/i> Accueil"
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [{
                 "className": "org.joget.apps.userview.lib.DataListMenu",
                 "properties": {
@@ -82,7 +10,7 @@
                     "cacheListAction": "",
                     "checkboxPosition": "left",
                     "customFooter": "",
-                    "customHeader": "\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/fonts/fontawesome-webfont.woff2?v=4.6.1\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-brands-400.woff2\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-solid-900.woff2\" as=\"font\" crossorigin />\r\n<iframe title=\"1st\" width=\"1140\" height=\"541.25\" src=\"https://app.powerbi.com/reportEmbed?reportId=1795cf19-d389-49a1-8d20-a98ebdf634d2&autoAuth=true&ctid=604f1a96-cbe8-43f8-abbf-f8eaf5d85730&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcnRoLWV1cm9wZS1pLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D\" frameborder=\"0\" allowFullScreen=\"true\"><\/iframe>",
+                    "customHeader": "\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/fonts/fontawesome-webfont.woff2?v=4.6.1\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-brands-400.woff2\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-solid-900.woff2\" as=\"font\" crossorigin />\r\n",
                     "customId": "entreprises",
                     "datalistId": "company_overview",
                     "enableOffline": "",
