@@ -126,7 +126,7 @@
                 "datalist_type": "row_action",
                 "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/jobs",
                 "hrefColumn": "firm",
-                "hrefParam": "firm",
+                "hrefParam": "id_firm",
                 "label": "<i class=\"fa fa-tasks\" aria-hidden=\"true\"><\/i>",
                 "rules": [],
                 "target": "_self"
