@@ -13,6 +13,14 @@
         {
             "filterable": true,
             "hidden": "false",
+            "id": "column_4",
+            "label": "Firm",
+            "name": "firm",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_0",
             "label": "url",
             "name": "Url",
