@@ -107,7 +107,38 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [],
+    "filters": [{
+        "datalist_type": "filter",
+        "filterParamName": "d-6836953-fn_firm",
+        "hidden": "",
+        "id": "filter_0",
+        "label": "Firm",
+        "name": "firm",
+        "type": {
+            "className": "org.joget.SelectBoxOptionsFilter",
+            "properties": {
+                "defaultValue": "",
+                "displayFull": "true",
+                "isForeignKey": "",
+                "options": [],
+                "optionsBinder": {
+                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                    "properties": {
+                        "addEmptyOption": "",
+                        "cacheInterval": "",
+                        "emptyLabel": "",
+                        "extraCondition": "",
+                        "formDefId": "jobs",
+                        "groupingColumn": "",
+                        "idColumn": "firm",
+                        "labelColumn": "firm"
+                    }
+                },
+                "showCount": "",
+                "showLabel": ""
+            }
+        }
+    }],
     "id": "resultCompagnesActives",
     "name": "Resultat Compagnes Actives",
     "order": "",
