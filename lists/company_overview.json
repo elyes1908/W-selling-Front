@@ -72,54 +72,32 @@
             "width": ""
         },
         {
+            "action": {
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "confirmation": "",
+                    "href": "#requestParam.url#",
+                    "hrefColumn": "url",
+                    "hrefParam": "url",
+                    "label": "Hyperlink",
+                    "target": "_self",
+                    "visible": ""
+                }
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_4",
             "label": "Website",
             "name": "website",
-            "sortable": "false"
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_2",
-            "label": "Jobs",
-            "name": "jobs",
-            "sortable": "true",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_3",
-            "label": "Posts",
-            "name": "posts",
-            "sortable": "true",
+            "sortable": "false",
             "style": "",
             "width": ""
         }
