@@ -175,7 +175,7 @@
                 "datalist_type": "row_action",
                 "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/companiesList",
                 "hrefColumn": "firm",
-                "hrefParam": "id_firm",
+                "hrefParam": "firm",
                 "label": "<i class=\"fas fa-briefcase\"><\/i>",
                 "rules": [],
                 "target": "_self"
