@@ -107,38 +107,64 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [{
-        "datalist_type": "filter",
-        "filterParamName": "d-6836953-fn_firm",
-        "hidden": "",
-        "id": "filter_0",
-        "label": "Firm",
-        "name": "firm",
-        "type": {
-            "className": "org.joget.SelectBoxOptionsFilter",
-            "properties": {
-                "defaultValue": "",
-                "displayFull": "true",
-                "isForeignKey": "",
-                "options": [],
-                "optionsBinder": {
-                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                    "properties": {
-                        "addEmptyOption": "",
-                        "cacheInterval": "",
-                        "emptyLabel": "",
-                        "extraCondition": "",
-                        "formDefId": "jobs",
-                        "groupingColumn": "",
-                        "idColumn": "firm",
-                        "labelColumn": "firm"
-                    }
-                },
-                "showCount": "",
-                "showLabel": ""
+    "filters": [
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-6836953-fn_dateDebut",
+            "hidden": "",
+            "id": "filter_1",
+            "label": "Date Debut",
+            "name": "dateDebut",
+            "type": {
+                "className": "org.joget.dateFilter.DateFilter",
+                "properties": {"format": "dd-mm-yy"}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-6836953-fn_dateFin",
+            "hidden": "",
+            "id": "filter_2",
+            "label": "Date Fin",
+            "name": "dateFin",
+            "type": {
+                "className": "org.joget.dateFilter.DateFilter",
+                "properties": {"format": "dd-mm-yy"}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-6836953-fn_firm",
+            "hidden": "",
+            "id": "filter_0",
+            "label": "Firm",
+            "name": "firm",
+            "type": {
+                "className": "org.joget.SelectBoxOptionsFilter",
+                "properties": {
+                    "defaultValue": "",
+                    "displayFull": "true",
+                    "isForeignKey": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "jobs",
+                            "groupingColumn": "",
+                            "idColumn": "firm",
+                            "labelColumn": "firm"
+                        }
+                    },
+                    "showCount": "",
+                    "showLabel": ""
+                }
             }
         }
-    }],
+    ],
     "id": "resultCompagnesActives",
     "name": "Resultat Compagnes Actives",
     "order": "",
