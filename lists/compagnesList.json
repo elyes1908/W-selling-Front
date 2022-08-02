@@ -192,7 +192,7 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/ajouterCompagne",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/detailCompagne",
                 "hrefColumn": "id",
                 "hrefParam": "id",
                 "label": "<i class=\"fas fa-angle-double-right\"><\/i>",
