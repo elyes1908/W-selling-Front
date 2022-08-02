@@ -2,81 +2,6 @@
     "categories": [
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [],
-            "properties": {
-                "id": "category-C4EB3FA0D3244CE1A8F1C59BC3F56D25",
-                "label": "Jobs"
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "buttonPosition": "bottomLeft",
-                        "cacheAllLinks": "",
-                        "cacheListAction": "",
-                        "checkboxPosition": "left",
-                        "customFooter": "",
-                        "customHeader": "\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/fonts/fontawesome-webfont.woff2?v=4.6.1\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-brands-400.woff2\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-solid-900.woff2\" as=\"font\" crossorigin />\r\n",
-                        "customId": "entreprises",
-                        "datalistId": "company_overview",
-                        "enableOffline": "",
-                        "id": "24F7990D2AD84899B0F89F7AC3E186CB",
-                        "keyName": "",
-                        "label": "<i class=\"fa fa-briefcase\" aria-hidden=\"true\"><\/i> Entreprises",
-                        "rowCount": "",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.FormMenu",
-                    "properties": {
-                        "actionAfterSaved": "",
-                        "actionOnCancel": "",
-                        "cancelButtonLabel": "",
-                        "customFooter": "",
-                        "customHeader": "",
-                        "customId": "",
-                        "enableOffline": "",
-                        "fieldPassover": "",
-                        "fieldPassoverMethod": "append",
-                        "formId": "company_overview",
-                        "id": "F805277A6AAD460BB78E02C1003E730C",
-                        "keyName": "",
-                        "label": "Form",
-                        "loadDataWithKey": "",
-                        "messageShowAfterComplete": "",
-                        "paramName": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "redirectTargetOnCancel": "top",
-                        "redirectTargetOnComplete": "",
-                        "redirectUrlAfterComplete": "",
-                        "redirectUrlOnCancel": "",
-                        "showInPopupDialog": "",
-                        "submitButtonLabel": "",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                }
-            ],
-            "properties": {
-                "comment": "",
-                "hide": "",
-                "id": "category-41031A22E27B42C2BBB21F90AFD38902",
-                "label": "<i class=\"fa fa-briefcase\" aria-hidden=\"true\"><\/i> Entreprises",
-                "permission": {
-                    "className": "",
-                    "properties": {}
-                }
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
                 {
                     "className": "org.joget.apps.userview.lib.FormMenu",
@@ -105,27 +30,6 @@
                         "redirectUrlOnCancel": "",
                         "showInPopupDialog": "",
                         "submitButtonLabel": "",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "buttonPosition": "bottomLeft",
-                        "cacheAllLinks": "",
-                        "cacheListAction": "",
-                        "checkboxPosition": "left",
-                        "customFooter": "",
-                        "customHeader": "<!DOCTYPE html>\r\n<html>\r\n<head><style>\r\n   #d-6838311-fn_createdBy_container{\r\n   width: 20%;\r\n}\r\n\r\n<\/style>\r\n<\/head>\r\n\r\n<body>\r\n\r\n<\/body>\r\n\r\n<\/html>",
-                        "customId": "listCompagnesUV",
-                        "datalistId": "compagnesList",
-                        "enableOffline": "",
-                        "id": "A3024F5AFF7F498DAA8A53B2A7A9DF26",
-                        "keyName": "",
-                        "label": "Toutes les compagnes",
-                        "rowCount": "true",
-                        "selectionType": "multiple",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
@@ -181,27 +85,6 @@
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "buttonPosition": "bottomLeft",
-                        "cacheAllLinks": "",
-                        "cacheListAction": "",
-                        "checkboxPosition": "left",
-                        "customFooter": "",
-                        "customHeader": "",
-                        "customId": "resCompagnes",
-                        "datalistId": "resultCompagnes",
-                        "enableOffline": "",
-                        "id": "9D5F3B4C2EC44DE0B0DDD27492ABB76D",
-                        "keyName": "",
-                        "label": "Toutes les compagnes",
-                        "rowCount": "true",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
-                },
                 {
                     "className": "org.joget.apps.userview.lib.DataListMenu",
                     "properties": {
@@ -290,6 +173,69 @@
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/fonts/fontawesome-webfont.woff2?v=4.6.1\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-brands-400.woff2\" as=\"font\" crossorigin />\r\n<link rel=\"preload\" href=\"/jw/js/fontawesome5/webfonts/fa-solid-900.woff2\" as=\"font\" crossorigin />\r\n",
+                        "customId": "entreprises",
+                        "datalistId": "company_overview",
+                        "enableOffline": "",
+                        "id": "24F7990D2AD84899B0F89F7AC3E186CB",
+                        "keyName": "",
+                        "label": "<i class=\"fa fa-briefcase\" aria-hidden=\"true\"><\/i> Entreprises",
+                        "rowCount": "",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "resCompagnes",
+                        "datalistId": "resultCompagnes",
+                        "enableOffline": "",
+                        "id": "9D5F3B4C2EC44DE0B0DDD27492ABB76D",
+                        "keyName": "",
+                        "label": "Toutes les Résultat compagnes",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "<!DOCTYPE html>\r\n<html>\r\n<head><style>\r\n   #d-6838311-fn_createdBy_container{\r\n   width: 20%;\r\n}\r\n\r\n<\/style>\r\n<\/head>\r\n\r\n<body>\r\n\r\n<\/body>\r\n\r\n<\/html>",
+                        "customId": "listCompagnesUV",
+                        "datalistId": "compagnesList",
+                        "enableOffline": "",
+                        "id": "A3024F5AFF7F498DAA8A53B2A7A9DF26",
+                        "keyName": "",
+                        "label": "Toutes les compagnes",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
                 {
                     "className": "org.joget.apps.userview.lib.FormMenu",
                     "properties": {
