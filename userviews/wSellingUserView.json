@@ -157,7 +157,7 @@
                         "cacheListAction": "",
                         "checkboxPosition": "left",
                         "customFooter": "",
-                        "customHeader": "<h1>#requestParam.id_firm#<\/h1>",
+                        "customHeader": "<h1>#requestParam.id_firm#<\/h1>\n<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js\"><\/script>\n<!--hide tr that have td having value x-->\n<script>\n    $(document).ready(function () {\n\n        $('#test tr').each(function () {\n            const $td = $(this).find('td:eq(1)');\n            if ($td.text() !== #requestParam.id_firm#) {\n                $(this).remove();\n            }\n        });\n        $('#myTable').show();\n    });\n<\/script>",
                         "customId": "test",
                         "datalistId": "test",
                         "enableOffline": "",
