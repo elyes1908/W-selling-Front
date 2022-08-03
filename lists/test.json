@@ -10,7 +10,7 @@
             "jdbcUser": "root",
             "optimisePaging": "",
             "primaryKey": "itemkey",
-            "sql": "SELECT table1.c_name\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where table2.id_firm = \"#requestParam.id_firm#\""
+            "sql": "SELECT table1.c_name as \"Company Name\"\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where table2.id_firm = \"#requestParam.id_firm#\""
         }
     },
     "buttonPosition": "bottomLeft",
@@ -18,9 +18,9 @@
     "columns": [{
         "filterable": true,
         "hidden": "false",
-        "id": "column_0",
-        "label": "c_name",
-        "name": "c_name",
+        "id": "column_1",
+        "label": "Company Name",
+        "name": "Company Name",
         "sortable": "false"
     }],
     "considerFilterWhenGetTotal": "",
