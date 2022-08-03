@@ -1,11 +1,29 @@
 {
     "actions": [],
     "binder": {
-        "className": "",
-        "name": "",
-        "properties": {}
+        "className": "com.itasoft.poc.JdbcPlugin",
+        "properties": {
+            "jdbcDatasource": "custom",
+            "jdbcDriver": "com.mysql.cj.jdbc.Driver",
+            "jdbcPassword": "",
+            "jdbcUrl": "jdbc:mysql://127.0.0.1:3307/jwdb",
+            "jdbcUser": "root",
+            "optimisePaging": "",
+            "primaryKey": "Itemkey",
+            "sql": "SELECT table1.c_name\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company group by table1.id"
+        }
     },
-    "columns": [],
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [{
+        "filterable": true,
+        "hidden": "false",
+        "id": "column_0",
+        "label": "c_name",
+        "name": "c_name",
+        "sortable": "false"
+    }],
+    "considerFilterWhenGetTotal": "",
     "description": "test",
     "filters": [],
     "id": "test",
@@ -13,5 +31,8 @@
     "order": "",
     "orderBy": "",
     "pageSize": "0",
-    "rowActions": []
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
 }
