@@ -148,6 +148,27 @@
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "test",
+                        "datalistId": "test",
+                        "enableOffline": "",
+                        "id": "73B93B29B9D84A4692E9A974F5B1BFD9",
+                        "keyName": "",
+                        "label": "test",
+                        "rowCount": "",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
                 }
             ],
             "properties": {
