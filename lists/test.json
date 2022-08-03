@@ -10,7 +10,7 @@
             "jdbcUser": "root",
             "optimisePaging": "",
             "primaryKey": "itemkey",
-            "sql": "SELECT table1.c_name, table2.id_firm\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where table2.id_company = \"CA-000062\""
+            "sql": "SELECT table1.c_name, table2.id_firm\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where table2.id_firm = \"CA-000062\""
         }
     },
     "buttonPosition": "bottomLeft",
