@@ -37,15 +37,8 @@
             "exclude_export": "",
             "filterable": true,
             "format": {
-                "className": "org.joget.sample.CardFormatter",
-                "properties": {
-                    "cardUrlTarget": "",
-                    "description": "hi",
-                    "formDefId": "",
-                    "image": "",
-                    "link": "hi",
-                    "title": "name"
-                }
+                "className": "",
+                "properties": {}
             },
             "headerAlignment": "",
             "hidden": "false",
@@ -66,15 +59,8 @@
             "exclude_export": "",
             "filterable": true,
             "format": {
-                "className": "org.joget.sample.CardFormatter",
-                "properties": {
-                    "cardUrlTarget": "",
-                    "description": "aa",
-                    "formDefId": "",
-                    "image": "",
-                    "link": "aa",
-                    "title": "industry"
-                }
+                "className": "",
+                "properties": {}
             },
             "headerAlignment": "",
             "hidden": "false",
