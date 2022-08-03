@@ -9,8 +9,8 @@
             "jdbcUrl": "jdbc:mysql://127.0.0.1:3307/jwdb",
             "jdbcUser": "root",
             "optimisePaging": "",
-            "primaryKey": "Itemkey",
-            "sql": "SELECT table1.c_name, table2.id_firm\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where  table2.id_firm = '#requestParam.id_firm#'"
+            "primaryKey": "itemkey",
+            "sql": "SELECT table1.c_name, table2.id_firm\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company group by  table2.id_firm"
         }
     },
     "buttonPosition": "bottomLeft",
@@ -35,14 +35,30 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "test",
+    "disableResponsive": "",
     "filters": [],
+    "hidePageSize": "",
     "id": "test",
     "name": "test",
     "order": "",
     "orderBy": "",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "responsiveView": [
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Mobile"
+        },
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Tablet"
+        }
+    ],
     "rowActions": [],
+    "searchPopup": "",
+    "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
-    "useSession": "false"
+    "useSession": ""
 }
