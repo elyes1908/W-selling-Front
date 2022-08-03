@@ -66,8 +66,15 @@
             "exclude_export": "",
             "filterable": true,
             "format": {
-                "className": "",
-                "properties": {}
+                "className": "org.joget.sample.CardFormatter",
+                "properties": {
+                    "cardUrlTarget": "",
+                    "description": "aa",
+                    "formDefId": "",
+                    "image": "",
+                    "link": "aa",
+                    "title": "industry"
+                }
             },
             "headerAlignment": "",
             "hidden": "false",
