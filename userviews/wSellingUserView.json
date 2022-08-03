@@ -165,7 +165,7 @@
                         "keyName": "",
                         "label": "test",
                         "rowCount": "",
-                        "selectionType": "multiple",
+                        "selectionType": "single",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
