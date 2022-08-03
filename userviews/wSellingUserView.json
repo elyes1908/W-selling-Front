@@ -157,7 +157,7 @@
                         "cacheListAction": "",
                         "checkboxPosition": "left",
                         "customFooter": "",
-                        "customHeader": "<h1 id=\"requestParamValue\">#requestParam.id_firm#<\/h1>\n<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js\"><\/script>\n<!--hide tr that have td having value x-->\n<script>\n    $(document).ready(function () {\nalert($('#requestParamValue')[0].value)\n      $('#test tr').each(function () {\n            const $td = $(this).find('td:eq(2)');\n            \n            if ($td.text() !== ) {\n                $(this).remove();\n            }\n        });\n        \n    });\n<\/script>",
+                        "customHeader": "<h1 id=\"requestParamValue\">#requestParam.id_firm#<\/h1>\n<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js\"><\/script>\n<!--hide tr that have td having value x-->\n<script>\n    $(document).ready(function () {\nalert('hi');\n      $('#test tr').each(function () {\n            const $td = $(this).find('td:eq(2)');\n            \n            if ($td.text() !== ) {\n                $(this).remove();\n            }\n        });\n        \n    });\n<\/script>",
                         "customId": "test",
                         "datalistId": "test",
                         "enableOffline": "",
@@ -165,7 +165,7 @@
                         "keyName": "",
                         "label": "test",
                         "rowCount": "",
-                        "selectionType": "single",
+                        "selectionType": "multiple",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
