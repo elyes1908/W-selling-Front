@@ -10,29 +10,19 @@
             "jdbcUser": "root",
             "optimisePaging": "",
             "primaryKey": "itemkey",
-            "sql": "SELECT table1.c_name, table2.id_firm\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where table2.id_company = \"CA-000062\""
+            "sql": "SELECT table1.c_name\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where table2.id_firm = \"#requestParam.id_firm#\""
         }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_0",
-            "label": "c_name",
-            "name": "c_name",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_1",
-            "label": "id_firm",
-            "name": "id_firm",
-            "sortable": "false"
-        }
-    ],
+    "columns": [{
+        "filterable": true,
+        "hidden": "false",
+        "id": "column_0",
+        "label": "c_name",
+        "name": "c_name",
+        "sortable": "false"
+    }],
     "considerFilterWhenGetTotal": "",
     "description": "test",
     "disableResponsive": "",
