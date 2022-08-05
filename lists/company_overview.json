@@ -1,13 +1,34 @@
 {
     "actions": [],
     "binder": {
-        "className": "",
-        "name": "",
-        "properties": {}
+        "className": "com.itasoft.poc.JdbcPlugin",
+        "properties": {
+            "jdbcDatasource": "default",
+            "optimisePaging": "",
+            "primaryKey": "Itemkey",
+            "sql": "SELECT table1.c_name as \"Company Name\", table2.id_firm as firmId\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where  table2.id_firm like \"%#requestParam.id_firm#%\""
+        }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "firmId",
+            "name": "firmId",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Company Name",
+            "name": "Company Name",
+            "sortable": "false"
+        }
+    ],
     "considerFilterWhenGetTotal": "",
     "description": "",
     "filters": [],
