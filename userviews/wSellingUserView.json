@@ -356,7 +356,7 @@
     "className": "org.joget.apps.userview.model.Userview",
     "properties": {
         "description": "",
-        "footerMessage": "Powered by Joget",
+        "footerMessage": "Powered by WEVIOO",
         "id": "wSellingUserView",
         "logoutText": "Logout",
         "name": "Wevioo Selling",
