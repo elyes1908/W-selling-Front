@@ -6,7 +6,7 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "Itemkey",
-            "sql": "SELECT count(*)  \"Entreprisesssssss\", table2.id_firm firmId\nFROM app_fd_company_overview table1\nJOIN association table2 ON table1.id = table2.id_company \nJOIN app_fd_compagnes table3 ON table3.id = table2.id_firm\nwhere table3.c_statut like \"active\"\ngroup by  table2.id_firm "
+            "sql": "SELECT count(*)  \"Entreprises\", table2.id_firm firmId\nFROM app_fd_company_overview table1\nJOIN association table2 ON table1.id = table2.id_company \nJOIN app_fd_compagnes table3 ON table3.id = table2.id_firm\nwhere table3.c_statut like \"active\"\ngroup by  table2.id_firm "
         }
     },
     "buttonPosition": "bottomLeft",
@@ -23,9 +23,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_3",
-            "label": "Entreprisesssssss",
-            "name": "Entreprisesssssss",
+            "id": "column_0",
+            "label": "Entreprises",
+            "name": "Entreprises",
             "sortable": "false"
         }
     ],
