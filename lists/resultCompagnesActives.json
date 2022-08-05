@@ -1,27 +1,12 @@
 {
-    "actions": [{
-        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-        "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
-        "id": "action_0",
-        "label": "Delete",
-        "name": "Form Row Delete Action",
-        "properties": {
-            "abortRelatedRunningProcesses": "",
-            "confirmation": "Etes-vous sûr de vouloir tout supprimer définitivement ?",
-            "datalist_type": "action",
-            "deleteFiles": "",
-            "deleteGridData": "true",
-            "deleteSubformData": "",
-            "formDefId": "resultCompagnes",
-            "label": "Delete"
-        },
-        "type": "text"
-    }],
+    "actions": [],
     "binder": {
-        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "className": "com.itasoft.poc.JdbcPlugin",
         "properties": {
-            "extraCondition": "e.customProperties.dateFin >= current_date",
-            "formDefId": "resultCompagnes"
+            "jdbcDatasource": "default",
+            "optimisePaging": "",
+            "primaryKey": "Itemkey",
+            "sql": "SELECT count(table1.c_name) as \"Entreprises\", table2.id_firm as firmId\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where  table2.id_firm like \"%#requestParam.id_firm#%\""
         }
     },
     "buttonPosition": "bottomLeft",
@@ -31,203 +16,29 @@
             "filterable": true,
             "hidden": "false",
             "id": "column_0",
-            "label": "name",
-            "name": "name",
-            "sortable": "false"
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_2",
-            "label": "Entreprises",
-            "name": "entreprises",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_5",
-            "label": "Offres d'emplois",
-            "name": "jobs",
+            "label": "firmId",
+            "name": "firmId",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_3",
-            "label": "Date Debut",
-            "name": "dateDebut",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_4",
-            "label": "Date Fin",
-            "name": "dateFin",
-            "sortable": "false"
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "org.joget.BeanShellFormatter",
-                "properties": {"script": "//import the necessary classes\r\nimport org.joget.apps.datalist.service.DataListService;\r\nimport org.joget.apps.app.service.AppUtil;\r\nimport java.text.ParseException;\r\nimport java.text.SimpleDateFormat;\r\nimport java.util.Date;  \r\n\r\n\r\nimport java.sql.Connection;\r\nimport java.sql.PreparedStatement;\r\nimport java.sql.SQLException;\r\nimport javax.sql.DataSource;\r\n\r\nConnection con = null;\r\nDataListService dataListService = (DataListService) AppUtil.getApplicationContext().getBean(\"dataListService\");\r\n\r\npublic void update(){\r\n    try {\r\n    // retrieve connection from the default datasource\r\n    DataSource ds = (DataSource)AppUtil.getApplicationContext().getBean(\"setupDataSource\");\r\n    con = ds.getConnection();\r\n \r\n    // execute SQL query\r\n    if(!con.isClosed()) {\r\n        \r\n        PreparedStatement stmt = con.prepareStatement(\"UPDATE jwdb.app_fd_search as table1 SET c_entreprises=(SELECT count(*) FROM jwdb.app_fd_companies as table2 WHERE table1.c_firm=table2.c_firm);\");\r\n        PreparedStatement stmt1 = con.prepareStatement(\"UPDATE jwdb.app_fd_search as table1 SET c_dateDebut=(SELECT c_dateDebut FROM jwdb.app_fd_compagnes as table2 WHERE table1.c_firm=table2.id);\");\r\n        PreparedStatement stmt2 = con.prepareStatement(\"UPDATE jwdb.app_fd_search as table1 SET c_dateFin=(SELECT c_dateFin FROM jwdb.app_fd_compagnes as table2 WHERE table1.c_firm=table2.id);\");\r\n        PreparedStatement stmt3 = con.prepareStatement(\"UPDATE jwdb.app_fd_search as table1 SET c_jobs=(SELECT count(*) FROM jwdb.app_fd_jobs as table2 WHERE table1.c_firm=table2.c_firm);\");\r\n        // stmt.setObject(1, id);\r\n        \r\n        stmt.executeUpdate();\r\n        stmt1.executeUpdate();\r\n        stmt2.executeUpdate();\r\n        stmt3.executeUpdate();\r\n    }\r\n} catch(Exception e) {\r\n    System.err.println(\"Exception: \" + e.getMessage());\r\n} finally {\r\n    try {\r\n        if(con != null) {\r\n            con.close();\r\n        }\r\n    } catch(SQLException e) {\r\n    }\r\n}\r\n}\r\n\r\n\r\ntry {\r\n    update();\r\n    \r\n} catch (ParseException e) {\r\n    e.printStackTrace();\r\n}"}
-            },
-            "headerAlignment": "",
-            "hidden": "true",
             "id": "column_1",
-            "include_export": "",
-            "label": "ID",
-            "name": "id",
-            "sortable": "false",
-            "style": "",
-            "width": ""
+            "label": "Entreprises",
+            "name": "Entreprises",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-6836953-fn_dateDebut",
-            "hidden": "",
-            "id": "filter_1",
-            "label": "Date Debut",
-            "name": "dateDebut",
-            "type": {
-                "className": "org.joget.dateFilter.DateFilter",
-                "properties": {"format": "dd-mm-yy"}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-6836953-fn_dateFin",
-            "hidden": "",
-            "id": "filter_2",
-            "label": "Date Fin",
-            "name": "dateFin",
-            "type": {
-                "className": "org.joget.dateFilter.DateFilter",
-                "properties": {"format": "dd-mm-yy"}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-6836953-fn_firm",
-            "hidden": "",
-            "id": "filter_0",
-            "label": "Firm",
-            "name": "firm",
-            "type": {
-                "className": "org.joget.SelectBoxOptionsFilter",
-                "properties": {
-                    "defaultValue": "",
-                    "displayFull": "true",
-                    "isForeignKey": "",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "jobs",
-                            "groupingColumn": "",
-                            "idColumn": "firm",
-                            "labelColumn": "firm"
-                        }
-                    },
-                    "showCount": "",
-                    "showLabel": ""
-                }
-            }
-        }
-    ],
+    "filters": [],
     "id": "resultCompagnesActives",
     "name": "Resultat Compagnes Actives",
     "order": "",
     "orderBy": "",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
-    "rowActions": [
-        {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "icon": "<i class=\"fas fa-link\"><\/i>",
-            "id": "rowAction_2",
-            "label": "Hyperlink",
-            "name": "Data List Hyperlink Action",
-            "properties": {
-                "confirmation": "",
-                "datalist_type": "row_action",
-                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/jobs",
-                "hrefColumn": "firm",
-                "hrefParam": "id_firm",
-                "label": "<i class=\"fa fa-tasks\" aria-hidden=\"true\"><\/i>",
-                "rules": [],
-                "target": "_self"
-            },
-            "type": "text"
-        },
-        {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "icon": "<i class=\"fas fa-link\"><\/i>",
-            "id": "rowAction_0",
-            "label": "Hyperlink",
-            "name": "Data List Hyperlink Action",
-            "properties": {
-                "confirmation": "",
-                "datalist_type": "row_action",
-                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/entreprises",
-                "hrefColumn": "firm",
-                "hrefParam": "id_firm",
-                "label": "<i class=\"fas fa-briefcase\"><\/i>",
-                "rules": [],
-                "target": "_self"
-            },
-            "type": "text"
-        },
-        {
-            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-            "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
-            "id": "rowAction_1",
-            "label": "Delete",
-            "name": "Form Row Delete Action",
-            "properties": {
-                "abortRelatedRunningProcesses": "",
-                "confirmation": "Etes-vous sûr de vouloir supprimer définitivement ce resultat?",
-                "datalist_type": "row_action",
-                "deleteFiles": "",
-                "deleteGridData": "true",
-                "deleteSubformData": "",
-                "formDefId": "resultCompagnes",
-                "label": "<i class=\"fa fa-trash\"><\/i>",
-                "rules": []
-            },
-            "type": "text"
-        }
-    ],
+    "rowActions": [],
     "showPageSizeSelector": "true",
     "useSession": "false"
 }
