@@ -6,7 +6,7 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "Itemkey",
-            "sql": "SELECT count(*) as \"Entreprises\", table2.id_firm as firmId\nFROM app_fd_company_overview table1\nJOIN association table2 ON table1.id = table2.id_company \nJOIN app_fd_compagnes table3 ON table3.id = table2.id_firm\nwhere table3.c_statut like \"active\"\ngroup by  table2.id_firm "
+            "sql": "SELECT count(*)  \"Entreprisesssssss\", table2.id_firm firmId\nFROM app_fd_company_overview table1\nJOIN association table2 ON table1.id = table2.id_company \nJOIN app_fd_compagnes table3 ON table3.id = table2.id_firm\nwhere table3.c_statut like \"active\"\ngroup by  table2.id_firm "
         }
     },
     "buttonPosition": "bottomLeft",
@@ -15,7 +15,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
+            "id": "column_2",
             "label": "firmId",
             "name": "firmId",
             "sortable": "false"
@@ -23,9 +23,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_1",
-            "label": "Entreprises",
-            "name": "Entreprises",
+            "id": "column_3",
+            "label": "Entreprisesssssss",
+            "name": "Entreprisesssssss",
             "sortable": "false"
         }
     ],
@@ -38,7 +38,24 @@
     "orderBy": "",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
-    "rowActions": [],
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "icon": "<i class=\"fas fa-link\"><\/i>",
+        "id": "rowAction_0",
+        "label": "Hyperlink",
+        "name": "Data List Hyperlink Action",
+        "properties": {
+            "confirmation": "",
+            "datalist_type": "row_action",
+            "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/company_overview",
+            "hrefColumn": "firmId",
+            "hrefParam": "id_firm",
+            "label": "<i class=\"fa fa-briefcase\" aria-hidden=\"true\"><\/i>",
+            "rules": [],
+            "target": "_self"
+        },
+        "type": "text"
+    }],
     "showPageSizeSelector": "true",
     "useSession": "false"
 }
