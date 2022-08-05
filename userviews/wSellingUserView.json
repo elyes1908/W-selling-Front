@@ -390,7 +390,7 @@
                 "inbox": "",
                 "js": "",
                 "loginPageBottom": "<style>\n    i{\n        color:red;\n    }\n<\/style>",
-                "loginPageTop": "",
+                "loginPageTop": "<style>\n    i{\n        color:red;\n    }",
                 "logo": "",
                 "menuFontColor": "ALICEBLUE",
                 "primaryColor": "WHITE",
