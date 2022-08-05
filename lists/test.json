@@ -3,11 +3,7 @@
     "binder": {
         "className": "com.itasoft.poc.JdbcPlugin",
         "properties": {
-            "jdbcDatasource": "custom",
-            "jdbcDriver": "com.mysql.cj.jdbc.Driver",
-            "jdbcPassword": "",
-            "jdbcUrl": "jdbc:mysql://127.0.0.1:3307/jwdb",
-            "jdbcUser": "root",
+            "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "itemkey",
             "sql": "SELECT table1.c_name as \"Company Name\", table2.id_firm as firmId\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where table2.id_firm = \"#requestParam.id_firm#\""
