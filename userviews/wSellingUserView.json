@@ -385,7 +385,7 @@
                 "fontColor": "WHITE",
                 "fontControl": "",
                 "homeAttractBanner": "",
-                "homeUrl": "",
+                "homeUrl": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/listCompagnesUV",
                 "horizontal_menu": "",
                 "inbox": "",
                 "js": "",
