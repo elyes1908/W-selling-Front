@@ -6,7 +6,7 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "itemkey",
-            "sql": "SELECT table1.c_name as \"Company Name\", table2.id_firm as firmId\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where  table2.id_firm like \"#requestParam.id_firm#\""
+            "sql": "SELECT table1.c_name as \"Company Name\", table2.id_firm as firmId\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where  table2.id_firm like CONCAT('%', \"#requestParam.id_firm#\", '%')"
         }
     },
     "buttonPosition": "bottomLeft",
