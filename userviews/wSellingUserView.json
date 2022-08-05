@@ -105,7 +105,7 @@
                         "cacheListAction": "",
                         "checkboxPosition": "left",
                         "customFooter": "",
-                        "customHeader": "",
+                        "customHeader": "<style>\n    i{\n        color:red;\n    }\n<\/style>",
                         "customId": "test",
                         "datalistId": "test",
                         "enableOffline": "",
