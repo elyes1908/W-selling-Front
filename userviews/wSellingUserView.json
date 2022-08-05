@@ -370,10 +370,10 @@
         },
         "tempDisablePermissionChecking": "",
         "theme": {
-            "className": "org.joget.plugin.enterprise.UniversalTheme",
+            "className": "org.joget.plugin.enterprise.ProgressiveTheme",
             "properties": {
                 "accentColor": "BLUE",
-                "buttonColor": "GREY",
+                "buttonColor": "ORANGE",
                 "buttonTextColor": "WHITE",
                 "css": "",
                 "disableHelpGuide": "",
@@ -392,8 +392,8 @@
                 "loginPageBottom": "",
                 "loginPageTop": "",
                 "logo": "",
-                "menuFontColor": "ALICEBLUE",
-                "primaryColor": "LAVENDERBLUSH",
+                "menuFontColor": "BLACK",
+                "primaryColor": "INDIGO",
                 "profile": "",
                 "removeAssignmentTitle": "",
                 "shortcut": [],
