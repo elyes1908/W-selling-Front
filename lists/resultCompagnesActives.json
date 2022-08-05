@@ -6,7 +6,7 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "Itemkey",
-            "sql": "SELECT count(*) as \"Entreprises\", table2.id_firm as firmId\nFROM app_fd_company_overview table1\nJOIN association table2 ON table1.id = table2.id_company \ngroup by  table2.id_firm "
+            "sql": "SELECT count(*) as \"Entreprises\", table2.id_firm as firmId\nFROM app_fd_company_overview table1\nJOIN association table2 ON table1.id = table2.id_company \nJOIN app_fd_compagnes table3 ON table3.id = table2.id_firm\ngroup by  table2.id_firm "
         }
     },
     "buttonPosition": "bottomLeft",
