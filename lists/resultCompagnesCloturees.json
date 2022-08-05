@@ -50,7 +50,7 @@
             "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/test",
             "hrefColumn": "firmId",
             "hrefParam": "id_firm",
-            "label": "<i class=\"fa fa-briefcase\" aria-hidden=\"true\"><\/i>",
+            "label": "<i class=\"fa fa-briefcase\" aria-hidden=\"true\" style=\"color: red\"><\/i>",
             "rules": [],
             "target": "_self"
         },
