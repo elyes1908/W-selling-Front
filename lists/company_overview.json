@@ -11,46 +11,15 @@
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "org.joget.sample.CardFormatter",
-                "properties": {
-                    "cardUrlTarget": "",
-                    "description": "aa",
-                    "formDefId": "",
-                    "image": "",
-                    "link": "aa",
-                    "title": "Company Name"
-                }
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_1",
-            "label": "Company Name",
-            "name": "Company Name",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "datalist_type": "column",
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_0",
-            "label": "img",
-            "name": "img",
-            "sortable": "false"
-        }
-    ],
+    "columns": [{
+        "datalist_type": "column",
+        "filterable": true,
+        "hidden": "false",
+        "id": "column_0",
+        "label": "img",
+        "name": "img",
+        "sortable": "false"
+    }],
     "considerFilterWhenGetTotal": "",
     "description": "",
     "filters": [],
