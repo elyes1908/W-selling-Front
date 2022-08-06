@@ -1,34 +1,22 @@
 {
     "actions": [],
     "binder": {
-        "className": "com.itasoft.poc.JdbcPlugin",
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "jdbcDatasource": "default",
-            "optimisePaging": "",
-            "primaryKey": "Itemkey",
-            "sql": "SELECT table1.c_title as \"Job Title\", table2.id_firm as firmId\nFROM app_fd_jobs table1\nINNER JOIN association_firms_jobs table2 ON table1.id = table2.id_job where  table2.id_firm like \"%#requestParam.id_firm#%\"\nor table1.c_Url like \"#requestParam.url#\""
+            "extraCondition": "e.customProperties.url like  '#requestParam.url#'",
+            "formDefId": "jobs"
         }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_0",
-            "label": "firmId",
-            "name": "firmId",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_1",
-            "label": "Job Title",
-            "name": "Job Title",
-            "sortable": "false"
-        }
-    ],
+    "columns": [{
+        "filterable": true,
+        "hidden": "false",
+        "id": "column_0",
+        "label": "title",
+        "name": "Title",
+        "sortable": "false"
+    }],
     "considerFilterWhenGetTotal": "",
     "description": "",
     "filters": [],
