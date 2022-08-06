@@ -48,7 +48,7 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/jobs",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/jobs_company",
                 "hrefColumn": "c_url;firmId",
                 "hrefParam": "url;id_firm",
                 "label": "<i class=\"fa fa-briefcase\" aria-hidden=\"true\"><\/i>",
