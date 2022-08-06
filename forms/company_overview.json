@@ -289,7 +289,7 @@
             },
             "permissionHidden": "",
             "permissionReadonly": "",
-            "readonly": "true",
+            "readonly": "",
             "readonlyLabel": "",
             "regex": "",
             "reverse": "",
