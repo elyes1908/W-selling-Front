@@ -42,33 +42,12 @@
             "width": ""
         },
         {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
             "filterable": true,
-            "format": {
-                "className": "org.joget.sample.CardFormatter",
-                "properties": {
-                    "cardUrlTarget": "",
-                    "description": "jj",
-                    "formDefId": "",
-                    "image": "",
-                    "link": "jj",
-                    "title": "firmId"
-                }
-            },
-            "headerAlignment": "",
             "hidden": "false",
             "id": "column_0",
-            "label": "firmId",
-            "name": "firmId",
-            "sortable": "false",
-            "style": "",
-            "width": ""
+            "label": "c_url",
+            "name": "c_url",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
