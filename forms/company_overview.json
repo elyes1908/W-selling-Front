@@ -231,7 +231,7 @@
                         "attachment": "true",
                         "fileType": ".jpg",
                         "fileTypeMsg": "Invalid file type",
-                        "id": "image",
+                        "id": "firm",
                         "label": "File Upload",
                         "maxSize": "",
                         "maxSizeMsg": "File size limit exceeded",
