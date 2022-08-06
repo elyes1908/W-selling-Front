@@ -46,24 +46,44 @@
     "orderBy": "",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
-    "rowActions": [{
-        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-        "icon": "<i class=\"fas fa-link\"><\/i>",
-        "id": "rowAction_0",
-        "label": "Hyperlink",
-        "name": "Data List Hyperlink Action",
-        "properties": {
-            "confirmation": "",
-            "datalist_type": "row_action",
-            "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/jobs",
-            "hrefColumn": "c_url;firmId",
-            "hrefParam": "url;id_firm",
-            "label": "Jobs",
-            "rules": [],
-            "target": "_self"
+    "rowActions": [
+        {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "icon": "<i class=\"fas fa-link\"><\/i>",
+            "id": "rowAction_0",
+            "label": "Hyperlink",
+            "name": "Data List Hyperlink Action",
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/jobs",
+                "hrefColumn": "c_url;firmId",
+                "hrefParam": "url;id_firm",
+                "label": "Jobs",
+                "rules": [],
+                "target": "_self"
+            },
+            "type": "text"
         },
-        "type": "text"
-    }],
+        {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "icon": "<i class=\"fas fa-link\"><\/i>",
+            "id": "rowAction_1",
+            "label": "Hyperlink",
+            "name": "Data List Hyperlink Action",
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/detailCompagne",
+                "hrefColumn": "id",
+                "hrefParam": "id",
+                "label": "<i class=\"fas fa-angle-double-right\"><\/i>",
+                "rules": [],
+                "target": "popup"
+            },
+            "type": "text"
+        }
+    ],
     "showPageSizeSelector": "true",
     "useSession": "false"
 }
