@@ -6,7 +6,7 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "Itemkey",
-            "sql": "SELECT table1.c_name as \"Company Name\", table1.c_url, table2.id_firm as firmId\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where  table2.id_firm like \"%#requestParam.id_firm#%\""
+            "sql": "SELECT table1.c_title as \"Job Title\", table2.id_firm as firmId\nFROM app_fd_jobs table1\nINNER JOIN association_firms_jobs table2 ON table1.id = table2.id_job where  table2.id_firm like \"%#requestParam.id_firm#%\" and\ntable1.c_Url = \"%#requestParam.url#%\""
         }
     },
     "buttonPosition": "bottomLeft",
@@ -15,7 +15,7 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_2",
+            "id": "column_3",
             "label": "firmId",
             "name": "firmId",
             "sortable": "false"
@@ -23,17 +23,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
-            "label": "c_url",
-            "name": "c_url",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_1",
-            "label": "Company Name",
-            "name": "Company Name",
+            "id": "column_4",
+            "label": "Job Title",
+            "name": "Job Title",
             "sortable": "false"
         }
     ],
