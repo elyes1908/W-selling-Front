@@ -42,20 +42,33 @@
             "width": ""
         },
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "org.joget.sample.CardFormatter",
+                "properties": {
+                    "cardUrlTarget": "",
+                    "description": "aa",
+                    "formDefId": "",
+                    "image": "",
+                    "link": "aa",
+                    "title": "c_url"
+                }
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_0",
             "label": "c_url",
             "name": "c_url",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_2",
-            "label": "id",
-            "name": "id",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         }
     ],
     "considerFilterWhenGetTotal": "",
