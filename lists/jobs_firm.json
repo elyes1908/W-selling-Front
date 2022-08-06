@@ -6,7 +6,7 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "Itemkey",
-            "sql": "SELECT table1.c_title as \"Job Title\", table2.id_firm as firmId\nFROM app_fd_jobs table1\nJOIN association_firms_jobs table2 ON table1.id = table2.id_job\nwhere table2.id_firm like \"%#requesParam.id_firm#%\""
+            "sql": "SELECT table1.c_title as \"Job Title\", table2.id_firm as firmId\nFROM app_fd_jobs table1\nJOIN association_firms_jobs table2 ON table1.id = table2.id_job\nwhere table2.id_firm like \"%#requestParam.id_firm#%\""
         }
     },
     "buttonPosition": "bottomLeft",
