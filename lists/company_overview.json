@@ -6,7 +6,7 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "Itemkey",
-            "sql": "SELECT table1.c_name as \"Company Name\", table1.c_url, table2.id_firm as firmId, table1.id, \"<img src='https://instagram.ftun10-1.fna.fbcdn.net/v/t51.2885-15/129722304_376827260273199_4061214277452560098_n.jpg?stp=dst-jpg_e35&_nc_ht=instagram.ftun10-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=N0jAOkogf_EAX_64oSp&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=MjQ1OTU3MzkxNjIxMDI4MzY5NA%3D%3D.2-ccb7-5&oh=00_AT_QGQZXcxm0cY_ts4bx_MM3yZ74oaLdlqYH2I7lKPZImQ&oe=62F5D0ED&_nc_sid=30a2ef'/>\" as img\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where  table2.id_firm like \"%#requestParam.id_firm#%\"\n\n"
+            "sql": "SELECT table1.c_name as \"Company Name\", table1.c_url, table2.id_firm as firmId, table1.id, \"<img src='/jw/web/app/wSelling/resources/company.jpg' />\" as img\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where  table2.id_firm like \"%#requestParam.id_firm#%\"\n\n"
         }
     },
     "buttonPosition": "bottomLeft",
@@ -42,6 +42,7 @@
             "width": ""
         },
         {
+            "datalist_type": "column",
             "filterable": true,
             "hidden": "false",
             "id": "column_0",
