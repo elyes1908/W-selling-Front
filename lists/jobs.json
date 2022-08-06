@@ -1,84 +1,31 @@
 {
-    "actions": [{
-        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-        "icon": "<i class=\"fas fa-trash-alt\"><\/i>",
-        "id": "action_0",
-        "label": "Delete",
-        "name": "Form Row Delete Action",
-        "properties": {
-            "abortRelatedRunningProcesses": "",
-            "confirmation": "",
-            "datalist_type": "action",
-            "deleteFiles": "",
-            "deleteGridData": "true",
-            "deleteSubformData": "",
-            "formDefId": "jobs",
-            "label": "Delete"
-        },
-        "type": "text"
-    }],
+    "actions": [],
     "binder": {
-        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "className": "com.itasoft.poc.JdbcPlugin",
         "properties": {
-            "extraCondition": "e.customProperties.firm like  '#requestParam.id_firm#'",
-            "formDefId": "jobs"
+            "jdbcDatasource": "default",
+            "optimisePaging": "",
+            "primaryKey": "Itemkey",
+            "sql": "SELECT table1.c_title as \"Job Title\", table2.id_firm as firmId\nFROM app_fd_jobs table1\nINNER JOIN association_firms_jobs table2 ON table1.id = table2.id_job where  table2.id_firm like \"%#requestParam.id_firm#%\""
         }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
     "columns": [
         {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_4",
-            "label": "Firm",
-            "name": "firm",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
             "filterable": true,
             "hidden": "false",
             "id": "column_0",
-            "label": "url",
-            "name": "Url",
+            "label": "firmId",
+            "name": "firmId",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
             "id": "column_1",
-            "label": "title",
-            "name": "Title",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_2",
-            "label": "location",
-            "name": "Location",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_3",
-            "label": "date",
-            "name": "Date",
+            "label": "Job Title",
+            "name": "Job Title",
             "sortable": "false"
         }
     ],
