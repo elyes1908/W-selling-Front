@@ -202,7 +202,7 @@
                         "cacheListAction": "",
                         "checkboxPosition": "left",
                         "customFooter": "",
-                        "customHeader": "<h4>Entreprises de la compagne  <span style=\"text-transform:uppercase\">#requestParam.nom#<\/span><\/h4>",
+                        "customHeader": "<h4>Entreprises de la compagne  <span style=\"text-transform:capitalize\">#requestParam.nom#<\/span><\/h4>",
                         "customId": "company_overview_list",
                         "datalistId": "company_overview",
                         "enableOffline": "",
