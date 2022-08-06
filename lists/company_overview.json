@@ -13,15 +13,6 @@
     "checkboxPosition": "left",
     "columns": [
         {
-            "datalist_type": "column",
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_0",
-            "label": "img",
-            "name": "img",
-            "sortable": "false"
-        },
-        {
             "action": {
                 "className": "",
                 "properties": {}
@@ -49,6 +40,14 @@
             "sortable": "false",
             "style": "",
             "width": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "img",
+            "name": "img",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
