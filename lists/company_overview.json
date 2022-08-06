@@ -48,17 +48,24 @@
             },
             "alignment": "",
             "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
             "format": {
-                "className": "",
-                "properties": {}
+                "className": "org.joget.sample.CardFormatter",
+                "properties": {
+                    "cardUrlTarget": "",
+                    "description": "jj",
+                    "formDefId": "",
+                    "image": "",
+                    "link": "jj",
+                    "title": "firmId"
+                }
             },
             "headerAlignment": "",
-            "hidden": "true",
+            "hidden": "false",
             "id": "column_0",
-            "include_export": "",
-            "label": "id",
-            "name": "id",
+            "label": "firmId",
+            "name": "firmId",
             "sortable": "false",
             "style": "",
             "width": ""
