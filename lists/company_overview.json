@@ -48,6 +48,14 @@
             "label": "c_url",
             "name": "c_url",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "id",
+            "name": "id",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
