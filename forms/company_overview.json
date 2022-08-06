@@ -226,26 +226,6 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "id": "firm",
-                        "label": "Firm",
-                        "maxlength": "",
-                        "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "storeNumeric": "",
-                        "style": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                },
-                {
                     "className": "org.joget.apps.form.lib.FileUpload",
                     "properties": {
                         "attachment": "",
@@ -269,6 +249,26 @@
                             "className": "",
                             "properties": {}
                         }
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "id": "firm",
+                        "label": "Firm",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "storeNumeric": "",
+                        "style": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
                     }
                 }
             ],
