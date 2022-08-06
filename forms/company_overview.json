@@ -248,31 +248,17 @@
                 {
                     "className": "org.joget.apps.form.lib.FileUpload",
                     "properties": {
-                        "attachment": "",
-                        "fileType": "",
+                        "attachment": "False",
                         "fileTypeMsg": "Invalid file type",
-                        "id": "img",
+                        "id": "field14",
                         "label": "File Upload",
-                        "maxSize": "",
                         "maxSizeMsg": "File size limit exceeded",
-                        "multiple": "true",
-                        "padding": "",
+                        "multiple": "False",
                         "permissionType": "",
-                        "readonly": "",
-                        "removeFile": "",
-                        "resizeHeight": "",
+                        "readonly": "False",
+                        "removeFile": "false",
                         "resizeMethod": "",
-                        "resizeQuality": "0.8",
-                        "resizeWidth": "",
-                        "size": "",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "mandatory": "true",
-                                "message": "",
-                                "type": ""
-                            }
-                        }
+                        "resizeQuality": "0.8"
                     }
                 }
             ],
