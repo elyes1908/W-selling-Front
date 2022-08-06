@@ -59,7 +59,7 @@
                 "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/jobs",
                 "hrefColumn": "c_url;firmId",
                 "hrefParam": "url;id_firm",
-                "label": "Jobs",
+                "label": "<i class=\"fa fa-briefcase\" aria-hidden=\"true\"><\/i>",
                 "rules": [],
                 "target": "_self"
             },
