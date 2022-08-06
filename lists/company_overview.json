@@ -27,14 +27,6 @@
             "label": "Company Name",
             "name": "Company Name",
             "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_2",
-            "label": "c_url",
-            "name": "c_url",
-            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
