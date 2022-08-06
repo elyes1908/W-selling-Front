@@ -26,8 +26,8 @@
                 "properties": {
                     "cardUrlTarget": "",
                     "description": "aa",
-                    "formDefId": "detailsCompagne",
-                    "image": "img",
+                    "formDefId": "",
+                    "image": "",
                     "link": "aa",
                     "title": "Company Name"
                 }
