@@ -13,33 +13,12 @@
     "checkboxPosition": "left",
     "columns": [
         {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
             "filterable": true,
-            "format": {
-                "className": "org.joget.sample.CardFormatter",
-                "properties": {
-                    "cardUrlTarget": "",
-                    "description": "#requestParam.id_firm#\n#form.company_overview.id#",
-                    "formDefId": "company_overview",
-                    "image": "img",
-                    "link": "aa",
-                    "title": "Company Name"
-                }
-            },
-            "headerAlignment": "",
             "hidden": "false",
-            "id": "column_1",
+            "id": "column_3",
             "label": "Company Name",
             "name": "Company Name",
-            "sortable": "false",
-            "style": "",
-            "width": ""
+            "sortable": "false"
         },
         {
             "filterable": true,
