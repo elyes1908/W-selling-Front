@@ -6,7 +6,7 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "Itemkey",
-            "sql": "SELECT count(*)  \"Entreprises\", table2.id_firm firmId\nFROM app_fd_company_overview table1\nJOIN association table2 ON table1.id = table2.id_company \nJOIN app_fd_compagnes table3 ON table3.id = table2.id_firm\nwhere table3.c_statut like \"active\"\ngroup by  table2.id_firm "
+            "sql": "SELECT total_jobs.id_firm, total_jobs.jobs as jobs, total_companies.entreprises\r\nfrom (SELECT association_jobs.id_firm, count(association_jobs.id) as jobs\r\n      FROM app_fd_jobs jobs\r\n               JOIN association_firms_jobs association_jobs ON jobs.id = association_jobs.id_job\r\n\r\n      group by id_firm\r\n     ) total_jobs\r\n         left join\r\n     (SELECT association_company.id_firm, count(association_company.id) as entreprises\r\n      FROM app_fd_company_overview company\r\n               JOIN association association_company ON company.id = association_company.id_company\r\n      group by id_firm\r\n     ) total_companies on total_jobs.id_firm = total_companies.id_firm\r\n         JOIN app_fd_compagnes compagne ON compagne.id = total_jobs.id_firm\r\nwhere compagne.c_statut like \"active\""
         }
     },
     "buttonPosition": "bottomLeft",
@@ -15,17 +15,25 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_2",
-            "label": "firmId",
-            "name": "firmId",
+            "id": "column_1",
+            "label": "id_firm",
+            "name": "id_firm",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
-            "label": "Entreprises",
-            "name": "Entreprises",
+            "id": "column_4",
+            "label": "entreprises",
+            "name": "entreprises",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "jobs",
+            "name": "jobs",
             "sortable": "false"
         }
     ],
