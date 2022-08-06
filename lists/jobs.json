@@ -3,20 +3,13 @@
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "extraCondition": "e.customProperties.Url like  '#requestParam.url#'",
+            "extraCondition": "e.customProperties.url like  '#requestParam.url#'",
             "formDefId": "jobs"
         }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [{
-        "filterable": true,
-        "hidden": "false",
-        "id": "column_0",
-        "label": "title",
-        "name": "Title",
-        "sortable": "false"
-    }],
+    "columns": [],
     "considerFilterWhenGetTotal": "",
     "description": "",
     "filters": [],
