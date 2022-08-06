@@ -147,6 +147,27 @@
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "company_overview_list",
+                        "datalistId": "company_overview",
+                        "enableOffline": "",
+                        "id": "D6998A7030084DB68315F401F31696BA",
+                        "keyName": "",
+                        "label": "Company Overview",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
                 }
             ],
             "properties": {
@@ -164,22 +185,32 @@
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
                 {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "className": "org.joget.apps.userview.lib.FormMenu",
                     "properties": {
-                        "buttonPosition": "bottomLeft",
-                        "cacheAllLinks": "",
-                        "cacheListAction": "",
-                        "checkboxPosition": "left",
+                        "actionAfterSaved": "",
+                        "actionOnCancel": "",
+                        "cancelButtonLabel": "",
                         "customFooter": "",
                         "customHeader": "",
-                        "customId": "company_overview",
-                        "datalistId": "company_overview",
+                        "customId": "company_overview_form",
                         "enableOffline": "",
-                        "id": "D6998A7030084DB68315F401F31696BA",
+                        "fieldPassover": "",
+                        "fieldPassoverMethod": "append",
+                        "formId": "company_overview",
+                        "id": "0509E0005BB34F16AFFEEC70508711B6",
                         "keyName": "",
-                        "label": "Company Overview",
-                        "rowCount": "true",
-                        "selectionType": "multiple",
+                        "label": "Company Overview Form",
+                        "loadDataWithKey": "",
+                        "messageShowAfterComplete": "",
+                        "paramName": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "redirectTargetOnCancel": "top",
+                        "redirectTargetOnComplete": "",
+                        "redirectUrlAfterComplete": "",
+                        "redirectUrlOnCancel": "",
+                        "showInPopupDialog": "",
+                        "submitButtonLabel": "",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
