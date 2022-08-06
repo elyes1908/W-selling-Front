@@ -54,10 +54,10 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "",
-                "hrefColumn": "",
-                "hrefParam": "",
-                "label": "<i class=\"fa fa-briefcase\" aria-hidden=\"true\"><\/i>",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/company_overview",
+                "hrefColumn": "id",
+                "hrefParam": "id_firm",
+                "label": "<i class=\"fa fa-building-o\" aria-hidden=\"true\"><\/i>",
                 "rules": [],
                 "target": "_self"
             },
