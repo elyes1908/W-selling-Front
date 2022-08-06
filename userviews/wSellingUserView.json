@@ -224,6 +224,27 @@
                         "checkboxPosition": "left",
                         "customFooter": "",
                         "customHeader": "",
+                        "customId": "company_overview_firm",
+                        "datalistId": "company_overview",
+                        "enableOffline": "",
+                        "id": "99B28D4C60EE4A128F6113D5CD5EDD25",
+                        "keyName": "",
+                        "label": "Company Overview",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "",
                         "customId": "jobs_company",
                         "datalistId": "jobs",
                         "enableOffline": "",
