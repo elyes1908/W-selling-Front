@@ -167,7 +167,7 @@
                         "loadDataWithKey": "",
                         "messageShowAfterComplete": "",
                         "paramName": "",
-                        "readonly": "Yes",
+                        "readonly": "",
                         "readonlyLabel": "",
                         "redirectTargetOnCancel": "top",
                         "redirectTargetOnComplete": "",
