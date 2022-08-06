@@ -228,7 +228,7 @@
                 {
                     "className": "org.joget.apps.form.lib.FileUpload",
                     "properties": {
-                        "attachment": "",
+                        "attachment": "true",
                         "fileType": ".jpg",
                         "fileTypeMsg": "Invalid file type",
                         "id": "img",
@@ -236,7 +236,7 @@
                         "maxSize": "",
                         "maxSizeMsg": "File size limit exceeded",
                         "multiple": "true",
-                        "padding": "",
+                        "padding": "50px",
                         "permissionType": "public",
                         "readonly": "",
                         "removeFile": "",
