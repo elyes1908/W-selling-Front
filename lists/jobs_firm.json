@@ -1,11 +1,35 @@
 {
     "actions": [],
     "binder": {
-        "className": "",
-        "name": "",
-        "properties": {}
+        "className": "com.itasoft.poc.JdbcPlugin",
+        "properties": {
+            "jdbcDatasource": "default",
+            "optimisePaging": "",
+            "primaryKey": "Itemkey",
+            "sql": "SELECT table1.c_title as \"Job Title\", table2.id_firm as firmId\nFROM app_fd_jobs table1\nJOIN association_firms_jobs table2 ON table1.id = table2.id_job\nwhere table2.id_firm like \"%#requesParam.id_firm#%\""
+        }
     },
-    "columns": [],
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "firmId",
+            "name": "firmId",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Job Title",
+            "name": "Job Title",
+            "sortable": "false"
+        }
+    ],
+    "considerFilterWhenGetTotal": "",
     "description": "",
     "filters": [],
     "id": "jobs_firm",
@@ -13,5 +37,8 @@
     "order": "",
     "orderBy": "",
     "pageSize": "0",
-    "rowActions": []
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
 }
