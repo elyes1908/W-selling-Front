@@ -6,50 +6,40 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "Itemkey",
-            "sql": "SELECT table1.c_name as \"Company Name\", table1.c_url, table2.id_firm as firmId, table1.id, table1.c_image\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where  table2.id_firm like \"%#requestParam.id_firm#%\"\n\n"
+            "sql": "SELECT table1.c_name as \"Company Name\", table1.c_url, table2.id_firm as firmId, table1.id, concat(\"<img src='/jw/web/client/app/wSelling/1/form/download/company_overview/\", table1.id, \"/\", table1.c_image, \".'/>\") as img\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where  table2.id_firm like \"%#requestParam.id_firm#%\"\n\n"
         }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "org.joget.sample.CardFormatter",
-                "properties": {
-                    "cardUrlTarget": "",
-                    "description": "aa",
-                    "formDefId": "company_overview",
-                    "image": "c_image",
-                    "link": "aa",
-                    "title": "Company Name"
-                }
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_1",
-            "label": "Company Name",
-            "name": "Company Name",
-            "sortable": "false",
-            "style": "",
-            "width": ""
+    "columns": [{
+        "action": {
+            "className": "",
+            "properties": {}
         },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_0",
-            "label": "c_image",
-            "name": "c_image",
-            "sortable": "false"
-        }
-    ],
+        "alignment": "",
+        "datalist_type": "column",
+        "exclude_export": "",
+        "filterable": true,
+        "format": {
+            "className": "org.joget.sample.CardFormatter",
+            "properties": {
+                "cardUrlTarget": "",
+                "description": "aa",
+                "formDefId": "company_overview",
+                "image": "img",
+                "link": "aa",
+                "title": "Company Name"
+            }
+        },
+        "headerAlignment": "",
+        "hidden": "false",
+        "id": "column_1",
+        "label": "Company Name",
+        "name": "Company Name",
+        "sortable": "false",
+        "style": "",
+        "width": ""
+    }],
     "considerFilterWhenGetTotal": "",
     "description": "",
     "filters": [],
