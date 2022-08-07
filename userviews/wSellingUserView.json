@@ -368,7 +368,7 @@
                 "shortcut": [],
                 "shortcutLinkLabel": "Shortcut",
                 "subfooter": "",
-                "subheader": "\r\n",
+                "subheader": "<style>\r\n    #goBack{\r\n  position: absolute;\r\n  top: 150%;\r\n  right: 5%;\r\n  font-size: 35px;\r\n  \r\n  \r\n}\r\n<\/style>\r\n<a href=\"javascript:history.back()\" id=\"goBack\"><i class=\"fa fa-arrow-circle-left\" aria-hidden=\"true\"><\/i>\r\n<\/a>",
                 "themeScheme": "light",
                 "urlsToCache": "",
                 "userImage": "hashVariable",
