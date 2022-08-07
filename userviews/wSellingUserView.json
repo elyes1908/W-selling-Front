@@ -341,7 +341,7 @@
         "footerMessage": "Powered by WEVIOO",
         "id": "wSellingUserView",
         "logoutText": "Logout",
-        "name": "Wevioo Selling  <style>     #goBack{   position: absolute;   top: 150%;   right: 5%;   font-size: 35px;       } <\/style> <a href=\"javascript:history.back()\" id=\"goBack\"><i class=\"fa fa-arrow-circle-left\" aria-hidden=\"true\"><\/i> <\/a>",
+        "name": "Wevioo Selling  <a href=\"javascript:history.back()\" id=\"goBack\"><i class=\"fa fa-arrow-circle-left\" aria-hidden=\"true\"><\/i> <\/a>",
         "welcomeMessage": "#date.EEE, d MMM yyyy#"
     },
     "setting": {"properties": {
@@ -357,7 +357,7 @@
                 "accentColor": "BLUE",
                 "buttonColor": "ORANGE",
                 "buttonTextColor": "WHITE",
-                "css": "    #goBack{\r\n  position: absolute;\r\n  top: 10%;\r\n  right: 5%;\r\n  font-size: 35px;\r\n  \r\n  \r\n}",
+                "css": "    #goBack{\r\n  position: absolute;\r\n  top: 10%;\r\n  \r\n  font-size: 35px;\r\n  \r\n  \r\n}",
                 "disableHelpGuide": "",
                 "disablePush": "",
                 "disablePwa": "",
