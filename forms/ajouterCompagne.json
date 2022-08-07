@@ -2,174 +2,191 @@
     "className": "org.joget.apps.form.model.Form",
     "elements": [{
         "className": "org.joget.apps.form.model.Section",
-        "elements": [{
-            "className": "org.joget.apps.form.model.Column",
-            "elements": [
-                {
-                    "className": "org.joget.apps.form.lib.IdGeneratorField",
-                    "properties": {
-                        "envVariable": "counter",
-                        "format": "CA-??????",
-                        "hidden": "",
-                        "id": "id",
-                        "label": "ID de la compagne",
-                        "workflowVariable": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "id": "nom",
-                        "label": "Nom de la compagne",
-                        "maxlength": "",
-                        "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "storeNumeric": "",
-                        "style": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.DatePicker",
-                    "properties": {
-                        "allowManual": "true",
-                        "currentDateAs": "",
-                        "dataFormat": "yyyy-MM-dd",
-                        "datePickerType": "",
-                        "endDateFieldId": "dateFin",
-                        "format": "",
-                        "id": "dateDebut",
-                        "label": "Date début",
-                        "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "startDateFieldId": "dateDebut",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "mandatory": "true",
-                                "message": "",
-                                "type": ""
+        "elements": [
+            {
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [
+                    {
+                        "className": "org.joget.apps.form.lib.TextField",
+                        "properties": {
+                            "id": "nom",
+                            "label": "Nom de la compagne",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "size": "",
+                            "storeNumeric": "",
+                            "style": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.IdGeneratorField",
+                        "properties": {
+                            "envVariable": "counter",
+                            "format": "CA-??????",
+                            "hidden": "",
+                            "id": "id",
+                            "label": "ID de la compagne",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "allowManual": "true",
+                            "currentDateAs": "",
+                            "dataFormat": "yyyy-MM-dd",
+                            "datePickerType": "",
+                            "endDateFieldId": "dateFin",
+                            "format": "",
+                            "id": "dateDebut",
+                            "label": "Date début",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "startDateFieldId": "dateDebut",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": "datDeb",
+                            "yearRange": "c-10:c+10"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "allowManual": "true",
+                            "currentDateAs": "",
+                            "dataFormat": "yyyy-MM-dd",
+                            "datePickerType": "",
+                            "endDateFieldId": "dateFin",
+                            "format": "",
+                            "id": "dateFin",
+                            "label": "Date de fin prévue",
+                            "placeholder": "",
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "startDateFieldId": "dateDebut",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "mandatory": "true",
+                                    "message": "",
+                                    "type": ""
+                                }
+                            },
+                            "value": "",
+                            "workflowVariable": "DateFi",
+                            "yearRange": "c-10:c+10"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.HiddenField",
+                        "properties": {
+                            "id": "statut",
+                            "useDefaultWhenEmpty": "",
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.SubformRepeater",
+                        "properties": {
+                            "addMode": "enable",
+                            "collapsedByDefault": "true",
+                            "collapsible": "true",
+                            "deleteMode": "enable",
+                            "editFormDefId": "",
+                            "editMode": "enable",
+                            "enableSorting": "",
+                            "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
+                            "formDefId": "keyword",
+                            "id": "keyword",
+                            "label": "Mots clés",
+                            "loadBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "storeBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "uniqueKey": "",
+                            "validateMaxRow": "",
+                            "validateMinRow": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
                             }
-                        },
-                        "value": "",
-                        "workflowVariable": "datDeb",
-                        "yearRange": "c-10:c+10"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.DatePicker",
-                    "properties": {
-                        "allowManual": "true",
-                        "currentDateAs": "",
-                        "dataFormat": "yyyy-MM-dd",
-                        "datePickerType": "",
-                        "endDateFieldId": "dateFin",
-                        "format": "",
-                        "id": "dateFin",
-                        "label": "Date de fin prévue",
-                        "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "startDateFieldId": "dateDebut",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "mandatory": "true",
-                                "message": "",
-                                "type": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.SubformRepeater",
+                        "properties": {
+                            "addMode": "enable",
+                            "collapsedByDefault": "",
+                            "collapsible": "true",
+                            "deleteMode": "enable",
+                            "editFormDefId": "",
+                            "editMode": "enable",
+                            "enableSorting": "",
+                            "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
+                            "formDefId": "searchRepeater",
+                            "id": "pays_region",
+                            "label": "Pays et régions",
+                            "loadBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "storeBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "uniqueKey": "",
+                            "validateMaxRow": "",
+                            "validateMinRow": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
                             }
-                        },
-                        "value": "",
-                        "workflowVariable": "DateFi",
-                        "yearRange": "c-10:c+10"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.HiddenField",
-                    "properties": {
-                        "id": "statut",
-                        "useDefaultWhenEmpty": "",
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                },
-                {
-                    "className": "org.joget.SubformRepeater",
-                    "properties": {
-                        "addMode": "enable",
-                        "collapsedByDefault": "true",
-                        "collapsible": "true",
-                        "deleteMode": "enable",
-                        "editFormDefId": "",
-                        "editMode": "enable",
-                        "enableSorting": "",
-                        "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
-                        "formDefId": "keyword",
-                        "id": "keyword",
-                        "label": "Mots clés",
-                        "loadBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "storeBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "uniqueKey": "",
-                        "validateMaxRow": "",
-                        "validateMinRow": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
                         }
                     }
-                },
-                {
-                    "className": "org.joget.SubformRepeater",
+                ],
+                "properties": {"width": "49%"}
+            },
+            {
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [{
+                    "className": "org.joget.apps.form.lib.TextArea",
                     "properties": {
-                        "addMode": "enable",
-                        "collapsedByDefault": "",
-                        "collapsible": "true",
-                        "deleteMode": "enable",
-                        "editFormDefId": "",
-                        "editMode": "enable",
-                        "enableSorting": "",
-                        "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
-                        "formDefId": "searchRepeater",
-                        "id": "pays_region",
-                        "label": "Pays et régions",
-                        "loadBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "storeBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "uniqueKey": "",
-                        "validateMaxRow": "",
-                        "validateMinRow": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        }
+                        "cols": "20",
+                        "id": "field8",
+                        "label": "Text Area",
+                        "readonly": "False",
+                        "readonlyLabel": "False",
+                        "rows": "5"
                     }
-                }
-            ],
-            "properties": {"width": "100%"}
-        }],
+                }],
+                "properties": {"width": "49%"}
+            }
+        ],
         "properties": {
             "comment": "",
             "id": "section1",
