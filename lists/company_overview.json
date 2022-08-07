@@ -4,7 +4,7 @@
         "className": "com.itasoft.poc.JdbcPlugin",
         "properties": {
             "jdbcDatasource": "default",
-            "optimisePaging": "",
+            "optimisePaging": "true",
             "primaryKey": "Itemkey",
             "sql": "SELECT table1.c_name as \"Company Name\", table1.c_url, table2.id_firm as firmId, table1.id, table1.c_image as img\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where  table2.id_firm like \"%#requestParam.id_firm#%\"\n\n"
         }
@@ -42,14 +42,30 @@
     }],
     "considerFilterWhenGetTotal": "",
     "description": "",
+    "disableResponsive": "",
     "filters": [],
+    "hidePageSize": "",
     "id": "company_overview",
     "name": "Company Overview",
     "order": "",
     "orderBy": "",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "responsiveView": [
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Mobile"
+        },
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Tablet"
+        }
+    ],
     "rowActions": [],
+    "searchPopup": "",
+    "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
-    "useSession": "false"
+    "useSession": ""
 }
