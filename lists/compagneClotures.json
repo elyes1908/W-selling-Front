@@ -46,7 +46,72 @@
     "considerFilterWhenGetTotal": "",
     "description": "",
     "disableResponsive": "",
-    "filters": [],
+    "filters": [
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-6383-fn_pays_region",
+            "hidden": "",
+            "id": "filter_1",
+            "label": "Pays",
+            "name": "pays_region",
+            "type": {
+                "className": "org.joget.SelectBoxOptionsFilter",
+                "properties": {
+                    "defaultValue": "",
+                    "displayFull": "true",
+                    "isForeignKey": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "cities",
+                            "groupingColumn": "",
+                            "idColumn": "city",
+                            "labelColumn": "city"
+                        }
+                    },
+                    "showCount": "",
+                    "showLabel": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-6383-fn_pays_region",
+            "hidden": "",
+            "id": "filter_0",
+            "label": "Région",
+            "name": "pays_region",
+            "type": {
+                "className": "org.joget.SelectBoxOptionsFilter",
+                "properties": {
+                    "defaultValue": "",
+                    "displayFull": "true",
+                    "isForeignKey": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "cities",
+                            "groupingColumn": "",
+                            "idColumn": "country",
+                            "labelColumn": "country"
+                        }
+                    },
+                    "showCount": "",
+                    "showLabel": ""
+                }
+            }
+        }
+    ],
     "hidePageSize": "",
     "id": "compagneClotures",
     "name": "Compagne Clotures",
