@@ -96,6 +96,19 @@
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.InboxMenu",
+                    "properties": {
+                        "appFilter": "all",
+                        "buttonPosition": "bottomLeft",
+                        "id": "641912BA96084DEFB7D721BC4BE0EC75",
+                        "label": "Boîte de réception",
+                        "rowCount": "false",
+                        "showPopup": "false",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
                 }
             ],
             "properties": {
@@ -328,7 +341,7 @@
         "footerMessage": "Powered by WEVIOO",
         "id": "wSellingUserView",
         "logoutText": "Logout",
-        "name": "Wevioo Selling",
+        "name": "Wevioo Selling  <style>     #goBack{   position: absolute;   top: 150%;   right: 5%;   font-size: 35px;       } <\/style> <a href=\"javascript:history.back()\" id=\"goBack\"><i class=\"fa fa-arrow-circle-left\" aria-hidden=\"true\"><\/i> <\/a>",
         "welcomeMessage": "#date.EEE, d MMM yyyy#"
     },
     "setting": {"properties": {
