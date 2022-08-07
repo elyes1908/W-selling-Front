@@ -31,7 +31,7 @@
                         "validator": {
                             "className": "org.joget.apps.form.lib.DuplicateValueValidator",
                             "properties": {
-                                "errorDuplicateMsg": "#form.compagnes.nom#",
+                                "errorDuplicateMsg": "#binder.wSelling.ajouterCompagne.nom#",
                                 "errorFormatMsg": "",
                                 "fieldId": "nom",
                                 "formDefId": "ajouterCompagne",
