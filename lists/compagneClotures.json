@@ -55,8 +55,8 @@
                 "className": "org.joget.apps.datalist.lib.DefaultFormatter",
                 "properties": {
                     "color": "",
-                    "field": "",
-                    "formDefId": "",
+                    "field": "country",
+                    "formDefId": "cities",
                     "formatting": "",
                     "size": ""
                 }
@@ -75,72 +75,38 @@
     "considerFilterWhenGetTotal": "",
     "description": "",
     "disableResponsive": "",
-    "filters": [
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-6383-fn_pays_region",
-            "hidden": "",
-            "id": "filter_1",
-            "label": "Pays",
-            "name": "pays_region",
-            "type": {
-                "className": "org.joget.SelectBoxOptionsFilter",
-                "properties": {
-                    "defaultValue": "",
-                    "displayFull": "",
-                    "isForeignKey": "",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "cities",
-                            "groupingColumn": "",
-                            "idColumn": "city",
-                            "labelColumn": "city"
-                        }
-                    },
-                    "showCount": "",
-                    "showLabel": "true"
-                }
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-6383-fn_pays_region",
-            "hidden": "",
-            "id": "filter_0",
-            "label": "Région",
-            "name": "pays_region",
-            "type": {
-                "className": "org.joget.SelectBoxOptionsFilter",
-                "properties": {
-                    "defaultValue": "",
-                    "displayFull": "",
-                    "isForeignKey": "",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "cities",
-                            "groupingColumn": "",
-                            "idColumn": "country",
-                            "labelColumn": "country"
-                        }
-                    },
-                    "showCount": "",
-                    "showLabel": "true"
-                }
+    "filters": [{
+        "datalist_type": "filter",
+        "filterParamName": "d-6383-fn_pays_region",
+        "hidden": "",
+        "id": "filter_1",
+        "label": "Pays",
+        "name": "pays_region",
+        "type": {
+            "className": "org.joget.SelectBoxOptionsFilter",
+            "properties": {
+                "defaultValue": "",
+                "displayFull": "",
+                "isForeignKey": "",
+                "options": [],
+                "optionsBinder": {
+                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                    "properties": {
+                        "addEmptyOption": "",
+                        "cacheInterval": "",
+                        "emptyLabel": "",
+                        "extraCondition": "",
+                        "formDefId": "cities",
+                        "groupingColumn": "",
+                        "idColumn": "city",
+                        "labelColumn": "city"
+                    }
+                },
+                "showCount": "",
+                "showLabel": "true"
             }
         }
-    ],
+    }],
     "hidePageSize": "",
     "id": "compagneClotures",
     "name": "Compagne Clotures",
