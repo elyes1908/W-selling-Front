@@ -112,7 +112,7 @@
                     "className": "org.joget.SubformRepeater",
                     "properties": {
                         "addMode": "enable",
-                        "collapsedByDefault": "true",
+                        "collapsedByDefault": "",
                         "collapsible": "true",
                         "deleteMode": "enable",
                         "editFormDefId": "",
