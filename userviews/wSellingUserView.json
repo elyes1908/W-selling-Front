@@ -356,7 +356,7 @@
             "properties": {
                 "accentColor": "BLUE",
                 "buttonColor": "ORANGE",
-                "buttonTextColor": "WHITE",
+                "buttonTextColor": "GREEN",
                 "css": "    #goBack{\r\n  position: absolute;\r\n  top: 10%;\r\n  \r\n  font-size: 35px;\r\n  \r\n  \r\n}",
                 "disableHelpGuide": "",
                 "disablePush": "",
@@ -374,7 +374,7 @@
                 "loginPageBottom": "<style>\n    #goBack{\n  position: absolute;\n  top: 150%;\n  right: 5%;\n  font-size: 35px;\n  \n  \n}\n<\/style>\n<a href=\"javascript:history.back()\" id=\"goBack\"><i class=\"fa fa-arrow-circle-left\" aria-hidden=\"true\"><\/i>\n<\/a>",
                 "loginPageTop": "",
                 "logo": "",
-                "menuFontColor": "ALICEBLUE",
+                "menuFontColor": "GREEN",
                 "primaryColor": "WHITE",
                 "profile": "",
                 "removeAssignmentTitle": "",
