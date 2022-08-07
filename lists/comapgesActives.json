@@ -37,6 +37,7 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
+    "disableResponsive": "",
     "filters": [
         {
             "datalist_type": "filter",
@@ -74,12 +75,25 @@
             }
         }
     ],
+    "hidePageSize": "true",
     "id": "comapgesActives",
     "name": "Comapges Actives",
     "order": "",
     "orderBy": "",
     "pageSize": "0",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "responsiveView": [
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Mobile"
+        },
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Tablette"
+        }
+    ],
     "rowActions": [
         {
             "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
@@ -209,6 +223,8 @@
             "type": "text"
         }
     ],
+    "searchPopup": "",
+    "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
-    "useSession": "false"
+    "useSession": ""
 }
