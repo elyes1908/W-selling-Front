@@ -27,7 +27,7 @@
                 "description": "<a href=\"{c_url}\">GO\n<\/a> <br>\nSize: {c_company_size}",
                 "formDefId": "company_overview",
                 "image": "img",
-                "link": "aa",
+                "link": "{c_url}",
                 "title": "Company Name"
             }
         },
