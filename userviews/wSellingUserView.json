@@ -341,7 +341,7 @@
         "footerMessage": "Powered by WEVIOO",
         "id": "wSellingUserView",
         "logoutText": "Logout",
-        "name": "Wevioo Selling  <style>     #goBack{   position: absolute;   top: 150%;   right: 5%;   font-size: 35px;       } <\/style> <a href=\"javascript:history.back()\" ><i class=\"fa fa-arrow-circle-left\" aria-hidden=\"true\"><\/i> <\/a>",
+        "name": "Wevioo Selling  <style>     #goBack{   position: absolute;   top: 150%;   right: 5%;   font-size: 35px;       } <\/style> <a href=\"javascript:history.back()\" id=\"goBack\"><i class=\"fa fa-arrow-circle-left\" aria-hidden=\"true\"><\/i> <\/a>",
         "welcomeMessage": "#date.EEE, d MMM yyyy#"
     },
     "setting": {"properties": {
