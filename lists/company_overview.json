@@ -6,7 +6,7 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "Itemkey",
-            "sql": "SELECT table1.c_name as \"Company Name\", table1.c_url, table2.id_firm as firmId, table1.id, table1.c_image as img\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where  table2.id_firm like \"%#requestParam.id_firm#%\"\n\n"
+            "sql": "SELECT table1.c_name as \"Company Name\", table1.c_url, table2.id_firm as firmId, table1.id, table1.c_image as img, table1.c_company_size\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where  table2.id_firm like \"%#requestParam.id_firm#%\"\n\n"
         }
     },
     "buttonPosition": "bottomLeft",
@@ -24,7 +24,7 @@
             "className": "org.joget.sample.CardFormatter",
             "properties": {
                 "cardUrlTarget": "",
-                "description": "{c_url}",
+                "description": "{c_url}\n{c_company_size}",
                 "formDefId": "company_overview",
                 "image": "img",
                 "link": "aa",
