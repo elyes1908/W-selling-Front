@@ -33,6 +33,14 @@
             "label": "Date de fin prévue",
             "name": "dateFin",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "keyword",
+            "name": "keyword",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
