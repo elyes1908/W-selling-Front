@@ -54,7 +54,7 @@
                         "format": "",
                         "id": "dateDebut",
                         "label": "Date début",
-                        "placeholder": "Insérer la date de debut",
+                        "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
                         "startDateFieldId": "dateDebut",
