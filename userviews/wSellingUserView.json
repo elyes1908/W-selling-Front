@@ -341,7 +341,7 @@
         "footerMessage": "Powered by WEVIOO",
         "id": "wSellingUserView",
         "logoutText": "Logout",
-        "name": "<span style=\"position: absolute;   top: 20%;\">Wevioo Selling<\/span> <a href=\"javascript:history.back()\" id=\"goBack\"><i class=\"fa fa-arrow-circle-left\" aria-hidden=\"true\"><\/i> <\/a>&nbsp;",
+        "name": "<span style=\"position: absolute;   top: 18%;\">Wevioo Selling<\/span> <a href=\"javascript:history.back()\" id=\"goBack\"><i class=\"fa fa-arrow-circle-left\" aria-hidden=\"true\"><\/i> <\/a>&nbsp;",
         "welcomeMessage": "#date.EEE, d MMM yyyy#"
     },
     "setting": {"properties": {
