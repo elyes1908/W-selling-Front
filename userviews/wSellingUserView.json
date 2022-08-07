@@ -10,7 +10,7 @@
                         "actionOnCancel": "",
                         "cancelButtonLabel": "",
                         "customFooter": "",
-                        "customHeader": "\n<button onclick=\"history.back()\">Go Back<\/button>\n\n<h1>Ajouter une compagne de recherche de profil<\/h1>\n<br>\n",
+                        "customHeader": "\n<h1>Ajouter une compagne de recherche de profil<\/h1>\n<br>\n",
                         "customId": "ajouterCompagne",
                         "enableOffline": "",
                         "fieldPassover": "",
