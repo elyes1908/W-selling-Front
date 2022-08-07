@@ -368,7 +368,7 @@
                 "shortcut": [],
                 "shortcutLinkLabel": "Shortcut",
                 "subfooter": "",
-                "subheader": "\r\n<button onclick=\"history.back()\">Go Back<\/button>\r\n",
+                "subheader": "\r\n<a href=\"history.back()\">Go Back<\/a>\r\n",
                 "themeScheme": "light",
                 "urlsToCache": "",
                 "userImage": "hashVariable",
