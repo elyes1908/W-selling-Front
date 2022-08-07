@@ -60,12 +60,26 @@
             "sortable": "false"
         },
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_6",
-            "label": "Created By",
+            "label": "Crée Par",
             "name": "createdBy",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
             "action": {
@@ -83,9 +97,9 @@
             "headerAlignment": "",
             "hidden": "false",
             "id": "column_7",
-            "label": "statut",
+            "label": "Statut",
             "name": "statut",
-            "sortable": "false",
+            "sortable": "true",
             "style": "",
             "width": ""
         }
@@ -192,7 +206,7 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/ajouterCompagne",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/detailCompagne",
                 "hrefColumn": "id",
                 "hrefParam": "id",
                 "label": "<i class=\"fas fa-angle-double-right\"><\/i>",
