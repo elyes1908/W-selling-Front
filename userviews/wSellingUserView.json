@@ -10,7 +10,7 @@
                         "actionOnCancel": "",
                         "cancelButtonLabel": "",
                         "customFooter": "",
-                        "customHeader": "<h1>Ajouter une compagne de recherche de profil<\/h1>\n",
+                        "customHeader": "<h1>Ajouter une compagne de recherche de profil<\/h1>\n<br>\n",
                         "customId": "ajouterCompagne",
                         "enableOffline": "",
                         "fieldPassover": "",
