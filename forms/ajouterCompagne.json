@@ -112,13 +112,13 @@
                     "className": "org.joget.SubformRepeater",
                     "properties": {
                         "addMode": "enable",
-                        "collapsedByDefault": "",
+                        "collapsedByDefault": "true",
                         "collapsible": "true",
                         "deleteMode": "enable",
                         "editFormDefId": "",
                         "editMode": "enable",
                         "enableSorting": "",
-                        "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
+                        "errorMessage": "Nombre invalide de lignes",
                         "formDefId": "keyword",
                         "id": "keyword",
                         "label": "Mots clés",
@@ -134,7 +134,7 @@
                         },
                         "uniqueKey": "",
                         "validateMaxRow": "",
-                        "validateMinRow": "0",
+                        "validateMinRow": "1",
                         "validator": {
                             "className": "",
                             "properties": {}
@@ -151,7 +151,7 @@
                         "editFormDefId": "",
                         "editMode": "enable",
                         "enableSorting": "",
-                        "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
+                        "errorMessage": "Nombre invalide de lignes",
                         "formDefId": "searchRepeater",
                         "id": "pays_region",
                         "label": "Pays et régions",
@@ -167,7 +167,7 @@
                         },
                         "uniqueKey": "",
                         "validateMaxRow": "",
-                        "validateMinRow": "",
+                        "validateMinRow": "1",
                         "validator": {
                             "className": "",
                             "properties": {}
