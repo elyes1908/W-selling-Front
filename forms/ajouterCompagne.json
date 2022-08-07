@@ -29,8 +29,15 @@
                         "storeNumeric": "",
                         "style": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DuplicateValueValidator",
+                            "properties": {
+                                "errorDuplicateMsg": "",
+                                "errorFormatMsg": "",
+                                "fieldId": "nom",
+                                "formDefId": "ajouterCompagne",
+                                "mandatory": "true",
+                                "regex": ""
+                            }
                         },
                         "value": "",
                         "workflowVariable": ""
