@@ -41,72 +41,12 @@
             "label": "Date de fin prévue",
             "name": "dateFin",
             "sortable": "false"
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "org.joget.apps.datalist.lib.DefaultFormatter",
-                "properties": {
-                    "color": "",
-                    "field": "country",
-                    "formDefId": "cities",
-                    "formatting": "",
-                    "size": ""
-                }
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_4",
-            "label": "pays_region",
-            "name": "pays_region",
-            "renderHtml": "true",
-            "sortable": "false",
-            "style": "",
-            "width": ""
         }
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
     "disableResponsive": "",
-    "filters": [{
-        "datalist_type": "filter",
-        "filterParamName": "d-6383-fn_pays_region",
-        "hidden": "",
-        "id": "filter_1",
-        "label": "Pays",
-        "name": "pays_region",
-        "type": {
-            "className": "org.joget.SelectBoxOptionsFilter",
-            "properties": {
-                "defaultValue": "",
-                "displayFull": "",
-                "isForeignKey": "",
-                "options": [],
-                "optionsBinder": {
-                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                    "properties": {
-                        "addEmptyOption": "",
-                        "cacheInterval": "",
-                        "emptyLabel": "",
-                        "extraCondition": "",
-                        "formDefId": "cities",
-                        "groupingColumn": "",
-                        "idColumn": "city",
-                        "labelColumn": "city"
-                    }
-                },
-                "showCount": "",
-                "showLabel": "true"
-            }
-        }
-    }],
+    "filters": [],
     "hidePageSize": "",
     "id": "compagneClotures",
     "name": "Compagne Clotures",
