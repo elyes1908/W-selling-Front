@@ -41,6 +41,35 @@
             "label": "Date de fin prévue",
             "name": "dateFin",
             "sortable": "false"
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "org.joget.apps.datalist.lib.DefaultFormatter",
+                "properties": {
+                    "color": "",
+                    "field": "",
+                    "formDefId": "",
+                    "formatting": "",
+                    "size": ""
+                }
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_4",
+            "label": "pays_region",
+            "name": "pays_region",
+            "renderHtml": "true",
+            "sortable": "false",
+            "style": "",
+            "width": ""
         }
     ],
     "considerFilterWhenGetTotal": "",
