@@ -344,7 +344,7 @@
                 "accentColor": "BLUE",
                 "buttonColor": "ORANGE",
                 "buttonTextColor": "WHITE",
-                "css": "#goBack{\n  position: absolute;\n  top: 50px;\n  padding: 5px;\n  background-color: #cae8ca;\n  \n}",
+                "css": "#goBack{\n  position: absolute;\n  top: 500px;\n  padding: 5px;\n  background-color: #cae8ca;\n  \n}",
                 "disableHelpGuide": "",
                 "disablePush": "",
                 "disablePwa": "",
