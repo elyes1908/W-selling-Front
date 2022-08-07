@@ -337,7 +337,7 @@
     ],
     "className": "org.joget.apps.userview.model.Userview",
     "properties": {
-        "description": "",
+        "description": "ELYES",
         "footerMessage": "Powered by WEVIOO",
         "id": "wSellingUserView",
         "logoutText": "Logout",
