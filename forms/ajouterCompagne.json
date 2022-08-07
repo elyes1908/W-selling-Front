@@ -31,7 +31,7 @@
                         "validator": {
                             "className": "org.joget.apps.form.lib.DuplicateValueValidator",
                             "properties": {
-                                "errorDuplicateMsg": "#request.contextPath#",
+                                "errorDuplicateMsg": "#requestParam#",
                                 "errorFormatMsg": "",
                                 "fieldId": "nom",
                                 "formDefId": "ajouterCompagne",
