@@ -75,7 +75,7 @@
             }
         }
     ],
-    "hidePageSize": "true",
+    "hidePageSize": "",
     "id": "comapgesActives",
     "name": "Comapges Actives",
     "order": "",
