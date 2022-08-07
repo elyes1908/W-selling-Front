@@ -24,7 +24,7 @@
             "className": "org.joget.sample.CardFormatter",
             "properties": {
                 "cardUrlTarget": "",
-                "description": "<a href=\"{c_url}\">GO\n<\/a> <br>\nSize: {c_company_size}",
+                "description": "<style>.outer {\n  position: relative;\n  background-color: red;\n}\n \n.outer > a {\n  position: absolute;\n  top: 0; left: 0; bottom: 0; right: 0;\n}\n \n.inner {\n  position: relative;\n  pointer-events: none;\n  z-index: 1;\n}\n \n.inner a {\n  pointer-events: all;\n}<\/style>\n<div class=\"outer\">\n  <a href=\"#overlay-link\"><\/a>\n  <div class=\"inner\">\n    You can click on the text of this red box. It also contains a\n    <a href=\"#inner-link\">W3C compliant hyperlink.<\/a>\n  <\/div>\n<\/div>",
                 "formDefId": "company_overview",
                 "image": "img",
                 "link": "{c_url}",
