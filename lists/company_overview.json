@@ -6,7 +6,7 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "Itemkey",
-            "sql": "SELECT table1.c_name as \"Company Name\", table1.c_url, table2.id_firm as firmId, table1.id,count(job.id) as jobs,\nconcat(\"<img src='/jw/web/client/app/wSelling/1/form/download/company_overview/\",table1.id,\"/company.jpg.' width='100'>\") as img,\ntable1.c_company_size\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company \nJOIN association_company_job job ON table1.id = job.id_company\nwhere  table2.id_firm like \"%#requestParam.id_firm#%\"\n\n"
+            "sql": "SELECT \n    company_jobs.*, association.id_firm\nFROM\n    (SELECT \n        company.*, COUNT(job.id) AS jobs\n    FROM\n        app_fd_company_overview company\n    JOIN association_company_job job ON company.id = job.id_company\n    GROUP BY company.id) company_jobs\n        JOIN\n    association ON association.id_company = company_jobs.id"
         }
     },
     "buttonPosition": "bottomLeft",
@@ -28,8 +28,8 @@
             "headerAlignment": "",
             "hidden": "false",
             "id": "column_0",
-            "label": "Logo",
-            "name": "img",
+            "label": "Nom de la compagne",
+            "name": "c_name",
             "sortable": "false",
             "style": "",
             "width": ""
@@ -38,8 +38,40 @@
             "filterable": true,
             "hidden": "false",
             "id": "column_1",
+            "label": "c_company_size",
+            "name": "c_company_size",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_2",
+            "label": "c_founded",
+            "name": "c_founded",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "c_industry",
+            "name": "c_industry",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
             "label": "jobs",
             "name": "jobs",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "c_website",
+            "name": "c_website",
             "sortable": "false"
         }
     ],
