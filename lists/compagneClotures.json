@@ -46,7 +46,41 @@
     "considerFilterWhenGetTotal": "",
     "description": "",
     "disableResponsive": "",
-    "filters": [],
+    "filters": [
+        {
+            "id": "filter_2",
+            "label": "Nom de la compagne",
+            "name": "nom",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-6383-fn_dateDebut",
+            "hidden": "",
+            "id": "filter_1",
+            "label": "Date début",
+            "name": "dateDebut",
+            "type": {
+                "className": "org.joget.dateFilter.DateFilter",
+                "properties": {"format": "dd-mm-yy"}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-6383-fn_dateFin",
+            "hidden": "",
+            "id": "filter_0",
+            "label": "Date de fin prévue",
+            "name": "dateFin",
+            "type": {
+                "className": "org.joget.dateFilter.DateFilter",
+                "properties": {"format": "dd-mm-yy"}
+            }
+        }
+    ],
     "hidePageSize": "",
     "id": "compagneClotures",
     "name": "Compagne Clotures",
