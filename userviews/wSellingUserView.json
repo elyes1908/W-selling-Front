@@ -192,7 +192,7 @@
                         "cacheListAction": "",
                         "checkboxPosition": "left",
                         "customFooter": "",
-                        "customHeader": "<h1>Entreprise appertenant à la compagne: \r\n#requestParam.id_firm#<\/h1>",
+                        "customHeader": "<h1>Entreprise appertenant à la compagne: \r\n#requestParam.name_firm#<\/h1>",
                         "customId": "company_overview_firm",
                         "datalistId": "company_overview",
                         "enableOffline": "",
