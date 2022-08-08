@@ -63,7 +63,7 @@
                         "cacheListAction": "",
                         "checkboxPosition": "left",
                         "customFooter": "",
-                        "customHeader": "<h1>Liste de toutes les compagnes <span style=\"text-color: green; font-weight: bold;\">Actives<\/span><\/h1>",
+                        "customHeader": "<h1>Liste de toutes les compagnes <span style=\"color: green; font-weight: bold;\">Actives<\/span><\/h1>",
                         "customId": "compagnesActivesList",
                         "datalistId": "comapgesActives",
                         "enableOffline": "",
