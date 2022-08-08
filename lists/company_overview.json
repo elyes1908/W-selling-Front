@@ -11,15 +11,25 @@
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [{
-        "datalist_type": "column",
-        "filterable": true,
-        "hidden": "false",
-        "id": "column_0",
-        "label": "img",
-        "name": "img",
-        "sortable": "false"
-    }],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Company Name",
+            "name": "Company Name",
+            "sortable": "false"
+        },
+        {
+            "datalist_type": "column",
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "img",
+            "name": "img",
+            "sortable": "false"
+        }
+    ],
     "considerFilterWhenGetTotal": "",
     "description": "This is description",
     "disableResponsive": "",
