@@ -81,18 +81,44 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [{
-        "datalist_type": "filter",
-        "filterParamName": "d-6836953-fn_c_nom",
-        "hidden": "",
-        "id": "filter_2",
-        "label": "Nom",
-        "name": "c_nom",
-        "type": {
-            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {"defaultValue": ""}
+    "filters": [
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-6836953-fn_c_nom",
+            "hidden": "",
+            "id": "filter_2",
+            "label": "Nom",
+            "name": "c_nom",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-6836953-fn_c_dateDebut",
+            "hidden": "",
+            "id": "filter_1",
+            "label": "Date de debut",
+            "name": "c_dateDebut",
+            "type": {
+                "className": "org.joget.dateFilter.DateFilter",
+                "properties": {"format": "dd-mm-yy"}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-6836953-fn_c_dateFin",
+            "hidden": "",
+            "id": "filter_0",
+            "label": "Date de fin",
+            "name": "c_dateFin",
+            "type": {
+                "className": "org.joget.dateFilter.DateFilter",
+                "properties": {"format": "dd-mm-yy"}
+            }
         }
-    }],
+    ],
     "id": "resultCompagnesCloturees",
     "name": "Resultat Compagnes Cloturees",
     "order": "",
@@ -109,7 +135,7 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/company_overview_firm",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/company_overview",
                 "hrefColumn": "id_firm",
                 "hrefParam": "id_firm",
                 "label": "<i class=\"fa fa-building-o\" aria-hidden=\"true\"><\/i>",
