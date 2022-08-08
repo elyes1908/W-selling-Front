@@ -6,7 +6,7 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "Itemkey",
-            "sql": "SELECT total_jobs.id_firm, total_jobs.jobs as jobs, total_companies.entreprises, compagne.c_nom\r\nfrom (SELECT association_jobs.id_firm, count(association_jobs.id) as jobs\r\n      FROM app_fd_jobs jobs\r\n               JOIN association_firms_jobs association_jobs ON jobs.id = association_jobs.id_job\r\n\r\n      group by id_firm\r\n     ) total_jobs\r\n         left join\r\n     (SELECT association_company.id_firm, count(association_company.id) as entreprises\r\n      FROM app_fd_company_overview company\r\n               JOIN association association_company ON company.id = association_company.id_company\r\n      group by id_firm\r\n     ) total_companies on total_jobs.id_firm = total_companies.id_firm\r\n         JOIN app_fd_compagnes compagne ON compagne.id = total_jobs.id_firm\r\nwhere compagne.c_statut like \"active\""
+            "sql": "SELECT total_jobs.id_firm, total_jobs.jobs as jobs, total_companies.entreprises, compagne.c_nom, compagne.c_dateDebut, compagne.c_dateFin\r\nfrom (SELECT association_jobs.id_firm, count(association_jobs.id) as jobs\r\n      FROM app_fd_jobs jobs\r\n               JOIN association_firms_jobs association_jobs ON jobs.id = association_jobs.id_job\r\n\r\n      group by id_firm\r\n     ) total_jobs\r\n         left join\r\n     (SELECT association_company.id_firm, count(association_company.id) as entreprises\r\n      FROM app_fd_company_overview company\r\n               JOIN association association_company ON company.id = association_company.id_company\r\n      group by id_firm\r\n     ) total_companies on total_jobs.id_firm = total_companies.id_firm\r\n         JOIN app_fd_compagnes compagne ON compagne.id = total_jobs.id_firm\r\nwhere compagne.c_statut like \"active\""
         }
     },
     "buttonPosition": "bottomLeft",
@@ -77,48 +77,55 @@
             "sortable": "false",
             "style": "",
             "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Date de début",
+            "name": "c_dateDebut",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_4",
+            "label": "Date de fin",
+            "name": "c_dateFin",
+            "sortable": "false",
+            "style": "",
+            "width": ""
         }
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-6836953-fn_c_nom",
-            "hidden": "",
-            "id": "filter_2",
-            "label": "Nom",
-            "name": "c_nom",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-6836953-fn_c_dateDebut",
-            "hidden": "",
-            "id": "filter_1",
-            "label": "Date de debut",
-            "name": "c_dateDebut",
-            "type": {
-                "className": "org.joget.dateFilter.DateFilter",
-                "properties": {"format": "dd-mm-yy"}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-6836953-fn_c_dateFin",
-            "hidden": "",
-            "id": "filter_0",
-            "label": "Date de fin",
-            "name": "c_dateFin",
-            "type": {
-                "className": "org.joget.dateFilter.DateFilter",
-                "properties": {"format": "dd-mm-yy"}
-            }
-        }
-    ],
+    "filters": [],
     "id": "resultCompagnesCloturees",
     "name": "Resultat Compagnes Cloturees",
     "order": "",
@@ -135,7 +142,7 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/company_overview",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/company_overview_firm",
                 "hrefColumn": "id_firm",
                 "hrefParam": "id_firm",
                 "label": "<i class=\"fa fa-building-o\" aria-hidden=\"true\"><\/i>",
