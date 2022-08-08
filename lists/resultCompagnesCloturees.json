@@ -28,9 +28,9 @@
             "headerAlignment": "",
             "hidden": "false",
             "id": "column_0",
-            "label": "Nom de la compagne",
+            "label": "Nom",
             "name": "c_nom",
-            "sortable": "true",
+            "sortable": "false",
             "style": "",
             "width": ""
         },
@@ -52,7 +52,7 @@
             "id": "column_2",
             "label": "Entreprises",
             "name": "entreprises",
-            "sortable": "true",
+            "sortable": "false",
             "style": "",
             "width": ""
         },
@@ -74,7 +74,7 @@
             "id": "column_1",
             "label": "Offres d'emplois",
             "name": "jobs",
-            "sortable": "true",
+            "sortable": "false",
             "style": "",
             "width": ""
         },
@@ -96,7 +96,7 @@
             "id": "column_3",
             "label": "Date de début",
             "name": "c_dateDebut",
-            "sortable": "true",
+            "sortable": "false",
             "style": "",
             "width": ""
         },
@@ -118,7 +118,7 @@
             "id": "column_4",
             "label": "Date de fin",
             "name": "c_dateFin",
-            "sortable": "true",
+            "sortable": "false",
             "style": "",
             "width": ""
         }
