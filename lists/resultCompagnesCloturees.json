@@ -77,92 +77,22 @@
             "sortable": "false",
             "style": "",
             "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_3",
-            "label": "Date de début",
-            "name": "c_dateDebut",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_4",
-            "label": "Date de fin",
-            "name": "c_dateFin",
-            "sortable": "false",
-            "style": "",
-            "width": ""
         }
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-6836953-fn_c_nom",
-            "hidden": "",
-            "id": "filter_0",
-            "label": "Nom",
-            "name": "c_nom",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-6836953-fn_c_dateDebut",
-            "hidden": "",
-            "id": "filter_1",
-            "label": "Date de debut",
-            "name": "c_dateDebut",
-            "type": {
-                "className": "org.joget.dateFilter.DateFilter",
-                "properties": {"format": "dd-mm-yy"}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-6836953-fn_c_dateFin",
-            "hidden": "",
-            "id": "filter_2",
-            "label": "Date de fin",
-            "name": "c_dateFin",
-            "type": {
-                "className": "org.joget.dateFilter.DateFilter",
-                "properties": {"format": "dd-mm-yy"}
-            }
+    "filters": [{
+        "datalist_type": "filter",
+        "filterParamName": "d-6836953-fn_c_nom",
+        "hidden": "",
+        "id": "filter_0",
+        "label": "Nom",
+        "name": "c_nom",
+        "type": {
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {"defaultValue": ""}
         }
-    ],
+    }],
     "id": "resultCompagnesCloturees",
     "name": "Resultat Compagnes Cloturees",
     "order": "",
@@ -173,15 +103,15 @@
         {
             "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
             "icon": "<i class=\"fas fa-link\"><\/i>",
-            "id": "rowAction_1",
+            "id": "rowAction_0",
             "label": "Hyperlink",
             "name": "Data List Hyperlink Action",
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/company_overview",
-                "hrefColumn": "id_firm",
-                "hrefParam": "id_firm",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/company_overview_firm",
+                "hrefColumn": "id_firm;c_nom",
+                "hrefParam": "id_firm;name_firm",
                 "label": "<i class=\"fa fa-building-o\" aria-hidden=\"true\"><\/i>",
                 "rules": [],
                 "target": "_self"
@@ -191,7 +121,7 @@
         {
             "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
             "icon": "<i class=\"fas fa-link\"><\/i>",
-            "id": "rowAction_0",
+            "id": "rowAction_1",
             "label": "Hyperlink",
             "name": "Data List Hyperlink Action",
             "properties": {
