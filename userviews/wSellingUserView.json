@@ -135,7 +135,7 @@
                         "cacheListAction": "",
                         "checkboxPosition": "left",
                         "customFooter": "",
-                        "customHeader": "<h1>Resultat de toutes les compagnes <span style=\"color: red;\">Cloturées<\/span><\/h1>\n<br>",
+                        "customHeader": "<h1>Résultat de toutes les compagnes <span style=\"color: red;\">Cloturées<\/span><\/h1>\n<br>",
                         "customId": "resCompagneCloturees",
                         "datalistId": "resultCompagnesCloturees",
                         "enableOffline": "",
