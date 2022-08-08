@@ -35,48 +35,20 @@
             "width": ""
         },
         {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
             "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
             "hidden": "false",
             "id": "column_3",
             "label": "c_industry",
             "name": "c_industry",
-            "sortable": "false",
-            "style": "",
-            "width": ""
+            "sortable": "false"
         },
         {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
             "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
             "hidden": "false",
             "id": "column_4",
             "label": "jobs",
             "name": "jobs",
-            "sortable": "false",
-            "style": "",
-            "width": ""
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
