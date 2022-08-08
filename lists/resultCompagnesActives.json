@@ -6,7 +6,7 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "Itemkey",
-            "sql": "SELECT total_jobs.id_firm, total_jobs.jobs as jobs, total_companies.entreprises\r\nfrom (SELECT association_jobs.id_firm, count(association_jobs.id) as jobs\r\n      FROM app_fd_jobs jobs\r\n               JOIN association_firms_jobs association_jobs ON jobs.id = association_jobs.id_job\r\n\r\n      group by id_firm\r\n     ) total_jobs\r\n         left join\r\n     (SELECT association_company.id_firm, count(association_company.id) as entreprises\r\n      FROM app_fd_company_overview company\r\n               JOIN association association_company ON company.id = association_company.id_company\r\n      group by id_firm\r\n     ) total_companies on total_jobs.id_firm = total_companies.id_firm\r\n         JOIN app_fd_compagnes compagne ON compagne.id = total_jobs.id_firm\r\nwhere compagne.c_statut like \"active\""
+            "sql": "SELECT total_jobs.id_firm, total_jobs.jobs as jobs, total_companies.entreprises, compagne.c_nom\r\nfrom (SELECT association_jobs.id_firm, count(association_jobs.id) as jobs\r\n      FROM app_fd_jobs jobs\r\n               JOIN association_firms_jobs association_jobs ON jobs.id = association_jobs.id_job\r\n\r\n      group by id_firm\r\n     ) total_jobs\r\n         left join\r\n     (SELECT association_company.id_firm, count(association_company.id) as entreprises\r\n      FROM app_fd_company_overview company\r\n               JOIN association association_company ON company.id = association_company.id_company\r\n      group by id_firm\r\n     ) total_companies on total_jobs.id_firm = total_companies.id_firm\r\n         JOIN app_fd_compagnes compagne ON compagne.id = total_jobs.id_firm\r\nwhere compagne.c_statut like \"active\""
         }
     },
     "buttonPosition": "bottomLeft",
@@ -57,8 +57,8 @@
                 "confirmation": "",
                 "datalist_type": "row_action",
                 "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/company_overview_firm",
-                "hrefColumn": "id_firm",
-                "hrefParam": "id_firm",
+                "hrefColumn": "id_firm;c_nom",
+                "hrefParam": "id_firm;name_firm",
                 "label": "<i class=\"fa fa-building-o\" aria-hidden=\"true\"><\/i>",
                 "rules": [],
                 "target": "_self"
