@@ -325,7 +325,7 @@
     "className": "org.joget.apps.userview.model.Userview",
     "properties": {
         "description": "",
-        "footerMessage": "Powered by WEVIOO",
+        "footerMessage": "Copyright © WEVIOO 2022 Tous droits résérvés Wevioo Selling v1.0",
         "id": "wSellingUserView",
         "logoutText": "Logout",
         "name": "<span style=\"position: absolute;   top: 15%;\">Wevioo Selling<\/span> <a href=\"javascript:history.back()\" id=\"goBack\"><i class=\"fa fa-arrow-circle-left\" aria-hidden=\"true\"><\/i> <\/a>&nbsp;",
