@@ -6,33 +6,43 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "Itemkey",
-            "sql": "SELECT table1.c_name as \"Company Name\", table1.c_url, table2.id_firm as firmId, table1.id, \nconcat(\"<img src='/jw/web/client/app/wSelling/1/form/download/company_overview/\",table1.id,\"/company.jpg.' width='100'>\") as img,\ntable1.c_company_size\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where  table2.id_firm like \"%#requestParam.id_firm#%\"\n\n"
+            "sql": "SELECT table1.c_name as \"Company Name\", table1.c_url, table2.id_firm as firmId, table1.id,count(job.id) as jobs,count(job.id) as jobs,\nconcat(\"<img src='/jw/web/client/app/wSelling/1/form/download/company_overview/\",table1.id,\"/company.jpg.' width='100'>\") as img,\ntable1.c_company_size\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company \nJOIN association_company_job job ON table1.id = job.id_company\n\nJOIN association_company_job job ON table1.id = job.id_company\nwhere  table2.id_firm like \"%#requestParam.id_firm#%\"\n\n"
         }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [{
-        "action": {
-            "className": "",
-            "properties": {}
+    "columns": [
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_0",
+            "label": "Logo",
+            "name": "img",
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
-        "alignment": "",
-        "datalist_type": "column",
-        "exclude_export": "",
-        "filterable": true,
-        "format": {
-            "className": "",
-            "properties": {}
-        },
-        "headerAlignment": "",
-        "hidden": "false",
-        "id": "column_0",
-        "label": "Logo",
-        "name": "img",
-        "sortable": "false",
-        "style": "",
-        "width": ""
-    }],
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "jobs",
+            "name": "jobs",
+            "sortable": "false"
+        }
+    ],
     "considerFilterWhenGetTotal": "",
     "description": "This is description",
     "disableResponsive": "",
