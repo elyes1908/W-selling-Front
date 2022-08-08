@@ -37,22 +37,6 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_1",
-            "label": "c_company_size",
-            "name": "c_company_size",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_2",
-            "label": "c_founded",
-            "name": "c_founded",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
             "id": "column_3",
             "label": "c_industry",
             "name": "c_industry",
@@ -64,14 +48,6 @@
             "id": "column_4",
             "label": "jobs",
             "name": "jobs",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_5",
-            "label": "c_website",
-            "name": "c_website",
             "sortable": "false"
         }
     ],
