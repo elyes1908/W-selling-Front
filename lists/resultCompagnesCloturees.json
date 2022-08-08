@@ -125,44 +125,7 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-2844716-fn_c_nom",
-            "hidden": "",
-            "id": "filter_2",
-            "label": "Nom de la compagne",
-            "name": "c_nom",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-2844716-fn_c_dateDebut",
-            "hidden": "",
-            "id": "filter_1",
-            "label": "Date de début",
-            "name": "c_dateDebut",
-            "type": {
-                "className": "org.joget.dateFilter.DateFilter",
-                "properties": {"format": "dd-mm-yy"}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-2844716-fn_c_dateFin",
-            "hidden": "",
-            "id": "filter_0",
-            "label": "Date de fin",
-            "name": "c_dateFin",
-            "type": {
-                "className": "org.joget.dateFilter.DateFilter",
-                "properties": {"format": "dd-mm-yy"}
-            }
-        }
-    ],
+    "filters": [],
     "id": "resultCompagnesCloturees",
     "name": "Resultat Compagnes Cloturees",
     "order": "",
