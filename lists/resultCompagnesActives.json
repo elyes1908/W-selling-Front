@@ -131,7 +131,7 @@
             "filterParamName": "d-6836953-fn_c_nom",
             "hidden": "",
             "id": "filter_2",
-            "label": "c_nom",
+            "label": "Nom",
             "name": "c_nom",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
@@ -143,7 +143,7 @@
             "filterParamName": "d-6836953-fn_c_dateDebut",
             "hidden": "",
             "id": "filter_1",
-            "label": "c_dateDebut",
+            "label": "Date de debut",
             "name": "c_dateDebut",
             "type": {
                 "className": "org.joget.dateFilter.DateFilter",
@@ -155,7 +155,7 @@
             "filterParamName": "d-6836953-fn_c_dateFin",
             "hidden": "",
             "id": "filter_0",
-            "label": "c_dateFin",
+            "label": "Date de fin",
             "name": "c_dateFin",
             "type": {
                 "className": "org.joget.dateFilter.DateFilter",
