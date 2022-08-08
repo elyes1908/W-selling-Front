@@ -11,35 +11,38 @@
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [{
-        "action": {
-            "className": "",
-            "properties": {}
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "img",
+            "name": "img",
+            "sortable": "false"
         },
-        "alignment": "",
-        "datalist_type": "column",
-        "exclude_export": "",
-        "filterable": true,
-        "format": {
-            "className": "org.joget.sample.CardFormatter",
-            "properties": {
-                "cardUrlTarget": "",
-                "description": "<style>.outer {\n  position: relative;\n  background-color: red;\n}\n \n.outer > a {\n  position: absolute;\n  top: 0; left: 0; bottom: 0; right: 0;\n}\n \n.inner {\n  position: relative;\n  pointer-events: none;\n  z-index: 1;\n}\n \n.inner a {\n  pointer-events: all;\n}<\/style>\n<div class=\"outer\">\n  <a href=\"#overlay-link\"><\/a>\n  <div class=\"inner\">\n    You can click on the text of this red box. It also contains a\n    <a href=\"#inner-link\">W3C compliant hyperlink.<\/a>\n  <\/div>\n<\/div>",
-                "formDefId": "company_overview",
-                "image": "img",
-                "link": "<style>.outer {   position: relative;   background-color: red; }   .outer > a {   position: absolute;   top: 0; left: 0; bottom: 0; right: 0; }   .inner {   position: relative;   pointer-events: none;   z-index: 1; }   .inner a {   pointer-events: all; }<\/style> <div class=\"outer\">   <a href=\"#overlay-link\"><\/a>   <div class=\"inner\">     You can click on the text of this red box. It also contains a     <a href=\"#inner-link\">W3C compliant hyperlink.<\/a>   <\/div> <\/div>",
-                "title": "Company Name"
-            }
-        },
-        "headerAlignment": "",
-        "hidden": "false",
-        "id": "column_1",
-        "label": "Company Name",
-        "name": "Company Name",
-        "sortable": "false",
-        "style": "",
-        "width": ""
-    }],
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Company Name",
+            "name": "Company Name",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        }
+    ],
     "considerFilterWhenGetTotal": "",
     "description": "This is description",
     "disableResponsive": "",
