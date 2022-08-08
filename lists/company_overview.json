@@ -6,50 +6,19 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "Itemkey",
-            "sql": "SELECT table1.c_name as \"Company Name\", table1.c_url, table2.id_firm as firmId, table1.id, \ntable1.c_image as img,\ntable1.c_company_size\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where  table2.id_firm like \"%#requestParam.id_firm#%\"\n\n"
+            "sql": "SELECT table1.c_name as \"Company Name\", table1.c_url, table2.id_firm as firmId, table1.id, \nconcat(\"<img src='/jw/web/client/app/wSelling/1/form/download/company_overview/62e3baf6cbc2791bc684f4c5/company.jpg.'/>\") as img,\ntable1.c_company_size\nFROM app_fd_company_overview table1\nINNER JOIN association table2 ON table1.id = table2.id_company where  table2.id_firm like \"%#requestParam.id_firm#%\"\n\n"
         }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_0",
-            "label": "img",
-            "name": "img",
-            "sortable": "false"
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "org.joget.sample.CardFormatter",
-                "properties": {
-                    "cardUrlTarget": "",
-                    "description": "aa",
-                    "formDefId": "company_overview",
-                    "image": "img",
-                    "link": "aa",
-                    "title": "img"
-                }
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_1",
-            "label": "Company Name",
-            "name": "Company Name",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        }
-    ],
+    "columns": [{
+        "filterable": true,
+        "hidden": "false",
+        "id": "column_0",
+        "label": "img",
+        "name": "img",
+        "sortable": "false"
+    }],
     "considerFilterWhenGetTotal": "",
     "description": "This is description",
     "disableResponsive": "",
