@@ -152,12 +152,12 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/company_overview_list",
-                "hrefColumn": "id;nom",
-                "hrefParam": "id_firm;name_firm",
-                "label": "<i class=\"fa fa-building-o\" aria-hidden=\"true\"><\/i>",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/detailCompagne",
+                "hrefColumn": "id",
+                "hrefParam": "id",
+                "label": "<i class=\"fas fa-angle-double-right\"><\/i>",
                 "rules": [],
-                "target": "_self"
+                "target": "popup"
             },
             "type": "text"
         },
