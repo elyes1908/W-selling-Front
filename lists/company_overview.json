@@ -247,7 +247,7 @@
                 "hrefParam": "url",
                 "label": "<i class=\"fa fa-linkedin\" aria-hidden=\"true\"><\/i>",
                 "rules": [],
-                "target": "_self"
+                "target": "_blank"
             },
             "type": "text"
         }
