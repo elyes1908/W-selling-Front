@@ -97,16 +97,12 @@
                 "isForeignKey": "",
                 "options": [],
                 "optionsBinder": {
-                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                    "className": "org.joget.tutorial.JdbcOptionsBinder",
                     "properties": {
-                        "addEmptyOption": "",
-                        "cacheInterval": "",
-                        "emptyLabel": "",
-                        "extraCondition": "",
-                        "formDefId": "company_overview",
-                        "groupingColumn": "",
-                        "idColumn": "industry",
-                        "labelColumn": "industry"
+                        "addEmpty": "",
+                        "jdbcDatasource": "default",
+                        "sql": "select c_industry from app_fd_company_overview;",
+                        "useAjax": "true"
                     }
                 },
                 "showCount": "",
