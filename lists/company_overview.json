@@ -106,7 +106,7 @@
                 "className": "org.joget.SelectBoxOptionsFilter",
                 "properties": {
                     "defaultValue": "",
-                    "displayFull": "true",
+                    "displayFull": "",
                     "isForeignKey": "",
                     "options": [],
                     "optionsBinder": {
