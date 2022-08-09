@@ -59,7 +59,7 @@
             "name": "dateDebut",
             "type": {
                 "className": "org.joget.dateFilter.DateFilter",
-                "properties": {"format": "dd-mm-yy"}
+                "properties": {"format": "yy-mm-dd"}
             }
         },
         {
@@ -71,7 +71,7 @@
             "name": "dateFin",
             "type": {
                 "className": "org.joget.dateFilter.DateFilter",
-                "properties": {"format": "dd-mm-yy"}
+                "properties": {"format": "yy-mm-dd"}
             }
         }
     ],
@@ -106,7 +106,7 @@
                 "datalist_type": "row_action",
                 "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/company_overview_list",
                 "hrefColumn": "id;nom",
-                "hrefParam": "id_firm;nom",
+                "hrefParam": "id_firm;name_firm",
                 "label": "<i class=\"fa fa-building-o\" aria-hidden=\"true\"><\/i>",
                 "rules": [],
                 "target": "_self"
