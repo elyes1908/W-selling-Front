@@ -6,7 +6,7 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "Itemkey",
-            "sql": "SELECT \n    company_jobs.*, association.id_firm,\n    concat('<img src=\"jw/web/client/app/wSelling/1/form/download/company_overview/62e3baf6cbc2791bc684f4c5/company.jpg.\"/>') as img\nFROM\n    (SELECT \n        company.*, COUNT(job.id) AS jobs\n    FROM\n        app_fd_company_overview company\n    JOIN association_company_job job ON company.id = job.id_company\n    GROUP BY company.id) company_jobs\n        JOIN\n    association ON association.id_company = company_jobs.id\n    where association.id_firm like \"%#requestParam.id_firm#%\""
+            "sql": "SELECT \n    company_jobs.*, association.id_firm,\n    concat('<img src=\"http://localhost:8080/jw/web/client/app/wSelling/1/form/download/company_overview/62e3baf6cbc2791bc684f4c5/company.jpg.\"/>') as img\nFROM\n    (SELECT \n        company.*, COUNT(job.id) AS jobs\n    FROM\n        app_fd_company_overview company\n    JOIN association_company_job job ON company.id = job.id_company\n    GROUP BY company.id) company_jobs\n        JOIN\n    association ON association.id_company = company_jobs.id\n    where association.id_firm like \"%#requestParam.id_firm#%\""
         }
     },
     "buttonPosition": "bottomLeft",
