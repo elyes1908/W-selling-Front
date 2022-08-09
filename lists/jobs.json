@@ -112,7 +112,7 @@
             "href": "#requestParam.url#/jobs/",
             "hrefColumn": "Url",
             "hrefParam": "url",
-            "label": "Hyperlien",
+            "label": "<i class=\"fas fa-globe\"><\/i>",
             "rules": [],
             "target": "_self"
         },
