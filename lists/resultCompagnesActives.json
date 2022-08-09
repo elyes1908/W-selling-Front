@@ -147,7 +147,7 @@
             "name": "c_dateDebut",
             "type": {
                 "className": "org.joget.dateFilter.DateFilter",
-                "properties": {"format": "dd-mm-yy"}
+                "properties": {"format": "yy-mm-dd"}
             }
         },
         {
@@ -159,7 +159,7 @@
             "name": "c_dateFin",
             "type": {
                 "className": "org.joget.dateFilter.DateFilter",
-                "properties": {"format": "dd-mm-yy"}
+                "properties": {"format": "yy-mm-dd"}
             }
         }
     ],
