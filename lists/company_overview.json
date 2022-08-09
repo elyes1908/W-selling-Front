@@ -104,7 +104,7 @@
                         "emptyLabel": "",
                         "extraCondition": "",
                         "formDefId": "company_overview",
-                        "groupingColumn": "",
+                        "groupingColumn": "industry",
                         "idColumn": "industry",
                         "labelColumn": "industry"
                     }
