@@ -34,5 +34,13 @@
          <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
          <permissionProperties>{&quot;hashvariable&quot;:&quot;#appResource.company.jpg#&quot;,&quot;permission&quot;:{&quot;className&quot;:&quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;,&quot;properties&quot;:{}}}</permissionProperties>
       </appResource>
+      <appResource>
+         <id>téléchargement_(1).png</id>
+         <appId>wSelling</appId>
+         <appVersion>1</appVersion>
+         <filesize>2854</filesize>
+         <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
    </resourceList>
 </appDefinition>
