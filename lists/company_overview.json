@@ -242,7 +242,7 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "",
+                "href": "#requestParam.url#",
                 "hrefColumn": "c_url",
                 "hrefParam": "url",
                 "label": "<i class=\"fa fa-linkedin\" aria-hidden=\"true\"><\/i>",
