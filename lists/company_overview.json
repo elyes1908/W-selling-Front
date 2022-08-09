@@ -90,10 +90,11 @@
         "label": "c_industry",
         "name": "c_industry",
         "type": {
-            "className": "org.joget.HyperlinkOptionsFilter",
+            "className": "org.joget.SelectBoxOptionsFilter",
             "properties": {
                 "defaultValue": "",
-                "displayFull": "true",
+                "displayFull": "",
+                "isForeignKey": "",
                 "options": [],
                 "optionsBinder": {
                     "className": "org.joget.apps.form.lib.FormOptionsBinder",
@@ -105,12 +106,12 @@
                         "extraCondition": "",
                         "formDefId": "company_overview",
                         "groupingColumn": "",
-                        "idColumn": "industry",
+                        "idColumn": "",
                         "labelColumn": "industry"
                     }
                 },
                 "showCount": "",
-                "showLabel": ""
+                "showLabel": "true"
             }
         }
     }],
