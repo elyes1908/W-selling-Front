@@ -49,7 +49,7 @@
                     "color": "",
                     "field": "",
                     "formDefId": "",
-                    "formatting": "big;strong",
+                    "formatting": "big",
                     "size": ""
                 }
             },
@@ -72,8 +72,14 @@
             "exclude_export": "",
             "filterable": true,
             "format": {
-                "className": "",
-                "properties": {}
+                "className": "org.joget.apps.datalist.lib.DefaultFormatter",
+                "properties": {
+                    "color": "",
+                    "field": "",
+                    "formDefId": "",
+                    "formatting": "big",
+                    "size": ""
+                }
             },
             "headerAlignment": "",
             "hidden": "false",
@@ -94,8 +100,14 @@
             "exclude_export": "",
             "filterable": true,
             "format": {
-                "className": "",
-                "properties": {}
+                "className": "org.joget.apps.datalist.lib.DefaultFormatter",
+                "properties": {
+                    "color": "",
+                    "field": "",
+                    "formDefId": "",
+                    "formatting": "big",
+                    "size": ""
+                }
             },
             "headerAlignment": "",
             "hidden": "false",
