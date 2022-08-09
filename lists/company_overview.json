@@ -90,19 +90,23 @@
         "label": "c_industry",
         "name": "c_industry",
         "type": {
-            "className": "org.joget.SelectBoxOptionsFilter",
+            "className": "org.joget.HyperlinkOptionsFilter",
             "properties": {
                 "defaultValue": "",
                 "displayFull": "true",
-                "isForeignKey": "",
                 "options": [],
                 "optionsBinder": {
-                    "className": "org.joget.tutorial.JdbcOptionsBinder",
+                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
                     "properties": {
-                        "addEmpty": "",
-                        "jdbcDatasource": "default",
-                        "sql": "select \"banking\";",
-                        "useAjax": "true"
+                        "addEmptyOption": "",
+                        "cacheIdlePause": "120",
+                        "cacheInterval": "",
+                        "emptyLabel": "",
+                        "extraCondition": "",
+                        "formDefId": "company_overview",
+                        "groupingColumn": "",
+                        "idColumn": "industry",
+                        "labelColumn": "industry"
                     }
                 },
                 "showCount": "",
