@@ -101,7 +101,7 @@
                     "properties": {
                         "addEmpty": "",
                         "jdbcDatasource": "default",
-                        "sql": "select c_industry from app_fd_company_overview;",
+                        "sql": "select \"banking\";",
                         "useAjax": "true"
                     }
                 },
