@@ -90,28 +90,8 @@
         "label": "c_industry",
         "name": "c_industry",
         "type": {
-            "className": "org.joget.HyperlinkOptionsFilter",
-            "properties": {
-                "defaultValue": "",
-                "displayFull": "true",
-                "options": [],
-                "optionsBinder": {
-                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                    "properties": {
-                        "addEmptyOption": "",
-                        "cacheIdlePause": "120",
-                        "cacheInterval": "",
-                        "emptyLabel": "",
-                        "extraCondition": "",
-                        "formDefId": "company_overview",
-                        "groupingColumn": "",
-                        "idColumn": "industry",
-                        "labelColumn": "industry"
-                    }
-                },
-                "showCount": "",
-                "showLabel": ""
-            }
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {"defaultValue": ""}
         }
     }],
     "hidePageSize": "",
