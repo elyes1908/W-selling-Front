@@ -173,24 +173,6 @@
         {
             "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
             "icon": "<i class=\"fas fa-link\"><\/i>",
-            "id": "rowAction_1",
-            "label": "Hyperlink",
-            "name": "Data List Hyperlink Action",
-            "properties": {
-                "confirmation": "",
-                "datalist_type": "row_action",
-                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/company_overview_firm",
-                "hrefColumn": "id_firm",
-                "hrefParam": "id_firm",
-                "label": "<i class=\"fa fa-building-o\" aria-hidden=\"true\"><\/i>",
-                "rules": [],
-                "target": "_self"
-            },
-            "type": "text"
-        },
-        {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "icon": "<i class=\"fas fa-link\"><\/i>",
             "id": "rowAction_0",
             "label": "Hyperlink",
             "name": "Data List Hyperlink Action",
@@ -201,6 +183,24 @@
                 "hrefColumn": "id_firm",
                 "hrefParam": "id_firm",
                 "label": "<i class=\"fa fa-briefcase\" aria-hidden=\"true\"><\/i>",
+                "rules": [],
+                "target": "_self"
+            },
+            "type": "text"
+        },
+        {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "icon": "<i class=\"fas fa-link\"><\/i>",
+            "id": "rowAction_1",
+            "label": "Hyperlink",
+            "name": "Data List Hyperlink Action",
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/company_overview_firm",
+                "hrefColumn": "id_firm;c_nom",
+                "hrefParam": "id_firm;name_firm",
+                "label": "<i class=\"fa fa-building-o\" aria-hidden=\"true\"><\/i>",
                 "rules": [],
                 "target": "_self"
             },
