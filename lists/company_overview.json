@@ -49,7 +49,7 @@
                     "color": "",
                     "field": "",
                     "formDefId": "",
-                    "formatting": "big",
+                    "formatting": "big;strong",
                     "size": ""
                 }
             },
