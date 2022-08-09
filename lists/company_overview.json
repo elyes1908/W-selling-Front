@@ -6,12 +6,20 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "Itemkey",
-            "sql": "SELECT \n    company_jobs.*, association.id_firm,\n    concat('<img src=\"jw/web/client/app/wSelling/1/form/download/company_overview/',company_jobs.id,'/company.jpg.\"/>') as img\nFROM\n    (SELECT \n        company.*, COUNT(job.id) AS jobs\n    FROM\n        app_fd_company_overview company\n    JOIN association_company_job job ON company.id = job.id_company\n    GROUP BY company.id) company_jobs\n        JOIN\n    association ON association.id_company = company_jobs.id\n    where association.id_firm like \"%#requestParam.id_firm#%\""
+            "sql": "SELECT \n    company_jobs.*, association.id_firm,\n    concat('<img src=\"jw/web/client/app/wSelling/1/form/download/company_overview/',company_jobs.id,'/company.jpg.\"/>') as img\nFROM\n    (SELECT \n        company.id, COUNT(job.id) AS jobs\n    FROM\n        app_fd_company_overview company\n    JOIN association_company_job job ON company.id = job.id_company\n    GROUP BY company.id) company_jobs\n        JOIN\n    association ON association.id_company = company_jobs.id\n    where association.id_firm like \"%#requestParam.id_firm#%\""
         }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
     "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_0",
+            "label": "img",
+            "name": "img",
+            "sortable": "false"
+        },
         {
             "action": {
                 "className": "",
@@ -33,123 +41,12 @@
             "sortable": "false",
             "style": "",
             "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_0",
-            "label": "Nom de la compagne",
-            "name": "c_name",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_3",
-            "label": "Secteur d'activité",
-            "name": "c_industry",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_4",
-            "label": "Offres d'emplois",
-            "name": "jobs",
-            "sortable": "false",
-            "style": "",
-            "width": ""
         }
     ],
     "considerFilterWhenGetTotal": "",
     "description": "This is description",
     "disableResponsive": "",
-    "filters": [
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-697749-fn_c_name",
-            "hidden": "",
-            "id": "filter_1",
-            "label": "Nom de l'entreprise",
-            "name": "c_name",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-697749-fn_c_industry",
-            "hidden": "",
-            "id": "filter_0",
-            "label": "Secteur d'activité",
-            "name": "c_industry",
-            "type": {
-                "className": "org.joget.SelectBoxOptionsFilter",
-                "properties": {
-                    "defaultValue": "",
-                    "displayFull": "",
-                    "isForeignKey": "",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "company_overview",
-                            "groupingColumn": "industry",
-                            "idColumn": "industry",
-                            "labelColumn": "industry"
-                        }
-                    },
-                    "showCount": "",
-                    "showLabel": ""
-                }
-            }
-        }
-    ],
+    "filters": [],
     "hidePageSize": "",
     "id": "company_overview",
     "name": "Company Overview",
