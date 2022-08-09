@@ -90,8 +90,22 @@
         "label": "c_industry",
         "name": "c_industry",
         "type": {
-            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {"defaultValue": ""}
+            "className": "org.joget.SelectBoxOptionsFilter",
+            "properties": {
+                "defaultValue": "",
+                "displayFull": "true",
+                "isForeignKey": "",
+                "options": [{
+                    "label": "banking",
+                    "value": "banking"
+                }],
+                "optionsBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "showCount": "",
+                "showLabel": ""
+            }
         }
     }],
     "hidePageSize": "",
