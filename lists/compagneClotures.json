@@ -65,7 +65,7 @@
             "name": "dateDebut",
             "type": {
                 "className": "org.joget.dateFilter.DateFilter",
-                "properties": {"format": "dd-mm-yy"}
+                "properties": {"format": "yy-mm-dd"}
             }
         },
         {
@@ -77,7 +77,7 @@
             "name": "dateFin",
             "type": {
                 "className": "org.joget.dateFilter.DateFilter",
-                "properties": {"format": "dd-mm-yy"}
+                "properties": {"format": "yy-mm-dd"}
             }
         }
     ],
