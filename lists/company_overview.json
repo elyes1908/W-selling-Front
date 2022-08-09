@@ -82,52 +82,38 @@
     "considerFilterWhenGetTotal": "",
     "description": "This is description",
     "disableResponsive": "",
-    "filters": [
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-697749-fn_c_name",
-            "hidden": "",
-            "id": "filter_0",
-            "label": "c_name",
-            "name": "c_name",
-            "type": {
-                "className": "org.joget.SelectBoxOptionsFilter",
-                "properties": {
-                    "defaultValue": "",
-                    "displayFull": "true",
-                    "isForeignKey": "",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "company_overview",
-                            "groupingColumn": "",
-                            "idColumn": "industry",
-                            "labelColumn": "industry"
-                        }
-                    },
-                    "showCount": "",
-                    "showLabel": ""
-                }
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-697749-fn_c_industry",
-            "hidden": "",
-            "id": "filter_1",
-            "label": "c_industry",
-            "name": "c_industry",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
+    "filters": [{
+        "datalist_type": "filter",
+        "filterParamName": "d-697749-fn_c_name",
+        "hidden": "",
+        "id": "filter_0",
+        "label": "c_name",
+        "name": "c_name",
+        "type": {
+            "className": "org.joget.SelectBoxOptionsFilter",
+            "properties": {
+                "defaultValue": "",
+                "displayFull": "true",
+                "isForeignKey": "",
+                "options": [],
+                "optionsBinder": {
+                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                    "properties": {
+                        "addEmptyOption": "",
+                        "cacheInterval": "",
+                        "emptyLabel": "",
+                        "extraCondition": "",
+                        "formDefId": "company_overview",
+                        "groupingColumn": "",
+                        "idColumn": "name",
+                        "labelColumn": "name"
+                    }
+                },
+                "showCount": "",
+                "showLabel": ""
             }
         }
-    ],
+    }],
     "hidePageSize": "",
     "id": "company_overview",
     "name": "Company Overview",
