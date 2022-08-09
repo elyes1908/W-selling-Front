@@ -82,38 +82,52 @@
     "considerFilterWhenGetTotal": "",
     "description": "This is description",
     "disableResponsive": "",
-    "filters": [{
-        "datalist_type": "filter",
-        "filterParamName": "d-697749-fn_c_industry",
-        "hidden": "",
-        "id": "filter_0",
-        "label": "Secteur d'activité",
-        "name": "c_industry",
-        "type": {
-            "className": "org.joget.SelectBoxOptionsFilter",
-            "properties": {
-                "defaultValue": "",
-                "displayFull": "true",
-                "isForeignKey": "",
-                "options": [],
-                "optionsBinder": {
-                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                    "properties": {
-                        "addEmptyOption": "",
-                        "cacheInterval": "",
-                        "emptyLabel": "",
-                        "extraCondition": "",
-                        "formDefId": "company_overview",
-                        "groupingColumn": "industry",
-                        "idColumn": "industry",
-                        "labelColumn": "industry"
-                    }
-                },
-                "showCount": "",
-                "showLabel": ""
+    "filters": [
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-697749-fn_c_industry",
+            "hidden": "",
+            "id": "filter_1",
+            "label": "c_industry",
+            "name": "c_industry",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-697749-fn_c_industry",
+            "hidden": "",
+            "id": "filter_0",
+            "label": "Secteur d'activité",
+            "name": "c_industry",
+            "type": {
+                "className": "org.joget.SelectBoxOptionsFilter",
+                "properties": {
+                    "defaultValue": "",
+                    "displayFull": "true",
+                    "isForeignKey": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "company_overview",
+                            "groupingColumn": "id",
+                            "idColumn": "industry",
+                            "labelColumn": "industry"
+                        }
+                    },
+                    "showCount": "true",
+                    "showLabel": "true"
+                }
             }
         }
-    }],
+    ],
     "hidePageSize": "",
     "id": "company_overview",
     "name": "Company Overview",
