@@ -90,28 +90,8 @@
         "label": "Secteur d'activité",
         "name": "c_industry",
         "type": {
-            "className": "org.joget.SelectBoxOptionsFilter",
-            "properties": {
-                "defaultValue": "",
-                "displayFull": "true",
-                "isForeignKey": "",
-                "options": [],
-                "optionsBinder": {
-                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                    "properties": {
-                        "addEmptyOption": "",
-                        "cacheInterval": "",
-                        "emptyLabel": "",
-                        "extraCondition": "",
-                        "formDefId": "company_overview",
-                        "groupingColumn": "industry",
-                        "idColumn": "industry",
-                        "labelColumn": "industry"
-                    }
-                },
-                "showCount": "",
-                "showLabel": ""
-            }
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {"defaultValue": ""}
         }
     }],
     "hidePageSize": "",
