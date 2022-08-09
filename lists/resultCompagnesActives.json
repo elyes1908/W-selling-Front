@@ -128,18 +128,6 @@
     "filters": [
         {
             "datalist_type": "filter",
-            "filterParamName": "d-6836953-fn_c_nom",
-            "hidden": "",
-            "id": "filter_2",
-            "label": "Nom",
-            "name": "c_nom",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
-            }
-        },
-        {
-            "datalist_type": "filter",
             "filterParamName": "d-6836953-fn_c_dateDebut",
             "hidden": "",
             "id": "filter_1",
