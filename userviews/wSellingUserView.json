@@ -156,7 +156,7 @@
                         "cacheListAction": "",
                         "checkboxPosition": "left",
                         "customFooter": "",
-                        "customHeader": "",
+                        "customHeader": "#requestParam.id#",
                         "customId": "similar",
                         "datalistId": "similar",
                         "enableOffline": "",
