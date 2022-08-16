@@ -6,7 +6,7 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "Itemkey",
-            "sql": "SELECT company.* FROM jwdb.similars similar\njoin app_fd_company_overview company on company.id = similar.id_similar\n\nwhere similar.id_company like '%#requestParam.id#%'"
+            "sql": "SELECT company.* ,concat('<img src=\"http://localhost:8080/jw/web/client/app/wSelling/1/form/download/company_overview/',company.id,'/company.jpg.\"/>') as img\nFROM jwdb.similars similar\njoin app_fd_company_overview company on company.id = similar.id_similar\n\nwhere similar.id_company like '%#requestParam.id#%'"
         }
     },
     "buttonPosition": "bottomLeft",
@@ -86,34 +86,6 @@
             "id": "column_2",
             "label": "Secteur d'activité",
             "name": "c_industry",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "org.joget.apps.datalist.lib.DefaultFormatter",
-                "properties": {
-                    "color": "",
-                    "field": "",
-                    "formDefId": "",
-                    "formatting": "big",
-                    "size": ""
-                }
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_3",
-            "label": "Offres d'emplois",
-            "name": "jobs",
             "sortable": "false",
             "style": "",
             "width": ""
