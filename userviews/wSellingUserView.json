@@ -163,7 +163,7 @@
                         "id": "89031C11E6844F7FB5D8CD0024B879C6",
                         "keyName": "",
                         "label": "Similar",
-                        "rowCount": "",
+                        "rowCount": "true",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
