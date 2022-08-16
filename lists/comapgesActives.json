@@ -177,7 +177,7 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "/similar",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/similar",
                 "hrefColumn": "id",
                 "hrefParam": "id",
                 "label": "<i class=\"fa fa-star-o\" aria-hidden=\"true\"><\/i>",
