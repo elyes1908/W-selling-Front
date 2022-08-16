@@ -147,6 +147,27 @@
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "similar",
+                        "datalistId": "similar",
+                        "enableOffline": "",
+                        "id": "89031C11E6844F7FB5D8CD0024B879C6",
+                        "keyName": "",
+                        "label": "Similar",
+                        "rowCount": "",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
                 }
             ],
             "properties": {
@@ -308,27 +329,6 @@
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "buttonPosition": "bottomLeft",
-                        "cacheAllLinks": "",
-                        "cacheListAction": "",
-                        "checkboxPosition": "left",
-                        "customFooter": "",
-                        "customHeader": "",
-                        "customId": "similar",
-                        "datalistId": "similar",
-                        "enableOffline": "",
-                        "id": "89031C11E6844F7FB5D8CD0024B879C6",
-                        "keyName": "",
-                        "label": "Similar",
-                        "rowCount": "",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": ""
-                    }
                 }
             ],
             "properties": {
@@ -379,7 +379,7 @@
                 "horizontal_menu": "",
                 "inbox": "",
                 "js": "",
-                "loginPageBottom": "<style>\n    #goBack{\n  position: absolute;\n  top: 150%;\n  right: 5%;\n  font-size: 35px;\n  \n  \n}\n<\/style>\n<a href=\"javascript:history.back()\" id=\"goBack\"><i class=\"fa fa-arrow-circle-left\" aria-hidden=\"true\"><\/i>\n<\/a>",
+                "loginPageBottom": "",
                 "loginPageTop": "",
                 "logo": "",
                 "menuFontColor": "ALICEBLUE",
