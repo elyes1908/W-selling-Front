@@ -238,11 +238,11 @@
                 "confirmation": "",
                 "datalist_type": "row_action",
                 "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/similar",
-                "hrefColumn": "id",
-                "hrefParam": "id",
+                "hrefColumn": "id;c_name;c_url;c_website;c_company_size",
+                "hrefParam": "id;name;url;website;size",
                 "label": "<i class=\"fa fa-star-o\" aria-hidden=\"true\"><\/i>",
                 "rules": [],
-                "target": "_self"
+                "target": "_blank"
             },
             "type": "text"
         },
