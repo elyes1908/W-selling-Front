@@ -64,12 +64,26 @@
             "width": ""
         },
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_3",
-            "label": "c_company_size",
+            "label": "Taille de l'entreprise",
             "name": "c_company_size",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
             "action": {
