@@ -177,9 +177,9 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "",
-                "hrefColumn": "",
-                "hrefParam": "",
+                "href": "/similar",
+                "hrefColumn": "id",
+                "hrefParam": "id",
                 "label": "<i class=\"fa fa-star-o\" aria-hidden=\"true\"><\/i>",
                 "rules": [],
                 "target": "_self"
