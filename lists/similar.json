@@ -30,6 +30,7 @@
             "id": "column_0",
             "label": "Logo",
             "name": "img",
+            "renderHtml": "true",
             "sortable": "false",
             "style": "",
             "width": ""
