@@ -90,6 +90,22 @@
             "sortable": "false",
             "style": "",
             "width": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "c_website",
+            "name": "c_website",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_4",
+            "label": "c_url",
+            "name": "c_url",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
