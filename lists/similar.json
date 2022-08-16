@@ -1,11 +1,25 @@
 {
     "actions": [],
     "binder": {
-        "className": "",
-        "name": "",
-        "properties": {}
+        "className": "com.itasoft.poc.JdbcPlugin",
+        "properties": {
+            "jdbcDatasource": "default",
+            "optimisePaging": "",
+            "primaryKey": "Itemkey",
+            "sql": "SELECT c_url FROM jwdb.similars similar\njoin app_fd_company_overview company on company.id = similar.id_similar\n\nwhere similar.id_company like '%#requestParam.id%'"
+        }
     },
-    "columns": [],
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [{
+        "filterable": true,
+        "hidden": "false",
+        "id": "column_0",
+        "label": "c_url",
+        "name": "c_url",
+        "sortable": "false"
+    }],
+    "considerFilterWhenGetTotal": "",
     "description": "",
     "filters": [],
     "id": "similar",
@@ -13,5 +27,8 @@
     "order": "",
     "orderBy": "",
     "pageSize": "0",
-    "rowActions": []
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
 }
