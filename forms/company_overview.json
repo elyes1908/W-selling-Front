@@ -270,6 +270,39 @@
                         "value": "",
                         "workflowVariable": ""
                     }
+                },
+                {
+                    "className": "org.joget.SubformRepeater",
+                    "properties": {
+                        "addMode": "enable",
+                        "collapsedByDefault": "",
+                        "collapsible": "true",
+                        "deleteMode": "enable",
+                        "editFormDefId": "",
+                        "editMode": "enable",
+                        "enableSorting": "",
+                        "errorMessage": "Nombre invalide de lignes",
+                        "formDefId": "company_overview",
+                        "id": "field14",
+                        "label": "Subform Repeater",
+                        "loadBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "storeBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "uniqueKey": "",
+                        "validateMaxRow": "",
+                        "validateMinRow": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
                 }
             ],
             "properties": {"width": "100%"}
