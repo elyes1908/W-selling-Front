@@ -393,6 +393,39 @@
                                     "properties": {}
                                 }
                             }
+                        },
+                        {
+                            "className": "org.joget.SubformRepeater",
+                            "properties": {
+                                "addMode": "enable",
+                                "collapsedByDefault": "",
+                                "collapsible": "true",
+                                "deleteMode": "enable",
+                                "editFormDefId": "",
+                                "editMode": "enable",
+                                "enableSorting": "",
+                                "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
+                                "formDefId": "company_overview",
+                                "id": "field18",
+                                "label": "Subform Repeater",
+                                "loadBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "storeBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "uniqueKey": "",
+                                "validateMaxRow": "",
+                                "validateMinRow": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                }
+                            }
                         }
                     ],
                     "properties": {"width": "49%"}
