@@ -204,8 +204,8 @@
                 "confirmation": "",
                 "datalist_type": "row_action",
                 "href": "company_overview_form",
-                "hrefColumn": "id",
-                "hrefParam": "id",
+                "hrefColumn": "id;c_url",
+                "hrefParam": "id;url",
                 "label": "<i class=\"fas fa-angle-double-right\"><\/i>",
                 "rules": [],
                 "target": "popup"
