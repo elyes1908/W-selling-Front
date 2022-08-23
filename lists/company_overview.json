@@ -208,7 +208,7 @@
                 "hrefParam": "id;url",
                 "label": "<i class=\"fas fa-angle-double-right\"><\/i>",
                 "rules": [],
-                "target": "popup"
+                "target": "_blank"
             },
             "type": "text"
         },
