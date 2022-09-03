@@ -10,7 +10,7 @@
                     "properties": {
                         "controlField": "",
                         "id": "pays",
-                        "label": "Pays",
+                        "label": "Countries",
                         "multiple": "",
                         "options": [],
                         "optionsBinder": {
@@ -46,7 +46,7 @@
                     "properties": {
                         "controlField": "pays",
                         "id": "region",
-                        "label": "Régions",
+                        "label": "Regions",
                         "multiple": "",
                         "options": [],
                         "optionsBinder": {
