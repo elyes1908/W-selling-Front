@@ -11,28 +11,70 @@
     "checkboxPosition": "left",
     "columns": [
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_1",
-            "label": "Nom de la compagne",
+            "label": "Campaign name",
             "name": "nom",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_2",
-            "label": "Date début",
+            "label": "Starting date",
             "name": "dateDebut",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_3",
-            "label": "Date de fin prévue",
+            "label": "Expected end date",
             "name": "dateFin",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         }
     ],
     "considerFilterWhenGetTotal": "",
@@ -44,7 +86,7 @@
             "filterParamName": "d-994838-fn_nom",
             "hidden": "",
             "id": "filter_0",
-            "label": "Nom de la compagne",
+            "label": "Campaign name",
             "name": "nom",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
@@ -56,7 +98,7 @@
             "filterParamName": "d-994838-fn_dateDebut",
             "hidden": "",
             "id": "filter_1",
-            "label": "Date début",
+            "label": "Starting date",
             "name": "dateDebut",
             "type": {
                 "className": "org.joget.dateFilter.DateFilter",
@@ -68,7 +110,7 @@
             "filterParamName": "d-994838-fn_dateFin",
             "hidden": "",
             "id": "filter_2",
-            "label": "Date de fin prévue",
+            "label": "Expected end date",
             "name": "dateFin",
             "type": {
                 "className": "org.joget.dateFilter.DateFilter",
