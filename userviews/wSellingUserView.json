@@ -120,7 +120,7 @@
                         "enableOffline": "",
                         "id": "BD5BCDC37BCF4979B7DF68385DE11CC4",
                         "keyName": "",
-                        "label": "Compagnes Actives",
+                        "label": "Active campaigns",
                         "rowCount": "true",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
@@ -141,13 +141,28 @@
                         "enableOffline": "",
                         "id": "3780AD4B33F543189E551271BBAA20AA",
                         "keyName": "",
-                        "label": "Compagnes Cloturées",
+                        "label": "Closed campaigns",
                         "rowCount": "true",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
-                },
+                }
+            ],
+            "properties": {
+                "comment": "",
+                "hide": "",
+                "id": "category-F43020981F834A1AB2EB033515788A74",
+                "label": "<i class=\"fa fa-chart-area\"><\/i> Campaigns results",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                }
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
                 {
                     "className": "org.joget.apps.userview.lib.DataListMenu",
                     "properties": {
@@ -168,22 +183,7 @@
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": ""
                     }
-                }
-            ],
-            "properties": {
-                "comment": "",
-                "hide": "",
-                "id": "category-F43020981F834A1AB2EB033515788A74",
-                "label": "<i class=\"fa fa-chart-area\"><\/i> Résultat des compagnes",
-                "permission": {
-                    "className": "",
-                    "properties": {}
-                }
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
+                },
                 {
                     "className": "org.joget.apps.userview.lib.DataListMenu",
                     "properties": {
