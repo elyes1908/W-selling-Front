@@ -213,7 +213,7 @@
                         "cacheListAction": "",
                         "checkboxPosition": "left",
                         "customFooter": "",
-                        "customHeader": "<h1>Entreprises appertenant à la compagne: \r\n#requestParam.name_firm#<\/h1><br>",
+                        "customHeader": "<h1>Companies belonging to the campaign: \r\n#requestParam.name_firm#<\/h1><br>",
                         "customId": "company_overview_firm",
                         "datalistId": "company_overview",
                         "enableOffline": "",
