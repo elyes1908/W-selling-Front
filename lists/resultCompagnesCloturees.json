@@ -28,7 +28,7 @@
             "headerAlignment": "",
             "hidden": "false",
             "id": "column_0",
-            "label": "Nom",
+            "label": "Campaign name",
             "name": "c_nom",
             "sortable": "false",
             "style": "",
