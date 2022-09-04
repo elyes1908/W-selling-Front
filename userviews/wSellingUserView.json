@@ -63,7 +63,7 @@
                         "cacheListAction": "",
                         "checkboxPosition": "left",
                         "customFooter": "",
-                        "customHeader": "<h1>List of all <span style=\"color: darkblue;\">Actif<\/span> campaigns <\/h1>\n<br>",
+                        "customHeader": "<h1>List of all <span style=\"color: green;\">Actif<\/span> campaigns <\/h1>\n<br>",
                         "customId": "compagnesActivesList",
                         "datalistId": "comapgesActives",
                         "enableOffline": "",
