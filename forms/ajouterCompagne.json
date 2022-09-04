@@ -104,7 +104,7 @@
                     "properties": {
                         "id": "statut",
                         "useDefaultWhenEmpty": "",
-                        "value": "",
+                        "value": "active",
                         "workflowVariable": ""
                     }
                 },
