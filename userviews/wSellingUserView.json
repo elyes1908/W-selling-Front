@@ -265,7 +265,7 @@
                         "cacheListAction": "",
                         "checkboxPosition": "left",
                         "customFooter": "",
-                        "customHeader": "<h1>List of all jobs belonging to company:<b style=\"color: green;\">#requestParam.nom#<\/b> <\/h1>",
+                        "customHeader": "<h1>List of all jobs belonging to company:<b style=\"color: \t#4682B4;\">#requestParam.nom#<\/b> <\/h1>",
                         "customId": "jobs_company",
                         "datalistId": "jobs",
                         "enableOffline": "",
