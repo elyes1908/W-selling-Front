@@ -135,7 +135,7 @@
                         "cacheListAction": "",
                         "checkboxPosition": "left",
                         "customFooter": "",
-                        "customHeader": "<h1>campaigns <span style=\"color: red;\">Closed<\/span> campaigns<\/h1>\n<br>",
+                        "customHeader": "<h1>Result of all <span style=\"color: red;\">Closed<\/span>\n  campaigns<\/h1>\n<br>",
                         "customId": "resCompagneCloturees",
                         "datalistId": "resultCompagnesCloturees",
                         "enableOffline": "",
