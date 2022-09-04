@@ -222,8 +222,8 @@
                 "confirmation": "",
                 "datalist_type": "row_action",
                 "href": "jobs_company",
-                "hrefColumn": "c_url",
-                "hrefParam": "url",
+                "hrefColumn": "c_url;c_name",
+                "hrefParam": "url;nom",
                 "label": "<i class=\"fa fa-briefcase\" aria-hidden=\"true\"><\/i>",
                 "rules": [],
                 "target": "_self"
