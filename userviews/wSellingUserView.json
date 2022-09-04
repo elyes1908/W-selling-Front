@@ -265,7 +265,7 @@
                         "cacheListAction": "",
                         "checkboxPosition": "left",
                         "customFooter": "",
-                        "customHeader": "<h1>List of all jobs<\/h1>",
+                        "customHeader": "",
                         "customId": "jobs_company",
                         "datalistId": "jobs",
                         "enableOffline": "",
