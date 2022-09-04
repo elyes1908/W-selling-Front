@@ -293,6 +293,10 @@
                             {
                                 "label": "Publication date",
                                 "value": "date"
+                            },
+                            {
+                                "label": "abc",
+                                "value": "abc"
                             }
                         ],
                         "permissionHidden": "",
