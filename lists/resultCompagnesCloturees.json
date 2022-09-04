@@ -198,8 +198,8 @@
                 "confirmation": "",
                 "datalist_type": "row_action",
                 "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/jobs_firm",
-                "hrefColumn": "id_firm",
-                "hrefParam": "id_firm",
+                "hrefColumn": "id_firm;c_nom",
+                "hrefParam": "id_firm;nom",
                 "label": "<i class=\"fa fa-briefcase\" aria-hidden=\"true\"><\/i>",
                 "rules": [],
                 "target": "_self"
