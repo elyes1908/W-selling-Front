@@ -15,14 +15,6 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_0",
-            "label": "firmId",
-            "name": "firmId",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
             "id": "column_1",
             "label": "Job Title",
             "name": "Job Title",
