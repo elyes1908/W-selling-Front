@@ -3,13 +3,13 @@
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [{
-                "className": "org.joget.apps.userview.lib.HtmlPage",
+                "className": "org.joget.marketplace.ClassicHTMLMenu",
                 "properties": {
-                    "content": "<pre><br /><span>&lt;!doctype <\/span><span>html<\/span><span>&gt;<br /><\/span><span>&lt;<\/span><span>html <\/span><span>lang<\/span><span>=\"en\"<\/span><span>&gt;<br /><\/span><span>&lt;<\/span><span>head<\/span><span>&gt;<br /><\/span><span>    &lt;<\/span><span>meta <\/span><span>charset<\/span><span>=\"UTF-8\"<\/span><span>&gt;<br /><\/span><span>    &lt;<\/span><span>meta <\/span><span>name<\/span><span>=\"viewport\"<br /><\/span><span>          <\/span><span>content<\/span><span>=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\"<\/span><span>&gt;<br /><\/span><span>    &lt;<\/span><span>meta <\/span><span>http-equiv<\/span><span>=\"X-UA-Compatible\" <\/span><span>content<\/span><span>=\"ie=edge\"<\/span><span>&gt;<br /><\/span><span>    &lt;<\/span><span>title<\/span><span>&gt;<\/span>Document<span>&lt;/<\/span><span>title<\/span><span>&gt;<br /><\/span><span>&lt;/<\/span><span>head<\/span><span>&gt;<br /><\/span><span>&lt;<\/span><span>body<\/span><span>&gt;<br /><\/span><span>&lt;<\/span><span>iframe <\/span><span>title<\/span><span>=\"PowerSliderbyTMEAG.powerslider.1.0.0.0\" <\/span><span>width<\/span><span>=\"1140\" <\/span><span>height<\/span><span>=\"541.25\"<br /><\/span><span>        <\/span><span>src<\/span><span>=\"https://app.powerbi.com/reportEmbed?reportId=89adf207-24a7-44de-b4f5-76bb7344ba20&amp;autoAuth=true&amp;ctid=604f1a96-cbe8-43f8-abbf-f8eaf5d85730\"<br /><\/span><span>        <\/span><span>frameborder<\/span><span>=\"0\" <\/span><span>allowFullScreen<\/span><span>=\"true\"<\/span><span>&gt;&lt;/<\/span><span>iframe<\/span><span>&gt;<br /><\/span><span>&lt;/<\/span><span>body<\/span><span>&gt;<br /><\/span><span>&lt;/<\/span><span>html<\/span><span>&gt;<\/span><\/pre>",
+                    "code": "\r\n<!doctype html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\"\r\n          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n    <title>Document<\/title>\r\n<\/head>\r\n<body>\r\n<iframe title=\"PowerSliderbyTMEAG.powerslider.1.0.0.0\" width=\"1140\" height=\"541.25\"\r\n        src=\"https://app.powerbi.com/reportEmbed?reportId=89adf207-24a7-44de-b4f5-76bb7344ba20&autoAuth=true&ctid=604f1a96-cbe8-43f8-abbf-f8eaf5d85730\"\r\n        frameborder=\"0\" allowFullScreen=\"true\"><\/iframe>\r\n<\/body>\r\n<\/html>",
                     "customId": "",
                     "enableOffline": "",
-                    "id": "CB4CB6DBB40A4E01B96EABF6272AEFBD",
-                    "label": "HTML Page",
+                    "id": "63AB08BFCA2942689ECB5CBA052EBB88",
+                    "label": "Dashboard",
                     "userviewCacheDuration": "20",
                     "userviewCacheScope": ""
                 }
