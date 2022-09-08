@@ -2,6 +2,25 @@
     "categories": [
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.HtmlPage",
+                "properties": {
+                    "content": "<pre><span>&lt;<\/span><span>iframe <\/span><span>title<\/span><span>=\"PowerSliderbyTMEAG.powerslider.1.0.0.0\" <\/span><span>width<\/span><span>=\"1140\" <\/span><span>height<\/span><span>=\"541.25\"<br /><\/span><span>        <\/span><span>src<\/span><span>=\"https://app.powerbi.com/reportEmbed?reportId=89adf207-24a7-44de-b4f5-76bb7344ba20&amp;autoAuth=true&amp;ctid=604f1a96-cbe8-43f8-abbf-f8eaf5d85730\"<br /><\/span><span>        <\/span><span>frameborder<\/span><span>=\"0\" <\/span><span>allowFullScreen<\/span><span>=\"true\"<\/span><span>&gt;&lt;/<\/span><span>iframe<\/span><span>&gt;<\/span><\/pre>",
+                    "customId": "",
+                    "enableOffline": "",
+                    "id": "CB4CB6DBB40A4E01B96EABF6272AEFBD",
+                    "label": "HTML Page",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            }],
+            "properties": {
+                "id": "category-4D06A63722C3404BACC8BB69D5131DDC",
+                "label": "Dashboard"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
                 {
                     "className": "org.joget.apps.userview.lib.FormMenu",
