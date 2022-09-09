@@ -9,14 +9,14 @@
                     "customId": "",
                     "enableOffline": "",
                     "id": "63AB08BFCA2942689ECB5CBA052EBB88",
-                    "label": "<i class=\"fa fa-bar-chart\" aria-hidden=\"true\"><\/i> Dashboard",
+                    "label": "<i class=\"fas fa-chart-line\"><\/i> Dashboard",
                     "userviewCacheDuration": "20",
                     "userviewCacheScope": ""
                 }
             }],
             "properties": {
                 "id": "category-4D06A63722C3404BACC8BB69D5131DDC",
-                "label": "<i class=\"fa fa-bar-chart\" aria-hidden=\"true\"><\/i> Dashboard"
+                "label": "<i class=\"fas fa-chart-line\"><\/i> Dashboard"
             }
         },
         {
@@ -172,7 +172,7 @@
                 "comment": "",
                 "hide": "",
                 "id": "category-F43020981F834A1AB2EB033515788A74",
-                "label": "<i class=\"fa fa-chart-area\"><\/i> Campaigns results",
+                "label": "<i class=\"fas fa-poll-h\"><\/i> Campaigns results",
                 "permission": {
                     "className": "",
                     "properties": {}
@@ -398,8 +398,8 @@
                 "horizontal_menu": "",
                 "inbox": "",
                 "js": "",
-                "loginPageBottom": "",
-                "loginPageTop": "",
+                "loginPageBottom": "<!DOCTYPE html>\n<html>\n<head>\n<script src=\"https://kit.fontawesome.com/a076d05399.js\" crossorigin=\"anonymous\"><\/script>\n<\/head>\n<body>\n\n\n\n<\/body>\n<\/html>",
+                "loginPageTop": "<!DOCTYPE html>\n<html>\n<head>\n<script src=\"https://kit.fontawesome.com/a076d05399.js\" crossorigin=\"anonymous\"><\/script>\n<\/head>\n<body>\n\n<\/body>\n<\/html>",
                 "logo": "",
                 "menuFontColor": "ALICEBLUE",
                 "primaryColor": "WHITE",
