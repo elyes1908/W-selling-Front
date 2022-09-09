@@ -9,14 +9,14 @@
                     "customId": "",
                     "enableOffline": "",
                     "id": "63AB08BFCA2942689ECB5CBA052EBB88",
-                    "label": "Dashboard",
+                    "label": "<i class=\"fa fa-bar-chart\" aria-hidden=\"true\"><\/i> Dashboard",
                     "userviewCacheDuration": "20",
                     "userviewCacheScope": ""
                 }
             }],
             "properties": {
                 "id": "category-4D06A63722C3404BACC8BB69D5131DDC",
-                "label": "Dashboard"
+                "label": "<i class=\"fa fa-bar-chart\" aria-hidden=\"true\"><\/i> Dashboard"
             }
         },
         {
