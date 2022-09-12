@@ -114,44 +114,7 @@
             "view": "Tablet"
         }
     ],
-    "rowActions": [
-        {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "icon": "<i class=\"fas fa-link\"><\/i>",
-            "id": "rowAction_6",
-            "label": "Hyperlink",
-            "name": "Data List Hyperlink Action",
-            "properties": {
-                "confirmation": "",
-                "datalist_type": "row_action",
-                "href": "jobs_company",
-                "hrefColumn": "c_url;c_name",
-                "hrefParam": "url;nom",
-                "label": "<i class=\"fa fa-briefcase\" aria-hidden=\"true\"><\/i>",
-                "rules": [],
-                "target": "_self"
-            },
-            "type": "text"
-        },
-        {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "icon": "<i class=\"fas fa-link\"><\/i>",
-            "id": "rowAction_4",
-            "label": "Hyperlink",
-            "name": "Data List Hyperlink Action",
-            "properties": {
-                "confirmation": "",
-                "datalist_type": "row_action",
-                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/similar",
-                "hrefColumn": "id;c_name;c_url;c_website;c_company_size",
-                "hrefParam": "id;name;url;website;size",
-                "label": "<i class=\"fa fa-star-o\" aria-hidden=\"true\"><\/i>",
-                "rules": [],
-                "target": "_blank"
-            },
-            "type": "text"
-        }
-    ],
+    "rowActions": [],
     "searchPopup": "",
     "showDataWhenFilterSet": "",
     "showPageSizeSelector": "true",
