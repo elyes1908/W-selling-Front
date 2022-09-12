@@ -24,7 +24,7 @@
             "className": "org.joget.sample.CardFormatter",
             "properties": {
                 "cardUrlTarget": "",
-                "description": "<!DOCTYPE html>\n<html>\n<head>\n<script src=\"https://kit.fontawesome.com/a076d05399.js\" crossorigin=\"anonymous\"><\/script>\n<\/head>\n<body>\n<h6>Industry: {c_industry} <\/h6><br>\n<h6>Jobs: {jobs}<\/h6>\n <a href=\"similar?id=#requestParam.id#&name=#form.app_fd_company_overview.name#&url=#form.app_fd_company_overview.url#&website=#form.app_fd_company_overview.website#&size=#form.app_fd_company_overview.company_size#\" class=\"btn btn-primary\">Similar Companies: <i class=\"fa fa-star\" aria-hidden=\"true\"><\/i><\/a>\n<\/body>\n<\/html>",
+                "description": "<!DOCTYPE html>\n<html>\n<head>\n<script src=\"https://kit.fontawesome.com/a076d05399.js\" crossorigin=\"anonymous\"><\/script>\n<\/head>\n<body>\n<h6>Industry: {c_industry} <\/h6><br>\n<h6>Jobs: {jobs}<\/h6>\n<object type=\"owo/uwu\">\n <a href=\"similar?id=#requestParam.id#&name=#form.app_fd_company_overview.name#&url=#form.app_fd_company_overview.url#&website=#form.app_fd_company_overview.website#&size=#form.app_fd_company_overview.company_size#\" class=\"btn btn-primary\">Similar Companies: <i class=\"fa fa-star\" aria-hidden=\"true\"><\/i><\/a>\n<\/object>\n<\/body>\n<\/html>",
                 "formDefId": "company_overview",
                 "image": "c_image",
                 "link": "company_overview_form?id={id}&url={c_url}",
