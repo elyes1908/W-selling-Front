@@ -12,7 +12,7 @@
                             "autoPopulate": "",
                             "id": "field13",
                             "label": "",
-                            "value": "<a href=\"similar?id=#requestParam.id#&name=#requestParam.name#&c_url=#requestParam.url#&website=#requestParam.website#&size=#requestParam.size#\">OO<\/a>"
+                            "value": "<a href=\"similar?id=#requestParam.id#&c_name=#requestParam.name#&c_url=#requestParam.url#&website=#requestParam.website#&size=#requestParam.size#\">OO<\/a>"
                         }
                     },
                     {
