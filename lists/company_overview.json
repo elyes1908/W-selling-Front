@@ -24,7 +24,7 @@
             "className": "org.joget.sample.CardFormatter",
             "properties": {
                 "cardUrlTarget": "",
-                "description": "Industry: {c_industry} <br>\nJobs: {jobs}\n<a href=\"http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/jobs_company?url=#requestParam.url#&nom=#requestParam.nom#\">O<\/a>",
+                "description": "Industry: {c_industry} <br>\nJobs: {jobs}\n<a href=\"https://www.google.com/\">O<\/a>",
                 "formDefId": "company_overview",
                 "image": "c_image",
                 "link": "company_overview_form?id={id}&url={c_url}",
@@ -118,24 +118,6 @@
         {
             "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
             "icon": "<i class=\"fas fa-link\"><\/i>",
-            "id": "rowAction_0",
-            "label": "Hyperlink",
-            "name": "Data List Hyperlink Action",
-            "properties": {
-                "confirmation": "",
-                "datalist_type": "row_action",
-                "href": "company_overview_form",
-                "hrefColumn": "id;c_url",
-                "hrefParam": "id;url",
-                "label": "<i class=\"fas fa-angle-double-right\"><\/i>",
-                "rules": [],
-                "target": "_blank"
-            },
-            "type": "text"
-        },
-        {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "icon": "<i class=\"fas fa-link\"><\/i>",
             "id": "rowAction_6",
             "label": "Hyperlink",
             "name": "Data List Hyperlink Action",
@@ -154,60 +136,6 @@
         {
             "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
             "icon": "<i class=\"fas fa-link\"><\/i>",
-            "id": "rowAction_1",
-            "label": "Hyperlink",
-            "name": "Data List Hyperlink Action",
-            "properties": {
-                "confirmation": "",
-                "datalist_type": "row_action",
-                "href": "",
-                "hrefColumn": "",
-                "hrefParam": "",
-                "label": "<i class=\"fa fa-users\" aria-hidden=\"true\"><\/i>",
-                "rules": [],
-                "target": "_self"
-            },
-            "type": "text"
-        },
-        {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "icon": "<i class=\"fas fa-link\"><\/i>",
-            "id": "rowAction_2",
-            "label": "Hyperlink",
-            "name": "Data List Hyperlink Action",
-            "properties": {
-                "confirmation": "",
-                "datalist_type": "row_action",
-                "href": "",
-                "hrefColumn": "",
-                "hrefParam": "",
-                "label": "<i class=\"fa fa-search\" aria-hidden=\"true\"><\/i>",
-                "rules": [],
-                "target": "_self"
-            },
-            "type": "text"
-        },
-        {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "icon": "<i class=\"fas fa-link\"><\/i>",
-            "id": "rowAction_3",
-            "label": "Hyperlink",
-            "name": "Data List Hyperlink Action",
-            "properties": {
-                "confirmation": "",
-                "datalist_type": "row_action",
-                "href": "",
-                "hrefColumn": "",
-                "hrefParam": "",
-                "label": "<i class=\"fa fa-floppy-o\" aria-hidden=\"true\"><\/i>",
-                "rules": [],
-                "target": "_self"
-            },
-            "type": "text"
-        },
-        {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "icon": "<i class=\"fas fa-link\"><\/i>",
             "id": "rowAction_4",
             "label": "Hyperlink",
             "name": "Data List Hyperlink Action",
@@ -218,24 +146,6 @@
                 "hrefColumn": "id;c_name;c_url;c_website;c_company_size",
                 "hrefParam": "id;name;url;website;size",
                 "label": "<i class=\"fa fa-star-o\" aria-hidden=\"true\"><\/i>",
-                "rules": [],
-                "target": "_blank"
-            },
-            "type": "text"
-        },
-        {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "icon": "<i class=\"fas fa-link\"><\/i>",
-            "id": "rowAction_5",
-            "label": "Hyperlien",
-            "name": "Data List Hyperlink Action",
-            "properties": {
-                "confirmation": "",
-                "datalist_type": "row_action",
-                "href": "#requestParam.url#",
-                "hrefColumn": "c_url",
-                "hrefParam": "url",
-                "label": "<i class=\"fa fa-linkedin\" aria-hidden=\"true\"><\/i>",
                 "rules": [],
                 "target": "_blank"
             },
