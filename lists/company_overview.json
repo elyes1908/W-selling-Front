@@ -67,7 +67,7 @@
             "filterParamName": "d-697749-fn_c_name",
             "hidden": "",
             "id": "filter_0",
-            "label": "c_name",
+            "label": "Name",
             "name": "c_name",
             "type": {
                 "className": "org.joget.SelectBoxOptionsFilter",
