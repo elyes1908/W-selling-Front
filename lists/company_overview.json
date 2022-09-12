@@ -26,7 +26,7 @@
                 "cardUrlTarget": "",
                 "description": "{Industry}\n{Jobs}",
                 "formDefId": "company_overview",
-                "image": "c_image",
+                "image": "img",
                 "link": "{c_url}",
                 "title": "c_name"
             }
