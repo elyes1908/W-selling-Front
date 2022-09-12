@@ -45,53 +45,27 @@
     "disableResponsive": "",
     "filters": [
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-697749-fn_c_name",
+            "hidden": "",
             "id": "filter_1",
-            "label": "c_name",
+            "label": "Name",
             "name": "c_name",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "id": "filter_2",
-            "label": "c_industry",
-            "name": "c_industry",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         },
         {
             "datalist_type": "filter",
-            "filterParamName": "d-697749-fn_c_name",
+            "filterParamName": "d-697749-fn_c_industry",
             "hidden": "",
-            "id": "filter_0",
-            "label": "Name",
-            "name": "c_name",
+            "id": "filter_2",
+            "label": "Industry",
+            "name": "c_industry",
             "type": {
-                "className": "org.joget.SelectBoxOptionsFilter",
-                "properties": {
-                    "defaultValue": "",
-                    "displayFull": "true",
-                    "isForeignKey": "",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "cacheInterval": "",
-                            "emptyLabel": "",
-                            "extraCondition": "",
-                            "formDefId": "company_overview",
-                            "groupingColumn": "name",
-                            "idColumn": "name",
-                            "labelColumn": "name"
-                        }
-                    },
-                    "showCount": "",
-                    "showLabel": ""
-                }
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
             }
         }
     ],
