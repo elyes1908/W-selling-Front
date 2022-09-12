@@ -11,114 +11,35 @@
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
-    "columns": [
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_1",
-            "label": "Logo",
-            "name": "img",
-            "sortable": "false",
-            "style": "",
-            "width": ""
+    "columns": [{
+        "action": {
+            "className": "",
+            "properties": {}
         },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "org.joget.apps.datalist.lib.DefaultFormatter",
-                "properties": {
-                    "color": "",
-                    "field": "",
-                    "formDefId": "",
-                    "formatting": "big",
-                    "size": ""
-                }
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_4",
-            "label": "Company name",
-            "name": "c_name",
-            "sortable": "false",
-            "style": "",
-            "width": ""
+        "alignment": "",
+        "datalist_type": "column",
+        "exclude_export": "",
+        "filterable": true,
+        "format": {
+            "className": "org.joget.sample.CardFormatter",
+            "properties": {
+                "cardUrlTarget": "",
+                "description": "{Industry}\n{Jobs}",
+                "formDefId": "company_overview",
+                "image": "c_image",
+                "link": "{c_url}",
+                "title": "c_name"
+            }
         },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "org.joget.apps.datalist.lib.DefaultFormatter",
-                "properties": {
-                    "color": "",
-                    "field": "",
-                    "formDefId": "",
-                    "formatting": "big",
-                    "size": ""
-                }
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_0",
-            "label": "Industry",
-            "name": "c_industry",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        },
-        {
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "alignment": "",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "filterable": true,
-            "format": {
-                "className": "org.joget.apps.datalist.lib.DefaultFormatter",
-                "properties": {
-                    "color": "",
-                    "field": "",
-                    "formDefId": "",
-                    "formatting": "big",
-                    "size": ""
-                }
-            },
-            "headerAlignment": "",
-            "hidden": "false",
-            "id": "column_3",
-            "label": "Jobs",
-            "name": "jobs",
-            "sortable": "false",
-            "style": "",
-            "width": ""
-        }
-    ],
+        "headerAlignment": "",
+        "hidden": "false",
+        "id": "column_1",
+        "label": "Logo",
+        "name": "img",
+        "sortable": "false",
+        "style": "",
+        "width": ""
+    }],
     "considerFilterWhenGetTotal": "",
     "description": "This is description",
     "disableResponsive": "",
