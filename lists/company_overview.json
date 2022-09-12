@@ -24,7 +24,7 @@
             "className": "org.joget.sample.CardFormatter",
             "properties": {
                 "cardUrlTarget": "",
-                "description": "Industry: {c_industry}\nJobs: {jobs}\n<a href=\"www.google.com\">O<\/a>",
+                "description": "Industry: {c_industry}\nJobs: {jobs}\n<a href=\"http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/jobs_company?url=#requestParam.url#&nom=#requestParam.nom#\">O<\/a>",
                 "formDefId": "company_overview",
                 "image": "c_image",
                 "link": "{c_url}",
