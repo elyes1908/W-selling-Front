@@ -24,10 +24,10 @@
             "className": "org.joget.sample.CardFormatter",
             "properties": {
                 "cardUrlTarget": "",
-                "description": "hi",
+                "description": "{c_industry}",
                 "formDefId": "company_overview",
                 "image": "c_image",
-                "link": "i",
+                "link": "{c_url}",
                 "title": "c_name"
             }
         },
