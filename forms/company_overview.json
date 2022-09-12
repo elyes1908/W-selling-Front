@@ -12,7 +12,7 @@
                             "autoPopulate": "",
                             "id": "field13",
                             "label": "",
-                            "value": "<a href=\"similar?id=#requestParam.id#&name=#form.app_fd_company_overview.name#&url=#form.app_fd_company_overview.url#&website=#form.app_fd_company_overview.website#&size=#form.app_fd_company_overview.company_size#\"><i class=\"fas fa-stars\"><\/i>Show similar companies<\/a>"
+                            "value": "<a href=\"similar?id=#requestParam.id#&name=#form.app_fd_company_overview.name#&url=#form.app_fd_company_overview.url#&website=#form.app_fd_company_overview.website#&size=#form.app_fd_company_overview.company_size#\">Show similar companies<\/a>"
                         }
                     },
                     {
