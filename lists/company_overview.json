@@ -24,7 +24,7 @@
             "className": "org.joget.sample.CardFormatter",
             "properties": {
                 "cardUrlTarget": "",
-                "description": "<h4>Industry: {c_industry} <\/h4><br>\n<h4>Jobs: {jobs}<\/h4>",
+                "description": "<h6>Industry: {c_industry} <\/h6><br>\n<h6>Jobs: {jobs}<\/h6>",
                 "formDefId": "company_overview",
                 "image": "c_image",
                 "link": "company_overview_form?id={id}&url={c_url}",
