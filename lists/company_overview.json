@@ -1,0 +1,96 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "com.itasoft.poc.JdbcPlugin",
+        "properties": {
+            "jdbcDatasource": "default",
+            "optimisePaging": "",
+            "primaryKey": "Itemkey",
+            "sql": "SELECT \n    company_jobs.*, association.id_firm\nFROM\n    (SELECT \n        company.*, COUNT(job.id) AS jobs\n    FROM\n        app_fd_company_overview company\n    JOIN association_company_job job ON company.id = job.id_company\n    GROUP BY company.id) company_jobs\n        JOIN\n    association ON association.id_company = company_jobs.id\n    where association.id_firm like \"%#requestParam.id_firm#%\""
+        }
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [{
+        "action": {
+            "className": "",
+            "properties": {}
+        },
+        "alignment": "",
+        "datalist_type": "column",
+        "exclude_export": "",
+        "filterable": true,
+        "format": {
+            "className": "org.joget.sample.CardFormatter",
+            "properties": {
+                "cardUrlTarget": "",
+                "description": "<!DOCTYPE html>\n<html>\n<head>\n<script src=\"https://kit.fontawesome.com/a076d05399.js\" crossorigin=\"anonymous\"><\/script>\n<\/head>\n<body>\n<h6>Industry: {c_industry} <\/h6><br>\n<h6>Jobs: {jobs}<\/h6>\n<\/body>\n<\/html>",
+                "formDefId": "company_overview",
+                "image": "c_image",
+                "link": "company_overview_form?id={id}&url={c_url}",
+                "title": "c_name"
+            }
+        },
+        "headerAlignment": "",
+        "hidden": "false",
+        "id": "column_0",
+        "label": "c_image",
+        "name": "c_image",
+        "sortable": "false",
+        "style": "",
+        "width": ""
+    }],
+    "considerFilterWhenGetTotal": "",
+    "description": "This is description",
+    "disableResponsive": "",
+    "filters": [
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-697749-fn_c_name",
+            "hidden": "",
+            "id": "filter_1",
+            "label": "Name",
+            "name": "c_name",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-697749-fn_c_industry",
+            "hidden": "",
+            "id": "filter_2",
+            "label": "Industry",
+            "name": "c_industry",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        }
+    ],
+    "hidePageSize": "",
+    "id": "company_overview",
+    "name": "Company Overview",
+    "order": "",
+    "orderBy": "",
+    "pageSize": "0",
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "responsiveView": [
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Mobile"
+        },
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Tablet"
+        }
+    ],
+    "rowActions": [],
+    "searchPopup": "",
+    "showDataWhenFilterSet": "",
+    "showPageSizeSelector": "true",
+    "useSession": ""
+}

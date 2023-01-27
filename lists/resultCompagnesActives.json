@@ -1,0 +1,200 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "com.itasoft.poc.JdbcPlugin",
+        "properties": {
+            "jdbcDatasource": "default",
+            "optimisePaging": "",
+            "primaryKey": "Itemkey",
+            "sql": "SELECT total_jobs.id_firm, total_jobs.jobs as jobs, total_companies.entreprises, compagne.c_nom, compagne.c_dateDebut, compagne.c_dateFin\r\nfrom (SELECT association_jobs.id_firm, count(association_jobs.id) as jobs\r\n      FROM app_fd_jobs jobs\r\n               JOIN association_firms_jobs association_jobs ON jobs.id = association_jobs.id_job\r\n\r\n      group by id_firm\r\n     ) total_jobs\r\n         left join\r\n     (SELECT association_company.id_firm, count(association_company.id) as entreprises\r\n      FROM app_fd_company_overview company\r\n               JOIN association association_company ON company.id = association_company.id_company\r\n      group by id_firm\r\n     ) total_companies on total_jobs.id_firm = total_companies.id_firm\r\n         JOIN app_fd_compagnes compagne ON compagne.id = total_jobs.id_firm\r\nwhere compagne.c_statut like \"active\""
+        }
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_5",
+            "label": "Campaign name",
+            "name": "c_nom",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_4",
+            "label": "Companies",
+            "name": "entreprises",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Jobs",
+            "name": "jobs",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_0",
+            "label": "Starting date",
+            "name": "c_dateDebut",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Expected end date",
+            "name": "c_dateFin",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        }
+    ],
+    "considerFilterWhenGetTotal": "",
+    "description": "",
+    "filters": [
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-6836953-fn_c_dateDebut",
+            "hidden": "",
+            "id": "filter_1",
+            "label": "Starting date",
+            "name": "c_dateDebut",
+            "type": {
+                "className": "org.joget.dateFilter.DateFilter",
+                "properties": {"format": "yy-mm-dd"}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-6836953-fn_c_dateFin",
+            "hidden": "",
+            "id": "filter_0",
+            "label": "Expected end date",
+            "name": "c_dateFin",
+            "type": {
+                "className": "org.joget.dateFilter.DateFilter",
+                "properties": {"format": "yy-mm-dd"}
+            }
+        }
+    ],
+    "id": "resultCompagnesActives",
+    "name": "Resultat Compagnes Actives",
+    "order": "",
+    "orderBy": "",
+    "pageSize": "0",
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [
+        {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "icon": "<i class=\"fas fa-link\"><\/i>",
+            "id": "rowAction_0",
+            "label": "Hyperlink",
+            "name": "Data List Hyperlink Action",
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/company_overview_firm",
+                "hrefColumn": "id_firm;c_nom",
+                "hrefParam": "id_firm;name_firm",
+                "label": "<i class=\"fa fa-building-o\" aria-hidden=\"true\"><\/i>",
+                "rules": [],
+                "target": "_self"
+            },
+            "type": "text"
+        },
+        {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "icon": "<i class=\"fas fa-link\"><\/i>",
+            "id": "rowAction_1",
+            "label": "Hyperlink",
+            "name": "Data List Hyperlink Action",
+            "properties": {
+                "confirmation": "",
+                "datalist_type": "row_action",
+                "href": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/jobs_firm",
+                "hrefColumn": "id_firm;c_nom",
+                "hrefParam": "id_firm;nom",
+                "label": "<i class=\"fa fa-briefcase\" aria-hidden=\"true\"><\/i>",
+                "rules": [],
+                "target": "_self"
+            },
+            "type": "text"
+        }
+    ],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
+}

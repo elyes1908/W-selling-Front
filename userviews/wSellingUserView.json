@@ -1,0 +1,422 @@
+{
+    "categories": [
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.marketplace.ClassicHTMLMenu",
+                "properties": {
+                    "code": "\r\n<!doctype html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\"\r\n          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n    <title>Document<\/title>\r\n<\/head>\r\n\r\n<body>\r\n\r\n<iframe style=\"color: #0f172a; border-radius: 20px\"  title=\"PowerSliderbyTMEAG.powerslider.1.0.0.0\" width=\"990px\" height=\"557px\"\r\n        src=\"https://app.powerbi.com/reportEmbed?reportId=89adf207-24a7-44de-b4f5-76bb7344ba20&autoAuth=true&ctid=604f1a96-cbe8-43f8-abbf-f8eaf5d85730&navContentPaneEnabled=false\"\r\n        frameborder=\"0\" allowFullScreen=\"true\" id=\"iframe\"><\/iframe>\r\n        <script>\r\n\r\nvar element = document.querySelector(\"#iframe\");\r\n\r\n// scroll to element\r\nelement.scrollIntoView()<\/script>\r\n\r\n<\/body>\r\n\r\n<\/html>\r\n",
+                    "customId": "",
+                    "enableOffline": "",
+                    "id": "63AB08BFCA2942689ECB5CBA052EBB88",
+                    "label": "<i class=\"fas fa-chart-line\"><\/i> Dashboard",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            }],
+            "properties": {
+                "id": "category-4D06A63722C3404BACC8BB69D5131DDC",
+                "label": "<i class=\"fas fa-chart-line\"><\/i> Dashboard"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "actionAfterSaved": "",
+                        "actionOnCancel": "",
+                        "cancelButtonLabel": "",
+                        "customFooter": "",
+                        "customHeader": "<h1>Create a profile search campaign<\/h1>\n<br>\n",
+                        "customId": "ajouterCompagne",
+                        "enableOffline": "",
+                        "fieldPassover": "",
+                        "fieldPassoverMethod": "append",
+                        "formId": "ajouterCompagne",
+                        "id": "205FA052FD3444EDA05B0F40DAE1A27C",
+                        "keyName": "",
+                        "label": "Create a campaign",
+                        "loadDataWithKey": "",
+                        "messageShowAfterComplete": "",
+                        "paramName": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "redirectTargetOnCancel": "top",
+                        "redirectTargetOnComplete": "",
+                        "redirectUrlAfterComplete": "listCompagnesUV",
+                        "redirectUrlOnCancel": "",
+                        "showInPopupDialog": "",
+                        "submitButtonLabel": "",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "<h1>List of all campaigns<\/h1>",
+                        "customId": "listCompagnesUV",
+                        "datalistId": "compagnesList",
+                        "enableOffline": "",
+                        "id": "A3024F5AFF7F498DAA8A53B2A7A9DF26",
+                        "keyName": "",
+                        "label": "All campaigns",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "<h1>List of all <span style=\"color: green;\">Actif<\/span> campaigns <\/h1>\n<br>",
+                        "customId": "compagnesActivesList",
+                        "datalistId": "comapgesActives",
+                        "enableOffline": "",
+                        "id": "BF6C9A131D0D4A80B63D02ECF3E207AE",
+                        "keyName": "",
+                        "label": "Active campaigns",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "<h1>List of all <span style=\"color: red;\">Closed<\/span> campaigns <\/h1>\n<br>",
+                        "customId": "compagnesClotureesList",
+                        "datalistId": "compagneClotures",
+                        "enableOffline": "",
+                        "id": "59AA0C1D798C4025847A7809813E4E6C",
+                        "keyName": "",
+                        "label": "Closed campaigns",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                }
+            ],
+            "properties": {
+                "id": "category-227328B7199343D39CF4A4542A49C8C7",
+                "label": "<i class=\"fa fa-bullhorn\"><\/i> Campaigns management"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "<h1>Result of all <span style=\"color: green;\">Actif<\/span> campaigns<\/h1>\n<br>",
+                        "customId": "resCompagneActives",
+                        "datalistId": "resultCompagnesActives",
+                        "enableOffline": "",
+                        "id": "BD5BCDC37BCF4979B7DF68385DE11CC4",
+                        "keyName": "",
+                        "label": "Active campaigns",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "<h1>Result of all <span style=\"color: red;\">Closed<\/span>\n  campaigns<\/h1>\n<br>",
+                        "customId": "resCompagneCloturees",
+                        "datalistId": "resultCompagnesCloturees",
+                        "enableOffline": "",
+                        "id": "3780AD4B33F543189E551271BBAA20AA",
+                        "keyName": "",
+                        "label": "Closed campaigns",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                }
+            ],
+            "properties": {
+                "comment": "",
+                "hide": "",
+                "id": "category-F43020981F834A1AB2EB033515788A74",
+                "label": "<i class=\"fas fa-poll-h\"><\/i> Campaigns results",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                }
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n<style>\r\nimg {\r\n  display: block;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n}\r\n.card {\r\n  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);\r\n  transition: 0.3s;\r\n  width:30%;\r\n   margin: auto;\r\n   background-color: white;\r\n   border-radius:20px;\r\n}\r\n\r\n.card:hover {\r\n  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);\r\n}\r\n\r\n.container {\r\n  padding: 2px 16px;\r\n}\r\n<\/style>\r\n<\/head>\r\n<body>\r\n\r\n<h2>Similar companies<\/h2>\r\n<a href=\"http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/company_overview_form?id=#requestParam.id#\"><div class=\"card\">\r\n  <img  src=\"http://localhost:8080/jw/web/client/app/wSelling/1/form/download/company_overview/#requestParam.id#/company.jpg.\" alt=\"Avatar\" style=\"width:50%;text-align: center;\">\r\n  <div class=\"container\">\r\n    <h4><b>#requestParam.name#<\/b><\/h4> \r\n    <p>#requestParam.size#<\/p>\r\n    <a href=\"#requestParam.url#\">LinkedIn<\/a>\r\n\r\n    <br>\r\n  <\/div>\r\n<\/div><\/a>\r\n\r\n<\/body>\r\n<\/html> \r\n",
+                        "customId": "similar",
+                        "datalistId": "similar",
+                        "enableOffline": "",
+                        "id": "89031C11E6844F7FB5D8CD0024B879C6",
+                        "keyName": "",
+                        "label": "Similar",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "<h1>Companies belonging to the campaign: \r\n#requestParam.nom#<\/h1><br>",
+                        "customId": "company_overview_list",
+                        "datalistId": "company_overview",
+                        "enableOffline": "",
+                        "id": "D6998A7030084DB68315F401F31696BA",
+                        "keyName": "",
+                        "label": "Company Overview List",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "<h1>Companies belonging to the campaign: \r\n#requestParam.name_firm#<\/h1><br>",
+                        "customId": "company_overview_firm",
+                        "datalistId": "company_overview",
+                        "enableOffline": "",
+                        "id": "99B28D4C60EE4A128F6113D5CD5EDD25",
+                        "keyName": "",
+                        "label": "Company Overview Firm",
+                        "rowCount": "true",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "actionAfterSaved": "",
+                        "actionOnCancel": "",
+                        "cancelButtonLabel": "",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "company_overview_form",
+                        "enableOffline": "",
+                        "fieldPassover": "",
+                        "fieldPassoverMethod": "append",
+                        "formId": "company_overview",
+                        "id": "0509E0005BB34F16AFFEEC70508711B6",
+                        "keyName": "",
+                        "label": "Company Overview Form",
+                        "loadDataWithKey": "",
+                        "messageShowAfterComplete": "",
+                        "paramName": "",
+                        "readonly": "Yes",
+                        "readonlyLabel": "",
+                        "redirectTargetOnCancel": "top",
+                        "redirectTargetOnComplete": "",
+                        "redirectUrlAfterComplete": "",
+                        "redirectUrlOnCancel": "",
+                        "showInPopupDialog": "Yes",
+                        "submitButtonLabel": "",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "<h1>List of all jobs belonging to company:&nbsp;<b style=\"color: \t#4682B4;\">#requestParam.nom#<\/b> <\/h1>",
+                        "customId": "jobs_company",
+                        "datalistId": "jobs",
+                        "enableOffline": "",
+                        "id": "E4425F5814A14EECA82C07F2F1696F35",
+                        "keyName": "",
+                        "label": "Jobs Company",
+                        "rowCount": "",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "buttonPosition": "bottomLeft",
+                        "cacheAllLinks": "",
+                        "cacheListAction": "",
+                        "checkboxPosition": "left",
+                        "customFooter": "",
+                        "customHeader": "<h1>List of all jobs belonging to campaign:&nbsp;<b style=\"color: \t#4682B4;\">#requestParam.nom#<\/b> <\/h1>",
+                        "customId": "jobs_firm",
+                        "datalistId": "jobs_firm",
+                        "enableOffline": "",
+                        "id": "DACE0E5CE14749689D15DE715F658E3A",
+                        "keyName": "",
+                        "label": "Jobs Firm",
+                        "rowCount": "",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "actionAfterSaved": "",
+                        "actionOnCancel": "",
+                        "cancelButtonLabel": "",
+                        "customFooter": "",
+                        "customHeader": "",
+                        "customId": "detailCompagne",
+                        "enableOffline": "",
+                        "fieldPassover": "",
+                        "fieldPassoverMethod": "append",
+                        "formId": "ajouterCompagne",
+                        "id": "403415D763BC4807A4B15A814179E719",
+                        "keyName": "",
+                        "label": "Detail Compagne",
+                        "loadDataWithKey": "",
+                        "messageShowAfterComplete": "",
+                        "paramName": "",
+                        "readonly": "Yes",
+                        "readonlyLabel": "",
+                        "redirectTargetOnCancel": "top",
+                        "redirectTargetOnComplete": "",
+                        "redirectUrlAfterComplete": "",
+                        "redirectUrlOnCancel": "",
+                        "showInPopupDialog": "Yes",
+                        "submitButtonLabel": "",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": ""
+                    }
+                }
+            ],
+            "properties": {
+                "comment": "",
+                "hide": "yes",
+                "id": "category-5B41B2EFB672471F8BBEA0204F9500F2",
+                "label": "Hidden",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                }
+            }
+        }
+    ],
+    "className": "org.joget.apps.userview.model.Userview",
+    "properties": {
+        "description": "",
+        "footerMessage": "Copyright © WEVIOO 2022 Tous droits résérvés Wevioo Selling v1.0",
+        "id": "wSellingUserView",
+        "logoutText": "Logout",
+        "name": "<span style=\"position: absolute;   top: 15%;\">Wevioo Selling<\/span> <a href=\"javascript:history.back()\" id=\"goBack\"><i class=\"fa fa-arrow-circle-left\" aria-hidden=\"true\"><\/i> <\/a>&nbsp;",
+        "welcomeMessage": "#date.EEE, d MMM yyyy#"
+    },
+    "setting": {"properties": {
+        "hideThisUserviewInAppCenter": "",
+        "permission": {
+            "className": "org.joget.apps.userview.lib.LoggedInUserPermission",
+            "properties": {}
+        },
+        "tempDisablePermissionChecking": "",
+        "theme": {
+            "className": "org.joget.plugin.enterprise.ProgressiveTheme",
+            "properties": {
+                "accentColor": "BLUE",
+                "buttonColor": "ORANGE",
+                "buttonTextColor": "WHITE",
+                "css": "    #goBack{\r\n  position: absolute;\r\n  top: 1%;\r\n  \r\n  font-size: 35px;\r\n  \r\n  \r\n}",
+                "disableHelpGuide": "",
+                "disablePush": "",
+                "disablePwa": "",
+                "displayCategoryLabel": "",
+                "enableResponsiveSwitch": "true",
+                "fav_icon": "",
+                "fontColor": "DEEP_GREY",
+                "fontControl": "",
+                "homeAttractBanner": "",
+                "homeUrl": "http://localhost:8080/jw/web/userview/wSelling/wSellingUserView/_/listCompagnesUV",
+                "horizontal_menu": "",
+                "inbox": "",
+                "js": "",
+                "loginPageBottom": "<!DOCTYPE html>\n<html>\n<head>\n<script src=\"https://kit.fontawesome.com/a076d05399.js\" crossorigin=\"anonymous\"><\/script>\n<\/head>\n<body>\n\n\n\n<\/body>\n<\/html>",
+                "loginPageTop": "<!DOCTYPE html>\n<html>\n<head>\n<script src=\"https://kit.fontawesome.com/a076d05399.js\" crossorigin=\"anonymous\"><\/script>\n<\/head>\n<body>\n\n<\/body>\n<\/html>",
+                "logo": "",
+                "menuFontColor": "ALICEBLUE",
+                "primaryColor": "WHITE",
+                "profile": "",
+                "removeAssignmentTitle": "",
+                "shortcut": [],
+                "shortcutLinkLabel": "Shortcut",
+                "subfooter": "",
+                "subheader": "",
+                "themeScheme": "light",
+                "urlsToCache": "",
+                "userImage": "hashVariable",
+                "userImageUrlHash": "#appResource.1643757027229.jfif#",
+                "userMenu": []
+            }
+        },
+        "userviewDescription": "",
+        "userview_thumbnail": "#appResource.wSelling.jpg#"
+    }}
+}
