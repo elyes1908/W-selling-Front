@@ -62,7 +62,7 @@
         }
     }],
     "properties": {
-        "description": "cities_ws",
+        "description": "cities",
         "id": "cities",
         "loadBinder": {
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
@@ -83,6 +83,6 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "tableName": "cities_ws"
+        "tableName": "cities"
     }
 }
