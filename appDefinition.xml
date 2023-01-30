@@ -12,6 +12,14 @@
    <messageList/>
    <resourceList>
       <appResource>
+         <id>company.jpg</id>
+         <appId>wSelling</appId>
+         <appVersion>1</appVersion>
+         <filesize>81154</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
          <id>wSelling.jpg</id>
          <appId>wSelling</appId>
          <appVersion>1</appVersion>
