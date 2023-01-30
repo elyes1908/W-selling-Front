@@ -8,15 +8,7 @@
    <datalistDefinitionList/>
    <builderDefinitionList/>
    <pluginDefaultPropertiesList/>
-   <environmentVariableList>
-      <environmentVariable>
-         <id>counter</id>
-         <appId>wSelling</appId>
-         <appVersion>1</appVersion>
-         <value>90</value>
-         <remarks>Used for plugin: Id Generator Field</remarks>
-      </environmentVariable>
-   </environmentVariableList>
+   <environmentVariableList/>
    <messageList/>
    <resourceList/>
 </appDefinition>
