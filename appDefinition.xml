@@ -17,7 +17,7 @@
          <appVersion>1</appVersion>
          <filesize>38507</filesize>
          <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
-         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+         <permissionProperties>{&quot;hashvariable&quot;:&quot;#appResource.1643757027229.jfif#&quot;,&quot;permission&quot;:{&quot;className&quot;:&quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;,&quot;properties&quot;:{}}}</permissionProperties>
       </appResource>
       <appResource>
          <id>company.jpg</id>
