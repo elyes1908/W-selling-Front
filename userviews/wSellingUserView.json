@@ -384,7 +384,7 @@
                 "accentColor": "BLUE",
                 "buttonColor": "ORANGE",
                 "buttonTextColor": "WHITE",
-                "css": "    #goBack{\r\n  position: absolute;\r\n  top: 1%;\r\n  \r\n  font-size: 35px;\r\n}\r\n\r\n.navbar-inner, .nav-no-collapse.header-nav{\r\n    background-color: #1c2232;\r\n}\r\n",
+                "css": "    #goBack{\r\n  position: absolute;\r\n  top: 1%;\r\n  \r\n  font-size: 35px;\r\n}",
                 "disableHelpGuide": "",
                 "disablePush": "",
                 "disablePwa": "",
