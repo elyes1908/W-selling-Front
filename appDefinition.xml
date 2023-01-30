@@ -16,7 +16,6 @@
          <appId>wSelling</appId>
          <appVersion>1</appVersion>
          <filesize>4442</filesize>
-         <permissionClass></permissionClass>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
    </resourceList>
