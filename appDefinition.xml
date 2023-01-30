@@ -25,5 +25,13 @@
          <filesize>23302</filesize>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
+      <appResource>
+         <id>wSelling.png</id>
+         <appId>wSelling</appId>
+         <appVersion>1</appVersion>
+         <filesize>27719</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
    </resourceList>
 </appDefinition>
